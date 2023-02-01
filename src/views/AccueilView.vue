@@ -11,6 +11,8 @@
       </div>
     </div>
   </header>
+  <h1 class="text-white mt-80">test pour curseur</h1>
+  <img src="../../public/images/photo_perso.png" class="absolute z-20" alt="">
 </template>
 
 <script>
