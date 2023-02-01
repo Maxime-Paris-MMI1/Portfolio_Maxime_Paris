@@ -2,10 +2,9 @@
 <template>
   <RouterView />
   <div class='cursor' id="cursor">
-    <img src="../public/images/logo_fenetre.webp" alt="">
+    <img src="../public/images/logo_fenetre.webp" alt="jsptrop">
   </div>
 </template>
-
 
 <style>
 
@@ -14,7 +13,7 @@
   border-radius: 50%;
   transform: translateX(-50%) translateY(-50%);
   pointer-events: none;
-  left: -100px;
+  left: 0px;
   top: 50%;
   mix-blend-mode: normal;
   background-color: white;
