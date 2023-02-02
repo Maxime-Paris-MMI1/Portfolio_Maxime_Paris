@@ -25,8 +25,15 @@
     </div>
   </header>
   <section>
-    <h1 class="font-unbounded text-[100px] text-white font-bold ml-[100px] -mt-[40px]">PORTFOLIO</h1>
-    <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class="ml-[120px] -mt-[95px]">
+    <div class="flex-row flex">
+      <div class="mt-16">
+        <h1 class="font-unbounded text-[100px] text-white font-bold ml-[100px] -mt-[40px]">PORTFOLIO</h1>
+        <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class="ml-[120px] -mt-[95px]">
+      </div>
+      <div class= "-mt-[220px] -ml-[60px] ">
+        <img class="w-full h-full object-contain min-h-full min-w-full" src="../../public/images/photo-perso.webp" alt="">
+      </div>
+    </div>
   </section>
 </template>
 
