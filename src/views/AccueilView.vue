@@ -26,7 +26,7 @@
   </header>
   <section>
     <h1 class="font-unbounded text-[100px] text-white font-bold ml-[100px] -mt-[40px]">PORTFOLIO</h1>
-    <h1 class="font-unbounded text-[100px] font-bold ml-[100px]">PORTFOLIO</h1>
+    <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class="ml-[120px] -mt-[95px]">
   </section>
 </template>
 
