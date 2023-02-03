@@ -74,41 +74,47 @@
     <div class="border-t-4 border-white mt-[47px]"></div>
 
     <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
+      <div>
+        <Card_projet 
+        id="cursor"
+        titre="E-morphoz"
+        img_presentation="/images/e-morphoz_presentation.webp"/>
+      </div>
 
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
+      <div>
+        <Card_projet
+        id="cursor"
+        titre="E-morphoz"
+        img_presentation="/images/e-morphoz_presentation.webp"/>
+      </div>
 
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
+      <div>
+        <Card_projet
+        id="cursor"
+        titre="E-morphoz"
+        img_presentation="/images/e-morphoz_presentation.webp"/>
+      </div>
 
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
+      <div>
+        <Card_projet
+        id="cursor"
+        titre="E-morphoz"
+        img_presentation="/images/e-morphoz_presentation.webp"/>
+      </div>
 
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
+      <div>
+        <Card_projet
+        id="cursor"
+        titre="E-morphoz"
+        img_presentation="/images/e-morphoz_presentation.webp"/>
+      </div>
 
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
-
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
-
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
-
-      <Card_projet
-      titre="E-morphoz"
-      img_presentation="/images/e-morphoz_presentation.webp"/>
+      <div>
+        <Card_projet
+        id="cursor"
+        titre="E-morphoz"
+        img_presentation="/images/e-morphoz_presentation.webp"/>
+      </div>
 
     </div>
 
@@ -125,7 +131,7 @@
     <div class="flex justify-center mb-[50px] mt-[120px]">
       <button class="text-white font Unbounded text-xl font-bold border px-[130px] py-3 animation_texte">Me contacter par mail</button>
     </div>
-    <div class="flex justify-center gap-24 ">
+    <div class="flex justify-center gap-24">
       <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
       <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
       <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
@@ -149,7 +155,6 @@
 </template>
 
 <style>
-
 .soul{
   transform: translate(-50%, -50%);
   display: inline;
@@ -209,6 +214,15 @@
     transform: translate(-100%, 0);
   }
 }
+
+.curseur:hover {
+  cursor: default;
+}
+
+#cursor{
+  cursor: url('../../public/images/logo_fenetre.png')  40 40, auto;
+}
+
 </style>
 
 <script>

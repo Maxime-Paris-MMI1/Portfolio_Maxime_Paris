@@ -1,5 +1,5 @@
 <template>
-    <RouterLink :to="lien">
+    <RouterLink class="curseur" :to="lien">
             <div class="w-[365px] h-[365px] relative">
         <img
           :src="img_presentation"
@@ -10,7 +10,7 @@
         ></div>
         <div class="w-[229px] h-[50px] absolute left-[67px] top-[294px] bg-black"></div>
         <p
-          class="w-[365px] h-[186px] absolute left-0 top-[303px] text-[25px] font-bold text-center text-white"
+          class="w-[365px] h-[70px] absolute left-0 top-[303px] text-[25px] font-bold text-center text-white"
         >
           {{titre}}
         </p>
