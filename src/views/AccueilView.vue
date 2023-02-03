@@ -110,7 +110,12 @@
     </div>
   </section>
   <section>
-    
+    <div class="ml-[128px]">
+      <img src="../../public/images/contact_stroke.webp" alt="">
+      <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[40px]">CONTACT</h2>
+      <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]">CONTACT</h2>
+    </div>
+
   </section>
 </template>
 
