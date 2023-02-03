@@ -57,9 +57,9 @@
     <H2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[40px]">MES PROJETS</H2>
 
     <div class=" flex flex-row justify-around mt-[50px]">
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 hover:bg-white hover:text-black">Tout</button>
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 hover:bg-white hover:text-black">Éducatif</button>
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 hover:bg-white hover:text-black">Personnel</button>
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Tout</button>
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Éducatif</button>
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Personnel</button>
     </div>
 
   </section>
@@ -106,7 +106,7 @@
     </div>
 
     <div class="flex justify-center mt-20 relative z-20 mb-20">
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 hover:bg-white hover:text-black">Voir tout mes projets</button>
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Voir tout mes projets</button>
     </div>
   </section>
   <section>
@@ -114,6 +114,9 @@
       <img src="../../public/images/contact_stroke.webp" alt="">
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[40px]">CONTACT</h2>
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]">CONTACT</h2>
+    </div>
+    <div class="flex justify-center mb-72 mt-[120px]">
+      <button class="text-white font Unbounded text-xl font-bold border px-20 py-3 animation_texte">Me contacter par mail</button>
     </div>
 
   </section>
@@ -130,7 +133,7 @@
 }
 
 .animation_texte:hover {
-  box-shadow: inset 250px 0 0 0 #fff;
+  box-shadow: inset 450px 0 0 0 #fff;
   color: black;
 }
 
