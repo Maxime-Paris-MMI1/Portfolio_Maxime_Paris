@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class= "-mt-[220px] -ml-[60px] ">
-        <img class="w-full h-full object-contain min-h-full min-w-full" src="../../public/images/photo-perso.webp" alt="">
+        <img class="w-full h-full object-contain min-h-full min-w-full" src="../../public/images/photo-perso.webp" alt="photo personnelle">
       </div>
     </div>
   </section>
@@ -111,12 +111,20 @@
   </section>
   <section>
     <div class="ml-[128px]">
-      <img src="../../public/images/contact_stroke.webp" alt="">
+      <img src="../../public/images/contact_stroke.webp" alt="contact sans fond">
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[40px]">CONTACT</h2>
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]">CONTACT</h2>
     </div>
-    <div class="flex justify-center mb-72 mt-[120px]">
+    <div class="flex justify-center mb-[50px] mt-[120px]">
       <button class="text-white font Unbounded text-xl font-bold border px-20 py-3 animation_texte">Me contacter par mail</button>
+    </div>
+    <div class="flex justify-center gap-24 ">
+      <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
+      <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
+      <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
+    </div>
+    <div class="flex justify-center">
+      <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
     </div>
 
   </section>
