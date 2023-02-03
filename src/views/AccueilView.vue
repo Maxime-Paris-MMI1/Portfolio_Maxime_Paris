@@ -69,7 +69,7 @@
     <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
       <Card_projet
       titre="E-morphoz"
-      img_presentation="public\images\e-morphoz_presentation.webp"/>
+      img_presentation="/images/e-morphoz_presentation.webp"/>
 
     </div>
   </section>
