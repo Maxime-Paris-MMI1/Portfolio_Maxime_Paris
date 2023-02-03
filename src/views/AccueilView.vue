@@ -66,12 +66,51 @@
   <section>
     <div class="border-t-4 border-white mt-[47px]"></div>
 
-    <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
+    <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="/images/e-morphoz_presentation.webp"/>
+
       <Card_projet
       titre="E-morphoz"
       img_presentation="/images/e-morphoz_presentation.webp"/>
 
     </div>
+
+    <div class="flex justify-center mt-20 relative z-20 mb-20">
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 hover:bg-white hover:text-black">Voir tout mes projets</button>
+    </div>
+  </section>
+  <section>
+    
   </section>
 </template>
 
