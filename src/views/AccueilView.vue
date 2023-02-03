@@ -123,14 +123,22 @@
       <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
       <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
     </div>
-    <div class="flex flex-row items-center justify-center gap-2">
-
+    <div class="flex flex-row items-center justify-center gap-2 mb-[195px]">
       <Barre_contact class="mt-[42px]"/>
-      <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px] ">Mes réseaux sociaux</h3>
+      <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
       <Barre_contact class="mt-[42px]"/>
     </div>
-
   </section>
+  <footer>
+    <div class="bg-white py-6 w-full">
+      <div class="flex flex-row justify-center gap-[100px]">
+        <img class="object-contain" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-6">À-propos</li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-6">Mes projets</li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-6">Mentions légales</li>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <style>
