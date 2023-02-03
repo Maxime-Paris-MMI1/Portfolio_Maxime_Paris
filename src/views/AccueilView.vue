@@ -116,15 +116,18 @@
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]">CONTACT</h2>
     </div>
     <div class="flex justify-center mb-[50px] mt-[120px]">
-      <button class="text-white font Unbounded text-xl font-bold border px-20 py-3 animation_texte">Me contacter par mail</button>
+      <button class="text-white font Unbounded text-xl font-bold border px-[130px] py-3 animation_texte">Me contacter par mail</button>
     </div>
     <div class="flex justify-center gap-24 ">
       <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
       <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
       <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
     </div>
-    <div class="flex justify-center">
-      <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
+    <div class="flex flex-row items-center justify-center gap-2">
+
+      <Barre_contact class="mt-[42px]"/>
+      <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px] ">Mes réseaux sociaux</h3>
+      <Barre_contact class="mt-[42px]"/>
     </div>
 
   </section>
@@ -141,7 +144,7 @@
 }
 
 .animation_texte:hover {
-  box-shadow: inset 450px 0 0 0 #fff;
+  box-shadow: inset 550px 0 0 0 #fff;
   color: black;
 }
 
@@ -174,9 +177,10 @@
 
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
+import Barre_contact from '../components/icons/barre_contact.vue';
 
 export default {
-  components: { Barre_menu, Card_projet },
+  components: { Barre_menu, Card_projet, Barre_contact },
 };
 
 </script>
