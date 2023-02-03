@@ -1,6 +1,7 @@
-<div class="w-[365px] h-[365px] relative">
+<template>
+    <div class="w-[365px] h-[365px] relative">
     <img
-      src="rectangle-13.png"
+      :src="img_presentation"
       class="w-[365px] h-[365px] absolute left-[-1px] top-[-1px] object-cover"
     />
     <div
@@ -10,6 +11,22 @@
     <p
       class="w-[365px] h-[186px] absolute left-0 top-[303px] text-[25px] font-bold text-center text-white"
     >
-      E-morphoz
+      {{titre}}
     </p>
   </div>
+</template>
+
+<script>
+
+export default {
+    props: {
+        titre: String,
+        lien:{
+            type: String,
+            default:"/"
+        },
+        img_presentation: String,
+    },  
+}
+
+</script>

@@ -67,9 +67,11 @@
     <div class="border-t-4 border-white mt-[47px]"></div>
 
     <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(220px,1fr))]">
+      <Card_projet
+      titre="E-morphoz"
+      img_presentation="public\images\e-morphoz_presentation.webp"/>
 
     </div>
-
   </section>
 </template>
 
@@ -116,9 +118,10 @@
 <script>
 
 import Barre_menu from '../components/icons/barre_menu.vue';
+import Card_projet from '../components/Card_projet.vue';
 
 export default {
-  components: { Barre_menu },
+  components: { Barre_menu, Card_projet },
 };
 
 </script>
