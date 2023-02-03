@@ -133,15 +133,38 @@
     <div class="bg-white py-6 w-full">
       <div class="flex flex-row justify-center gap-[100px]">
         <img class="object-contain" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-6">À-propos</li>
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-6">Mes projets</li>
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-6">Mentions légales</li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul ml-10">À-propos</li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">Mes projets</li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">Mentions légales</li>
       </div>
     </div>
   </footer>
 </template>
 
 <style>
+
+.soul{
+  transform: translate(-50%, -50%);
+  display: inline;
+
+}
+
+.soul::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  margin: 0 auto;
+  background: #000;
+  transition: width 0.2s ease-in-out;
+
+}
+
+.soul:hover::after{
+  width: 100%;
+
+}
 
 .animation_texte{
   box-shadow: inset 0 0 0 0 #fff;
