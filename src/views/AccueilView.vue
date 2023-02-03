@@ -6,17 +6,24 @@
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
           <div class="flex justify-end">
-            <li class="mb-[50px] mr-[11px] animation_texte">Mes projets</li>
+            <RouterLink to="#projets">
+              <li class="mb-[50px] mr-[11px] animation_texte">Mes projets</li>
+            </RouterLink>
             <Barre_menu class="mt-[15px]"/>
           </div>
 
           <div class="flex justify-end">
-            <li class="mb-[50px] mr-[11px] animation_texte">Contact</li>
+            <a href="#contact">
+              <li class="mb-[50px] mr-[11px] animation_texte" >Contact</li>
+            </a>
+
             <Barre_menu class="mt-[15px]"/>
           </div>
 
           <div class="flex justify-end">
-            <li class="mr-[11px] animation_texte">À propos</li>
+            <RouterLink to="#a_propos">
+              <li class="mr-[11px] animation_texte">À propos</li>
+            </RouterLink>
             <Barre_menu class="mt-[15px]"/>
           </div>
 
@@ -109,7 +116,7 @@
       <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Voir tout mes projets</button>
     </div>
   </section>
-  <section>
+  <section id="contact">
     <div class="ml-[128px]">
       <img src="../../public/images/contact_stroke.webp" alt="contact sans fond">
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[40px]">CONTACT</h2>
@@ -213,7 +220,6 @@ import Barre_contact from '../components/icons/barre_contact.vue';
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
 };
-
 </script>
 
 
