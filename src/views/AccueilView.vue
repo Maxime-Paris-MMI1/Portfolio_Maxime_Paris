@@ -1,4 +1,6 @@
 <template>
+
+
   <header>
     <div class="flex justify-between items-start">
       <img src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain" alt="logo blanc de mon portfolio">
@@ -155,6 +157,8 @@
 </template>
 
 <style>
+
+
 .soul{
   transform: translate(-50%, -50%);
   display: inline;
@@ -225,7 +229,9 @@
 
 </style>
 
+
 <script>
+
 
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
@@ -234,6 +240,7 @@ import Barre_contact from '../components/icons/barre_contact.vue';
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
 };
+
 </script>
 
 
