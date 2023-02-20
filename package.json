@@ -8,8 +8,12 @@
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.6",
+    "@swup/overlay-theme": "^1.1.1",
     "swup": "^3.0.4",
+    "three": "^0.134.0",
+    "troisjs": "^0.3.4",
     "vue": "^3.2.33",
+    "vue-page-transition": "^0.2.2",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {

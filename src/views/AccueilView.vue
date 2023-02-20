@@ -1,6 +1,4 @@
 <template>
-
-
   <header>
     <div class="flex justify-between items-start">
       <img src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain" alt="logo blanc de mon portfolio">
@@ -77,10 +75,12 @@
 
     <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
       <div>
-        <Card_projet 
-        id="cursor"
-        titre="E-morphoz"
-        img_presentation="/images/e-morphoz_presentation.webp"/>
+          <Card_projet 
+          id="cursor"
+          titre="E-morphoz"
+          img_presentation="/images/e-morphoz_presentation.webp"
+          lien="/emorphoz"/>
+
       </div>
 
       <div>
@@ -236,6 +236,9 @@
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
 import Barre_contact from '../components/icons/barre_contact.vue';
+import Swup from 'swup';
+
+const swup = new Swup();
 
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
