@@ -238,14 +238,16 @@
 
 .curseur:hover {
   cursor: default;
+
 }
 
 #cursor{
-  cursor: url('../../public/images/logo_fenetre.png')  40 40, auto;
+  cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
+
+  
 }
 
 </style>
-
 
 <script>
 
@@ -253,9 +255,6 @@
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
 import Barre_contact from '../components/icons/barre_contact.vue';
-import Swup from 'swup';
-
-const swup = new Swup();
 
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
