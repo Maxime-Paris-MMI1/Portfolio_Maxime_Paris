@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="flex justify-between items-start">
-      <img src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain" alt="logo blanc de mon portfolio">
+      <img src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig" alt="logo blanc de mon portfolio">
       <div class="mt-[90px] relative z-30 lg:flex hidden">
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
@@ -34,11 +34,11 @@
   <section>
     <div class="flex-row flex">
       <div class="flex flex-col justify-center -mt-[120px]">
-        <div class="mb-4 -mt-[40px]">
+        <div class="mb-4 -mt-[40px] animate__animated animate__backInDown">
           <h1 class="font-unbounded text-[100px] text-white font-bold ml-[100px] -mt-[40px]">PORTFOLIO</h1>
           <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class="ml-[120px] -mt-[95px]">
         </div>
-        <div>
+        <div class="animate__animated animate__backInLeft">
           <div>
             <h2 class="font-unbounded text-[75px] text-white font-bold ml-[100px]">MAXIME</h2>
           </div>
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class= "-mt-[220px] -ml-[60px] ">
+      <div class= "-mt-[220px] -ml-[60px] animate__animated animate__fadeInRight">
         <img class="w-full h-full object-contain min-h-full min-w-full" src="../../public/images/photo-perso.webp" alt="photo personnelle">
       </div>
     </div>
@@ -59,9 +59,11 @@
     </div>
   </section>
   <section class="mt-[163px] ml-[100px]">
-    <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond">
-    <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[34px]">MES PROJETS</h2>
-    <H2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[40px]">MES PROJETS</H2>
+    <div class="animate__animated animate__fadeInLeft">
+      <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond">
+      <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[34px]">MES PROJETS</h2>
+      <H2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[40px]">MES PROJETS</H2>
+    </div>
 
     <div class=" flex flex-row justify-around mt-[50px]">
       <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Tout</button>
@@ -156,7 +158,22 @@
   </footer>
 </template>
 
+
 <style>
+
+.animate__backInLeft{
+  animation-delay: 0.15s;
+}
+
+.animate__fadeInRight{
+  animation-delay: 0.3s;
+}
+
+.animate__heartBeat{
+  animation-delay: 0.8s;
+}
+
+
 
 
 .soul{

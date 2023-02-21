@@ -1,0 +1,220 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cylindre",
+            "rotation" : [
+                0.48661133646965027,
+                0.32752686738967896,
+                0,
+                0.8098984956741333
+            ],
+            "translation" : [
+                -0.13263177871704102,
+                0.19705288112163544,
+                0.17203223705291748
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "Cylindre",
+            "samplers" : [
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 5
+                },
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 6
+                },
+                {
+                    "input" : 4,
+                    "interpolation" : "LINEAR",
+                    "output" : 7
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylindre",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 75362,
+            "max" : [
+                2.7515931129455566,
+                1.3036161661148071,
+                2.7339422702789307
+            ],
+            "min" : [
+                -2.752037763595581,
+                -1.2649061679840088,
+                -2.7392969131469727
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 75362,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 75362,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 358776,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 501,
+            "max" : [
+                20.833333333333332
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 501,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 501,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 501,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 904344,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 904344,
+            "byteOffset" : 904344,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 602896,
+            "byteOffset" : 1808688,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1435104,
+            "byteOffset" : 2411584,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2004,
+            "byteOffset" : 3846688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6012,
+            "byteOffset" : 3848692
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8016,
+            "byteOffset" : 3854704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6012,
+            "byteOffset" : 3862720
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3868732,
+            "uri" : "organic_final.bin"
+        }
+    ]
+}
