@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import Cube from '../components/3d.vue';
-import organic from '../components/3d.vue';
+import Cube from '../../components/3d.vue';
+import organic from '../../components/3d.vue';
 
 export default {
   components: { Cube, organic},

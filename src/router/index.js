@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import AccueilView from '../views/AccueilView.vue'
-import EmorphozView from '../views/EmorphozView.vue'
+import EmorphozView from '../views/page_projet/EmorphozView.vue'
 
 
 const router = createRouter({
