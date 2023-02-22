@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="flex justify-between items-start">
-      <img src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig" alt="logo blanc de mon portfolio">
+      <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig" alt="logo blanc de mon portfolio">
       <div class="mt-[90px] relative z-30 lg:flex hidden">
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
@@ -138,14 +138,25 @@
       </a>
     </div>
     <div class="flex justify-center gap-24">
-      <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
-      <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
-      <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
+      <a href="https://www.instagram.com/max_portfolio_/" target="_blank">
+        <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
+      </a>
+      <a href="https://www.tiktok.com/@max_portfolio" target="_blank" class="-mt-4">
+        <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
+      </a>
+      <a href="https://www.behance.net/maximeparis5" target="_blank">
+        <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
+      </a>
     </div>
-    <div class="flex flex-row items-center justify-center gap-2 mb-[195px]">
+    <div class="flex flex-row items-center justify-center gap-2">
       <Barre_contact class="mt-[42px]"/>
       <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
       <Barre_contact class="mt-[42px]"/>
+    </div>
+    <div class="flex justify-end mr-16 mb-[100px] mt-16">
+      <a href="#haut_accueil">
+        <img src="../../public/images/fleche.png" class="animate-bounce animate__slow" alt="flèche pour retourner en haut">
+      </a>
     </div>
   </section>
   <footer>
