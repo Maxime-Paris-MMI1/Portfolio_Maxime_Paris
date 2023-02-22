@@ -133,7 +133,9 @@
       <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]">CONTACT</h2>
     </div>
     <div class="flex justify-center mb-[50px] mt-[120px]">
-      <button class="text-white font Unbounded text-xl font-bold border px-[130px] py-3 animation_texte">Me contacter par mail</button>
+      <a href="mailto:maximepro.contact25@gmail.com">
+        <button class="text-white font Unbounded text-xl font-bold border px-[130px] py-3 animation_texte">Me contacter par mail</button>
+      </a>
     </div>
     <div class="flex justify-center gap-24">
       <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
