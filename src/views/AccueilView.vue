@@ -155,7 +155,7 @@
     </div>
     <div class="flex justify-end mr-16 mb-[100px] mt-16">
       <a href="#haut_accueil">
-        <img src="../../public/images/fleche.png" class="animate-bounce animate__slow" alt="flèche pour retourner en haut">
+        <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
     </div>
   </section>
@@ -173,6 +173,25 @@
 
 
 <style>
+
+.animation_rebond{
+  animation: rebond 3s infinite ease-in-out;
+}
+
+@keyframes rebond {
+  0%{
+    transform: translateY(10px);
+  }
+
+  50%{
+    transform: translateY(-10px);
+    
+  }
+
+  100%{
+    transform: translateY(10px);
+  }
+}
 
 .animate__backInLeft{
   animation-delay: 0.15s;
