@@ -33,24 +33,32 @@
   </header>
   <section>
     <div class="flex-row flex">
-      <div class="flex flex-col justify-center -mt-[120px]">
+      <div class="flex flex-col justify-center lg:-mt-[120px] md:mt-[90px]">
+
         <div class="mb-4 -mt-[40px] animate__animated animate__backInDown">
-          <h1 class="font-unbounded text-[100px] text-white font-bold ml-[100px] -mt-[40px]">PORTFOLIO</h1>
-          <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class="ml-[120px] -mt-[95px]">
+          <h1 class="font-unbounded lg:text-[100px] md:text-[75px] text-white font-bold ml-[100px] -mt-[40px]">PORTFOLIO</h1>
+          <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class="lg:ml-[120px] lg:-mt-[95px] lg:w-[716px]
+          md:w-[530px] md:ml-[120px] md:-mt-[70px]">
         </div>
-        <div class="animate__animated animate__backInLeft">
+
+
+        <div class="animate__animated animate__backInLeft md:mb-[50px]">
           <div>
-            <h2 class="font-unbounded text-[75px] text-white font-bold ml-[100px]">MAXIME</h2>
+            <h2 class="font-unbounded lg:text-[75px] md:text-[50px] text-white font-bold ml-[100px]">MAXIME</h2>
           </div>
           <div>
-            <img class="ml-[103px] -mt-[14px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+            <img class="lg:ml-[103px] lg:-mt-[14px] lg:w-[274px] md:w-[175px] md:ml-[103px] md:-mt-[8px] md:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
           </div>
         </div>
+
+
       </div>
       <div class= "-mt-[220px] -ml-[60px] animate__animated animate__fadeInRight">
-        <img class="w-full h-full object-contain min-h-full min-w-full" src="../../public/images/photo-perso.webp" alt="photo personnelle">
+        <img class="w-full h-full object-contain min-h-full min-w-full md:h-[475px] md:mt-[45px] lg:h-full" src="../../public/images/photo-perso.webp" alt="photo personnelle">
       </div>
+
     </div>
+    
   </section>
   <section>
     <div class="container2 bg-white text-black font-unbounded font-bold text-[40px] py-5">
@@ -189,6 +197,10 @@
 
 
 <style>
+
+.moyen{
+  transform: scale(0.5);
+}
 
 .animation_rebond{
   animation: rebond 3s infinite ease-in-out;
