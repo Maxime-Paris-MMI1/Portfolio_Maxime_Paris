@@ -32,10 +32,14 @@
 
 <style>
 
+.back{
+  transition: all 0.5s;
+}
+
 .back:hover{
   background-color: white;
-  transition: ease-out 0.5s;
   color: black;
+  transform: scale(1.1);
 }
 
 .cadre:hover{
