@@ -6,7 +6,7 @@
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
           <div class="flex justify-end">
-            <RouterLink to="#projets">
+            <RouterLink to="/projets">
               <li class="mb-[50px] mr-[11px] animation_texte">Mes projets</li>
             </RouterLink>
             <Barre_menu class="mt-[15px]"/>
@@ -21,7 +21,7 @@
           </div>
 
           <div class="flex justify-end">
-            <RouterLink to="#a_propos">
+            <RouterLink to="/a_propos">
               <li class="mr-[11px] animation_texte">À propos</li>
             </RouterLink>
             <Barre_menu class="mt-[15px]"/>
@@ -123,7 +123,11 @@
     </div>
 
     <div class="flex justify-center mt-20 relative z-20 mb-20">
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Voir tout mes projets</button>
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">
+        <RouterLink to="projets">
+          Voir tout mes projets
+        </RouterLink>
+      </button>
     </div>
   </section>
   <section id="contact">
@@ -163,9 +167,21 @@
     <div class="bg-white py-6 w-full">
       <div class="flex flex-row justify-center gap-[100px]">
         <img class="object-contain" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul ml-10">À-propos</li>
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">Mes projets</li>
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">Mentions légales</li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul ml-10"> 
+          <RouterLink to="a_propos">
+            À-propos
+          </RouterLink>
+        </li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">
+          <RouterLink to="projets">
+            Mes projets
+          </RouterLink>
+        </li>
+        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">
+          <RouterLink to="mentions_legales">
+            Mentions légales
+          </RouterLink>
+        </li>
       </div>
     </div>
   </footer>
