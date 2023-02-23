@@ -33,14 +33,19 @@ module.exports = {
     },
 
     screens: {
+      'xxs': '280px',
+      // => @media (min-width: 280px) { ... }
 
-      'sm': '640px',
+      'xs': '640px',
       // => @media (min-width: 640px) { ... }
+
+      'sm': '1000px',
+      // => @media (min-width: 1000px) { ... }
 
       'md': '1240px',
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1490px',
+      'lg': '1560px',
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',

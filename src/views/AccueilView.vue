@@ -32,7 +32,7 @@
     </div>
   </header>
   <section>
-    <div class="flex-row flex">
+    <div class="sm:flex-row xs:flex-col flex">
       <div class="flex flex-col justify-center lg:-mt-[120px] md:mt-[90px]">
 
         <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
@@ -64,8 +64,11 @@
 
 
       </div>
-      <div class= "-mt-[220px] -ml-[60px] animate__animated animate__fadeInRight">
+
+
+      <div class= "sm:-mt-[220px] sm:-ml-[60px] flex animate__animated animate__fadeInRight">
         <img class="w-full h-full object-contain min-h-full min-w-full 
+        xs:h-[550px]
         md:h-[570px] md:mt-[90px] 
         sm:h-[445px] sm:mt-[80px]
         lg:h-full lg:mt-[0px]" 
