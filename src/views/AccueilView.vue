@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="flex justify-between items-start lg:flex hidden">
+    <div class=" justify-between items-start lg:flex hidden">
       <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig
       xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
 
@@ -37,7 +37,8 @@
 
 
     <div class="lg:hidden flex justify-between mx-8 mt-10">
-      <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig" alt="logo blanc de mon portfolio">
+      <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
+      xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
       <img src="../../public/images/Ligne-header.svg" alt="menu">
     </div>
 
@@ -57,7 +58,7 @@
             sm:text-[60px] sm:mt-[40px]
             xs:text-[60px] xs:flex xs:justify-center
             xxs:text-[40px] xxs:flex xxs:justify-center
-            xxxs:text-[40px] xxxs:flex xxxs:justify-center">PORTFOLIO</h1>
+            xxxs:text-[30px] xxxs:flex xxxs:justify-center">PORTFOLIO</h1>
 
 
             <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class=
@@ -66,7 +67,7 @@
             sm:w-[430px] sm:ml-[113px]  sm:mb-[70px] sm:-mt-[60px]
             xs:w-[430px] xs:flex xs:justify-center xs:ml-[10px] xs:-mt-[60px]
             xxs:w-[290px] xxs:flex xxs:justify-center xxs:ml-[10px] xxs:-mt-[40px]
-            xxxs:w-[290px] xxxs:flex xxxs:justify-center xxxs:ml-[10px] xxxs:-mt-[40px]">
+            xxxs:w-[215px] xxxs:flex xxxs:justify-center xxxs:ml-[8px] xxxs:-mt-[30px]">
 
 
           </div>
@@ -83,7 +84,7 @@
               sm:text-[35px] 
               xs:text-[45px]
               xxs:text-[30px]
-              xxxs:text-[30px]">MAXIME</h2>
+              xxxs:text-[23px]">MAXIME</h2>
             </div>
             <div>
               <img class=
@@ -92,7 +93,7 @@
                sm:w-[126px] sm:ml-[103px] sm:mt-[2px] sm:mb-[70px]
                xs:w-[160px] xs:ml-[0px] xs:mt-[2px] xs:mb-[70px]
                xxs:w-[110px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]
-               xxxs:w-[110px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+               xxxs:w-[90px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
             </div>
           </div>
         </div>
@@ -103,7 +104,7 @@
 
       <div class= "sm:-mt-[220px] sm:-ml-[60px] flex animate__animated animate__fadeInRight">
         <img class="w-full h-full object-contain min-h-full min-w-full 
-        xxxs:h-[370px] xxxs:-mt-[110px]
+        xxxs:h-[300px] xxxs:-mt-[110px]
         xxs:h-[370px] xxs:-mt-[110px]
         xs:h-[550px] xs:-mt-[110px]
         md:h-[570px] md:mt-[90px] 
@@ -226,28 +227,48 @@
       </a>
     </div>
   </section>
+
+
   <footer>
     <div class="bg-white py-6 w-full">
-      <div class="flex flex-row justify-center gap-[100px]">
-        <img class="object-contain" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul ml-10"> 
+      <div class="flex xs:flex-row xxxs:flex-col items-center xs:justify-center md:gap-[100px] foo:gap-[80px] xfoo:gap-[60px] xs:gap-[40px]">
+        <img class="xs:object-contain xs:w-[60px] xfoo:w-[70px] foo:w-[80px] md:w-[90px] xxxs:w-[94px]" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
+
+        <li class="font-unbounded 
+        xs:text-[16px] 
+        xfoo:text-[18px] 
+        foo:text-[23px]  
+        md:text-[25px] text-black font-bold  list-none mt-12 soul xs:ml-10 xxxs:ml-[80px] xxxs:text-[16px]"> 
           <RouterLink to="a_propos">
             À-propos
           </RouterLink>
         </li>
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">
+
+        <li class="font-unbounded 
+        xs:text-[16px] 
+        xfoo:text-[18px] 
+        foo:text-[23px]  
+        md:text-[25px] text-black font-bold  list-none mt-12 soul xs:ml-0 xxxs:ml-[100px] xxxs:text-[16px]">
           <RouterLink to="projets">
             Mes projets
           </RouterLink>
         </li>
-        <li class="font-unbounded text-[25px] text-black font-bold  list-none mt-12 soul">
+
+        <li class="font-unbounded 
+        xs:text-[16px] 
+        xfoo:text-[18px] 
+        foo:text-[23px]  
+        md:text-[25px] text-black font-bold  list-none mt-12 soul xs:ml-0 xxxs:ml-[150px] xxxs:text-[16px]">
           <RouterLink to="mentions_legales">
             Mentions légales
           </RouterLink>
         </li>
+        
       </div>
     </div>
   </footer>
+
+
 </template>
 
 
