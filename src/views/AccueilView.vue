@@ -37,9 +37,9 @@
 
 
     <div class="lg:hidden flex justify-between mx-8 mt-10">
-      <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
+      <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
       xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
-      <img src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig">
+      <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig">
     </div>
 
 
@@ -279,8 +279,14 @@
       <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
       <Barre_contact class="mt-[42px]"/>
     </div>
-    <div class="flex justify-end mr-16 mb-[100px] mt-16">
+    <div class=" justify-end mr-16 mb-[100px] mt-16 hidden sm:flex">
       <a href="#haut_accueil">
+        <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
+      </a>
+    </div>
+
+    <div class=" justify-end mr-16 mb-[100px] mt-16 sm:hidden flex">
+      <a href="#haut_accueil2">
         <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
     </div>
