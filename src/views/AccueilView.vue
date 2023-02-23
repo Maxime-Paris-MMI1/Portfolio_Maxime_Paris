@@ -134,11 +134,32 @@
 
 
   </section>
-  <section class="mt-[163px] ml-[100px]">
-    <div class="animate__animated animate__fadeInLeft">
-      <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond">
-      <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[34px]">MES PROJETS</h2>
-      <H2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[40px]">MES PROJETS</H2>
+  <section class="mt-[163px]">
+    <div class="animate__animated animate__fadeInLeft sm:ml-[100px] xxxs:ml-[40px]">
+      <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond" class="
+               lg:-ml-[0px] lg:-mt-[14px] lg:w-[445px] lg:mb-[0px]
+               md:w-[355px] md:-mt-[14px] md:-ml-[0px] md:mb-[7px]
+               sm:w-[265px] sm:ml-[0px] sm:-mt-[50px] sm:mb-[13px]
+               xs:w-[355px] xs:ml-[0px] xs:-mt-[50px] xs:mb-[7px]
+               xxs:w-[222px] xxs:-ml-[1px] xxs:-mt-[70px] xxs:mb-[17px]
+               xxxs:w-[205px] xxxs:-ml-[2px] xxxs:-mt-[80px] xxxs:mb-[20px]">
+
+      <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[34px] 
+              lg:text-[50px] lg:-mt-[34px] lg:-mb-[34px]
+              md:text-[40px] md:-mt-[34px] md:mb-[10px]
+              sm:text-[30px] sm:-mt-[34px] sm:mb-[15px]
+              xs:text-[40px] xs:-mt-[34px] xs:mb-[10px]
+              xxs:text-[25px] xxs:-mt-[34px] xxs:mb-[20px]
+              xxxs:text-[23px] xxxs:-mt-[34px] xxxs:mb-[20px]
+              ">MES PROJETS</h2>
+
+      <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[40px]
+              lg:text-[50px] 
+              md:text-[40px]
+              sm:text-[30px] 
+              xs:text-[40px]
+              xxs:text-[25px]
+              xxxs:text-[23px]">MES PROJETS</h2>
     </div>
 
     <div class=" flex flex-row justify-around mt-[50px]">
@@ -207,10 +228,35 @@
     </div>
   </section>
   <section id="contact">
-    <div class="ml-[128px]">
-      <img src="../../public/images/contact_stroke.webp" alt="contact sans fond">
-      <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[40px]">CONTACT</h2>
-      <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]">CONTACT</h2>
+    <div class="ml-[128px] sm:ml-[100px] xxxs:ml-[40px]">
+
+      <img src="../../public/images/contact_stroke.webp" alt="contact sans fond" class="
+               lg:-ml-[0px] lg:-mt-[14px] lg:w-[310px] lg:mb-[0px]
+               md:w-[249px] md:-mt-[14px] md:-ml-[0px] md:mb-[7px]
+               sm:w-[188px] sm:ml-[0px] sm:-mt-[14px] sm:mb-[13px]
+               xs:w-[248px] xs:ml-[0px] xs:-mt-[14px] xs:mb-[7px]
+               xxs:w-[157px] xxs:-ml-[1px] xxs:-mt-[14px] xxs:mb-[17px]
+               xxxs:w-[145px] xxxs:-ml-[2px] xxxs:-mt-[14px] xxxs:mb-[20px]">
+
+
+      <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[40px]
+              lg:text-[50px] lg:-mt-[34px] lg:-mb-[34px]
+              md:text-[40px] md:-mt-[34px] md:mb-[10px]
+              sm:text-[30px] sm:-mt-[34px] sm:mb-[15px]
+              xs:text-[40px] xs:-mt-[34px] xs:mb-[10px]
+              xxs:text-[25px] xxs:-mt-[34px] xxs:mb-[22px]
+              xxxs:text-[23px] xxxs:-mt-[34px] xxxs:mb-[24px]
+      ">CONTACT</h2>
+
+
+      <h2 class="font-unbounded text-[50px] text-white font-bold -mt-[45px]
+              lg:text-[50px] 
+              md:text-[40px]
+              sm:text-[30px] 
+              xs:text-[40px]
+              xxs:text-[25px]
+              xxxs:text-[23px]
+      ">CONTACT</h2>
     </div>
     <div class="flex justify-center mb-[50px] mt-[120px]">
       <a href="mailto:maximepro.contact25@gmail.com">
