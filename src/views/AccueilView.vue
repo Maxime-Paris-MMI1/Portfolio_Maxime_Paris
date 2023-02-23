@@ -44,6 +44,8 @@
 
 
   </header>
+
+
   <section>
     <div class="sm:flex-row xxxs:flex-col flex">
       <div class="flex flex-col lg:-mt-[120px] md:mt-[90px]">
@@ -117,10 +119,20 @@
     
   </section>
   <section>
-    <div class="container2 bg-white text-black font-unbounded font-bold text-[40px] py-5">
+
+
+    <div class="container2 bg-white text-black font-unbounded font-bold 
+    sm:text-[40px] sm:py-5
+    xs:text-[30px] xs:py-5
+    xxs:text-[25px] xxs:py-5
+    xxxs:text-[20px] xxxs:py-3 xxxs:-mt-[20px]">
+
       <span class="txt t1">Artiste 3D - Motion Design - 3D VFX - Webdesign - Création de logo - Affiche -&nbsp;</span>
       <span class="txt t2">Artiste 3D - Motion Design - 3D VFX - Webdesign - Création de logo - Affiche -&nbsp;</span>
+
     </div>
+
+
   </section>
   <section class="mt-[163px] ml-[100px]">
     <div class="animate__animated animate__fadeInLeft">
