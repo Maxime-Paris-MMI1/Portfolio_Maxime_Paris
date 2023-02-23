@@ -1,11 +1,11 @@
 <template>
   <header>
-    <div class="flex justify-between items-start">
+    <div class="flex justify-between items-start lg:flex hidden">
       <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig
       xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
 
 
-      <div class="mt-[90px] relative z-30 lg:flex hidden">
+      <div class="mt-[90px] relative z-30">
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
           <div class="flex justify-end">
@@ -35,13 +35,20 @@
     </div>
 
 
+
+    <div class="lg:hidden flex justify-between mx-8 mt-10">
+      <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig" alt="logo blanc de mon portfolio">
+      <img src="../../public/images/Ligne-header.svg" alt="menu">
+    </div>
+
+
   </header>
   <section>
-    <div class="sm:flex-row xxs:flex-col flex">
+    <div class="sm:flex-row xxxs:flex-col flex">
       <div class="flex flex-col lg:-mt-[120px] md:mt-[90px]">
 
         <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
-          <div class="xxs:flex xxs:flex-col xxs:items-center xxs:mt-[80px] sm:mt-[0px]">
+          <div class="xxxs:flex xxxs:flex-col xxxs:items-center xxxs:mt-[80px] sm:mt-[0px]">
 
 
             <h1 class="font-unbounded  text-white font-bold sm:ml-[100px] xxs:ml-[0px]
@@ -49,7 +56,8 @@
             md:text-[75px] md:-mt-[40px] 
             sm:text-[60px] sm:mt-[40px]
             xs:text-[60px] xs:flex xs:justify-center
-            xxs:text-[40px] xxs:flex xxs:justify-center">PORTFOLIO</h1>
+            xxs:text-[40px] xxs:flex xxs:justify-center
+            xxxs:text-[40px] xxxs:flex xxxs:justify-center">PORTFOLIO</h1>
 
 
             <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class=
@@ -57,7 +65,8 @@
             md:w-[530px] md:ml-[120px] md:-mt-[75px]
             sm:w-[430px] sm:ml-[113px]  sm:mb-[70px] sm:-mt-[60px]
             xs:w-[430px] xs:flex xs:justify-center xs:ml-[10px] xs:-mt-[60px]
-            xxs:w-[290px] xxs:flex xxs:justify-center xxs:ml-[10px] xxs:-mt-[40px]">
+            xxs:w-[290px] xxs:flex xxs:justify-center xxs:ml-[10px] xxs:-mt-[40px]
+            xxxs:w-[290px] xxxs:flex xxxs:justify-center xxxs:ml-[10px] xxxs:-mt-[40px]">
 
 
           </div>
@@ -66,14 +75,15 @@
 
         <div class="animate__animated animate__backInLeft md:mb-[70px] md:-mt-[70px] lg:mb-0 lg:-mt-[70px] sm:mb-[30px] sm:-mt-[70px]">
 
-          <div class="xxs:flex xxs:flex-col xxs:items-center sm:items-baseline xxs:mt-5 sm:mt-0 xxs:mb-5 sm:mb-0">
+          <div class="xxxs:flex xxxs:flex-col xxxs:items-center sm:items-baseline xxxs:mt-5 sm:mt-0 xxxs:mb-5 sm:mb-0">
             <div>
               <h2 class="font-unbounded text-white font-bold sm:ml-[100px] xxs:ml-[0px]
               lg:text-[75px] 
               md:text-[50px]
               sm:text-[35px] 
               xs:text-[45px]
-              xxs:text-[30px]">MAXIME</h2>
+              xxs:text-[30px]
+              xxxs:text-[30px]">MAXIME</h2>
             </div>
             <div>
               <img class=
@@ -81,7 +91,8 @@
                md:w-[200px]
                sm:w-[126px] sm:ml-[103px] sm:mt-[2px] sm:mb-[70px]
                xs:w-[160px] xs:ml-[0px] xs:mt-[2px] xs:mb-[70px]
-               xxs:w-[110px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+               xxs:w-[110px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]
+               xxxs:w-[110px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
             </div>
           </div>
         </div>
@@ -92,6 +103,7 @@
 
       <div class= "sm:-mt-[220px] sm:-ml-[60px] flex animate__animated animate__fadeInRight">
         <img class="w-full h-full object-contain min-h-full min-w-full 
+        xxxs:h-[370px] xxxs:-mt-[110px]
         xxs:h-[370px] xxs:-mt-[110px]
         xs:h-[550px] xs:-mt-[110px]
         md:h-[570px] md:mt-[90px] 
