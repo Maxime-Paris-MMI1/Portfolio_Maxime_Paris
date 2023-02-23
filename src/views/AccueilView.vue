@@ -39,7 +39,7 @@
     <div class="lg:hidden flex justify-between mx-8 mt-10">
       <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
       xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
-      <img src="../../public/images/Ligne-header.svg" alt="menu">
+      <img src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig">
     </div>
 
 
