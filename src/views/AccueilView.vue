@@ -279,13 +279,13 @@
       <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
       <Barre_contact class="mt-[42px]"/>
     </div>
-    <div class=" justify-end mr-16 mb-[100px] mt-16 hidden sm:flex">
+    <div class=" justify-end mr-16 mb-[100px] mt-16 hidden lg:flex">
       <a href="#haut_accueil">
         <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
     </div>
 
-    <div class=" justify-end mr-16 mb-[100px] mt-16 sm:hidden flex">
+    <div class=" justify-end mr-16 mb-[100px] mt-16 lg:hidden flex">
       <a href="#haut_accueil2">
         <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
