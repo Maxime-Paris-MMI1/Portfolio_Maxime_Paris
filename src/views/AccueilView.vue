@@ -163,9 +163,35 @@
     </div>
 
     <div class=" flex flex-row justify-around mt-[50px]">
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Tout</button>
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Éducatif</button>
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">Personnel</button>
+
+
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]">Tout</button>
+
+
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]">Éducatif</button>
+
+
+      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]">Personnel</button>
+
+
     </div>
 
   </section>
