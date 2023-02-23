@@ -33,8 +33,8 @@ module.exports = {
     },
 
     screens: {
-      'xxs': '280px',
-      // => @media (min-width: 280px) { ... }
+      'xxs': '0px',
+      // => @media (min-width: 0px) { ... }
 
       'xs': '640px',
       // => @media (min-width: 640px) { ... }
@@ -45,7 +45,7 @@ module.exports = {
       'md': '1240px',
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1560px',
+      'lg': '1495px',
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1280px',
