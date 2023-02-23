@@ -35,23 +35,30 @@
     <div class="flex-row flex">
       <div class="flex flex-col justify-center lg:-mt-[120px] md:mt-[90px]">
 
-        <div class="mb-4 -mt-[40px] lg:mt-6 animate__animated animate__backInDown">
-          <h1 class="font-unbounded lg:text-[100px] md:text-[75px] sm:text-[56px] text-white font-bold ml-[100px] md:-mt-[40px] sm:mt-[40px]">PORTFOLIO</h1>
+        <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
+          <h1 class="font-unbounded  text-white font-bold ml-[100px]
+          lg:text-[100px] 
+          md:text-[75px] md:-mt-[40px] 
+          sm:text-[60px] sm:mt-[40px]">PORTFOLIO</h1>
           <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class=
           "lg:ml-[120px] lg:-mt-[95px] lg:w-[716px]
           md:w-[530px] md:ml-[120px] md:-mt-[70px]
-          sm:w-[400px] sm:ml-[103px]  sm:mb-[70px]">
+          sm:w-[430px] sm:ml-[113px]  sm:mb-[70px] sm:-mt-[55px]">
         </div>
 
 
-        <div class="animate__animated animate__backInLeft md:mb-[50px] lg:mb-0 lg:-mt-[70px]">
+        <div class="animate__animated animate__backInLeft md:mb-[70px] md:-mt-[70px] lg:mb-0 lg:-mt-[70px] sm:mb-[30px] sm:-mt-[70px]">
           <div>
-            <h2 class="font-unbounded lg:text-[75px] md:text-[50px] text-white font-bold ml-[100px]">MAXIME</h2>
+            <h2 class="font-unbounded text-white font-bold ml-[100px]
+            lg:text-[75px] 
+            md:text-[50px]
+            sm:text-[35px] ">MAXIME</h2>
           </div>
           <div>
-            <img class="lg:ml-[103px] lg:-mt-[14px] lg:w-[274px]
+            <img class=
+            "lg:ml-[103px] lg:-mt-[14px] lg:w-[274px]
              md:w-[200px]
-             sm:w-[100px] sm:ml-[103px] sm:-mt-[8px] sm:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+             sm:w-[126px] sm:ml-[103px] sm:mt-[2px] sm:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
           </div>
         </div>
 
@@ -59,8 +66,8 @@
       </div>
       <div class= "-mt-[220px] -ml-[60px] animate__animated animate__fadeInRight">
         <img class="w-full h-full object-contain min-h-full min-w-full 
-        md:h-[475px] md:mt-[130px] 
-        sm:h-[400px]
+        md:h-[570px] md:mt-[90px] 
+        sm:h-[445px] sm:mt-[80px]
         lg:h-full lg:mt-[0px]" 
         src="../../public/images/photo-perso.webp" alt="photo personnelle">
       </div>
