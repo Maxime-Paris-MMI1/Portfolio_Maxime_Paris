@@ -5,7 +5,7 @@
       xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
 
 
-      <div class="mt-[90px] relative z-30">
+      <div class="mt-[90px] relative z-30 animate__animated animate__slideInRight">
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
           <div class="flex justify-end">
@@ -158,7 +158,7 @@
 
   </section>
   <section class="mt-[163px]">
-    <div class="animate__animated animate__fadeInLeft sm:ml-[100px] xxxs:ml-[40px]">
+    <div class=" sm:ml-[100px] xxxs:ml-[40px]">
       <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond" class="
                lg:-ml-[0px] lg:-mt-[14px] lg:w-[445px] lg:mb-[0px]
                md:w-[355px] md:-mt-[14px] md:-ml-[0px] md:mb-[7px]
@@ -426,6 +426,10 @@
 
 
 <style>
+
+.animate__slideInRight{
+  animation-delay: 0.5s;
+}
 
 
 .moyen{
