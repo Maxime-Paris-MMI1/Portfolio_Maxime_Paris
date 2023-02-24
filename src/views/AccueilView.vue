@@ -36,11 +36,37 @@
 
 
 
-    <div class="lg:hidden flex justify-between mx-8 mt-10">
+    <div class="lg:hidden flex flex-row justify-between mx-8 mt-10">
       <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
       xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
-      <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig">
+
+      <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+        <div>
+          <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig" :class="{menuOuvert}"/>
+        </div>
+        <span class="sr-only">Menu</span>
+      </button>
     </div>
+
+    <div id="menu" class="z-50 fixed inset-0  translate-x-full bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full lg:hidden" v-if="menuOuvert"
+      :class="{ 'translate-x-0': menuOuvert }">
+        <div class="flex flex-row justify-end mr-10">
+          <button class="relative z-50 mt-14" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+            <img src="../../public/images/croix_menu.svg" alt="croix du menu" :class="{'motion-safe:animate-[BackInRight_1s_cubic-bezier(0,1,.24,1)]' : menuOuvert}">
+          </button>
+        </div>
+
+        <nav class="text-white font-unbounded font-medium text-2xl pt-20">
+          <ul class="flex flex-col text-center gap-[70px]">
+           <RouterLink :class="{' motion-safe:animate-[Depart_0.05s_cubic-bezier(.5,.5,.5,.5)]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
+           <RouterLink :class="{' motion-safe:animate-[Depart_0.1s_cubic-bezier(.5,.5,.5,.5)]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
+           <a href="#contact" :class="{' motion-safe:animate-[Depart_0.3s_cubic-bezier(.5,.5,.5,.5)]' : menuOuvert}">Contact</a>
+          </ul>
+        </nav>
+
+
+        
+  </div>
 
 
   </header>
@@ -403,51 +429,37 @@
 
 
 <style>
-
 .moyen{
   transform: scale(0.5);
 }
-
 .animation_rebond{
   animation: rebond 3s infinite ease-in-out;
 }
-
 @keyframes rebond {
   0%{
     transform: translateY(10px);
   }
-
   50%{
     transform: translateY(-10px);
     
   }
-
   100%{
     transform: translateY(10px);
   }
 }
-
 .animate__backInLeft{
   animation-delay: 0.15s;
 }
-
 .animate__fadeInRight{
   animation-delay: 0.3s;
 }
-
 .animate__heartBeat{
   animation-delay: 0.8s;
 }
-
-
-
-
 .soul{
   transform: translate(-50%, -50%);
   display: inline;
-
 }
-
 .soul::after{
   content: "";
   display: block;
@@ -457,14 +469,10 @@
   margin: 0 auto;
   background: #000;
   transition: width 0.2s ease-in-out;
-
 }
-
 .soul:hover::after{
   width: 100%;
-
 }
-
 .animation_texte{
   box-shadow: inset 0 0 0 0 #fff;
   color: #fff;
@@ -472,13 +480,10 @@
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-
 .animation_texte:hover {
   box-shadow: inset 550px 0 0 0 #fff;
   color: black;
 }
-
-
 .container2{
   display: flex;
   overflow: hidden;
@@ -486,46 +491,45 @@
   position: absolute;
   transform: translateY(-50%);
 }
-
 .txt{
   white-space: nowrap;
   animation: scrollTxt 25s linear infinite;
 }
-
 @keyframes scrollTxt {
   0%{
     transform: translate(0, 0);
   }
-
   100%{
     transform: translate(-100%, 0);
   }
 }
-
 .curseur:hover {
   cursor: default;
-
 }
-
 #cursor{
   cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
-
   
 }
-
 </style>
 
 <script>
-
-
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
 import Barre_contact from '../components/icons/barre_contact.vue';
-
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
-};
+
+  beforeMount(){
+    this.$router.afterEach(() => (this.menuOuvert = false));
+  },
+
+  data() {
+    return {
+      menuOuvert: false,
+    }
+}}
+
+
+
 
 </script>
-
-
