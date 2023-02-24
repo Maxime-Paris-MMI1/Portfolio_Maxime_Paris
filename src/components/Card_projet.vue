@@ -1,8 +1,8 @@
 <template>
     <RouterLink class="curseur" :to="lien">
-      <div class="w-[365px] h-[365px] relative">
+      <div class="xs:w-[365px] xs:h-[365px] xxxs:w-[275px] xxxs:h-[275px] relative">
         <!--  -->
-        <div class="w-[365px] h-[365px] absolute left-[-1px] top-[-1px]">
+        <div class="xs:w-[365px] xs:h-[365px] xxxs:w-[275px] xxxs:h-[275px] absolute left-[-1px] top-[-1px]">
           <div class="image-zoom">
             <img
               :src="img_presentation"
@@ -10,16 +10,13 @@
             />
           </div>
         </div>
-        <div class="w-[350px] h-[111px] mt-[250px]  absolute left-[-1px] top-[0px] bg-gradient-to-b from-[#9c9c9c]/20 to-white/0">
+        <div class="xs:w-[350px] xs:h-[111px] xxxs:w-[275px] xxxs:h-[80px] xs:mt-[250px] xxxs:mt-[195px]  absolute left-[-1px] top-[0px] bg-gradient-to-b from-[#9c9c9c]/20 to-white/0">
 
         </div>
 
-        <div>
-                  <!-- <div class="w-[229px] h-[50px] absolute left-[60px] top-[280px] bg-black cadre"></div>  -->
-        </div>
-        <div class="flex justify-center w-[365px] ">
+        <div class="flex justify-center xs:w-[365px] xxxs:w-[275px] ">
           <p
-            class="absolute top-[280px] text-[25px] font-bold text-center text-white bg-black px-5 py-2 back" id="cursor2"
+            class="absolute xs:top-[280px] xxxs:top-[213px] xs:text-[25px] xxxs:text-[20px] font-bold text-center text-white bg-black px-5 py-2 back" id="cursor2"
           >
             {{titre}}
           </p>
@@ -46,10 +43,13 @@
   height: 365px; ;
 
 }
-.image-zoom{
+@media screen and (min-width: 640px) {
+  .image-zoom{
   width: 350px;
   overflow: hidden;
+  }
 }
+
 
 .image{
   width: 100%;

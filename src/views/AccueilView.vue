@@ -17,7 +17,7 @@
 
           <div class="flex justify-end">
             <a href="#contact">
-              <li class="mb-[50px] mr-[11px] animation_texte" >Contact</li>
+              <li class="mb-[50px] mr-[11px] animation_texte" >Contact</li> 
             </a>
 
             <Barre_menu class="mt-[15px]"/>
@@ -198,9 +198,9 @@
   <section>
     <div class="border-t-4 border-white mt-[47px]"></div>
 
-    <div class="mx-auto w-3/4 justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(350px,1fr))]">
+    <div class="mx-auto md:w-3/4 xxxs:w-2/4 xxxs:ml-[100px] xxs:mx-auto justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(330px,1fr))]">
       <div>
-          <Card_projet 
+          <Card_projet
           id="cursor"
           titre="E-morphoz"
           img_presentation="/images/e-morphoz_presentation.webp"
