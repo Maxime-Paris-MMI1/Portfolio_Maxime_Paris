@@ -37,10 +37,13 @@ module.exports = {
           },
           Depart:{
             '0%':{
-              transform: 'translateX(1000px)'
+              transform: 'translateY(50px)',
+              opacity: '0%'
             },
+
             '100%':{
-              transform: 'translateX(0px)'
+              transform: 'translateY(0px)',
+              opacity: '100%'
             }
           },
        

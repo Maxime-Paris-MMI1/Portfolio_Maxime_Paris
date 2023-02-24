@@ -58,9 +58,9 @@
 
         <nav class="text-white font-unbounded font-medium text-2xl pt-20">
           <ul class="flex flex-col text-center gap-[70px]">
-           <RouterLink :class="{' motion-safe:animate-[Depart_0.05s_cubic-bezier(.5,.5,.5,.5)]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
-           <RouterLink :class="{' motion-safe:animate-[Depart_0.1s_cubic-bezier(.5,.5,.5,.5)]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
-           <a href="#contact" :class="{' motion-safe:animate-[Depart_0.3s_cubic-bezier(.5,.5,.5,.5)]' : menuOuvert}">Contact</a>
+           <RouterLink :class="{' motion-safe:animate-[Depart_0.2s_ease-in-out]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
+           <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
+           <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
           </ul>
         </nav>
 
@@ -429,6 +429,8 @@
 
 
 <style>
+
+
 .moyen{
   transform: scale(0.5);
 }
