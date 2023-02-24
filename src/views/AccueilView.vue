@@ -246,11 +246,20 @@
     </div>
 
     <div class="flex justify-center mt-20 relative z-20 mb-20">
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte">
+
+      <button class="text-white font Unbounded                      
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]
+                       font-bold border px-5 py-2 animation_texte">
         <RouterLink to="projets">
           Voir tout mes projets
         </RouterLink>
       </button>
+
     </div>
   </section>
   <section id="contact">
@@ -284,34 +293,65 @@
               xxxs:text-[23px]
       ">CONTACT</h2>
     </div>
+
+
     <div class="flex justify-center mb-[50px] mt-[120px]">
       <a href="mailto:maximepro.contact25@gmail.com">
-        <button class="text-white font Unbounded text-xl font-bold border px-[130px] py-3 animation_texte">Me contacter par mail</button>
+        <button class="text-white font Unbounded 
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px] 
+        font-bold border 
+        lg:px-[130px]
+        md:px-[110px]
+        sm:px-[90px] 
+        xs:px-[70px]
+        xxs:px-[50px]
+        xxxs:px-[50px] 
+         py-3 animation_texte">Me contacter par mail</button>
+
+
       </a>
     </div>
-    <div class="flex justify-center gap-24">
-      <a href="https://www.instagram.com/max_portfolio_/" target="_blank">
+    <div class="flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px]"> 
+
+      <a href="https://www.instagram.com/max_portfolio_/" target="_blank" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]">
         <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
       </a>
-      <a href="https://www.tiktok.com/@max_portfolio" target="_blank" class="-mt-4">
+
+      <a href="https://www.tiktok.com/@max_portfolio" target="_blank" class="xxxs:-mt-[10px] xxs:-mt-[7px] xs:-mt-[15px] md:-mt-4 sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]">
         <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
       </a>
-      <a href="https://www.behance.net/maximeparis5" target="_blank">
+
+      <a href="https://www.behance.net/maximeparis5" target="_blank" class="sm:w-[76px] xs:w-[60px] xxs:w-[50px] xxxs:w-[40px]">
         <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
       </a>
+
     </div>
     <div class="flex flex-row items-center justify-center gap-2">
       <Barre_contact class="mt-[42px]"/>
-      <h3 class="font-unbounded text-[25px] text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
+      <h3 class="font-unbounded                       
+                      lg:text-[25px] 
+                      md:text-[20px]
+                      sm:text-[18px] 
+                      xs:text-[16px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]  text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
+
       <Barre_contact class="mt-[42px]"/>
     </div>
+
+
     <div class=" justify-end mr-16 mb-[100px] mt-16 hidden lg:flex">
       <a href="#haut_accueil">
         <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
     </div>
 
-    <div class=" justify-end mr-16 mb-[100px] mt-16 lg:hidden flex">
+    <div class=" justify-center mb-[100px] mt-16 lg:hidden flex">
       <a href="#haut_accueil2">
         <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
