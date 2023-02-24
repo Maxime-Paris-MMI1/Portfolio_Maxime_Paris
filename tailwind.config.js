@@ -28,7 +28,21 @@ module.exports = {
          "xs": "0.3125rem",
          "sm": "2.0625rem",
          "default": "2.375rem"
-        }
+        },
+
+        keyframes: {
+          BackInRight: {
+            '0%, 100%': { transform: 'translate(100px)'},
+            '100%': { transform: 'translate(0px)'},
+          },
+          Depart:{
+            '0%':{
+              transform: 'translateX(1000px)'
+            },
+            '100%':{
+              transform: 'translateX(0px)'
+            }
+          },
        
     },
 
@@ -67,4 +81,4 @@ module.exports = {
 
   },
   plugins: [],
-}
+}}
