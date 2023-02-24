@@ -36,7 +36,7 @@
 
 
 
-    <div class="lg:hidden flex flex-row justify-between mx-8 mt-10">
+    <div class="lg:hidden flex justify-between mx-8 mt-10">
       <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
       xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
 
@@ -62,11 +62,8 @@
            <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
            <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
           </ul>
-        </nav>
-
-
-        
-  </div>
+        </nav>   
+    </div>
 
 
   </header>

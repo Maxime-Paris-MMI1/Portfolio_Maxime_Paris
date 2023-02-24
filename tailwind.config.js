@@ -48,40 +48,41 @@ module.exports = {
           },
        
     },
-
-    screens: {
-      'xxxs': '0px',
-      // => @media (min-width: 0px) { ... }
-
-      'xxs': '430px',
-      // => @media (min-width: 430px) { ... }
-
-      'xs': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'xfoo': '774px',
-      // => @media (min-width: 750px) { ... }
-
-      'foo': '950px',
-      // => @media (min-width: 950px) { ... }
-
-      'sm': '1000px',
-      // => @media (min-width: 1000px) { ... }
-
-      'md': '1240px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1495px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-    }
     
 
   },
+  
+  screens: {
+    'xxxs': '0px',
+    // => @media (min-width: 0px) { ... }
+
+    'xxs': '430px',
+    // => @media (min-width: 430px) { ... }
+
+    'xs': '640px',
+    // => @media (min-width: 640px) { ... }
+
+    'xfoo': '774px',
+    // => @media (min-width: 750px) { ... }
+
+    'foo': '950px',
+    // => @media (min-width: 950px) { ... }
+
+    'sm': '1000px',
+    // => @media (min-width: 1000px) { ... }
+
+    'md': '1240px',
+    // => @media (min-width: 768px) { ... }
+
+    'lg': '1495px',
+    // => @media (min-width: 1024px) { ... }
+
+    'xl': '1280px',
+    // => @media (min-width: 1280px) { ... }
+
+    '2xl': '1536px',
+    // => @media (min-width: 1536px) { ... }
+  },
+  
   plugins: [],
 }}
