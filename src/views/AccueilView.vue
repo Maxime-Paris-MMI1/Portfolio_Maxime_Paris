@@ -519,6 +519,10 @@
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
 import Barre_contact from '../components/icons/barre_contact.vue';
+
+
+
+
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
 
@@ -531,6 +535,8 @@ export default {
       menuOuvert: false,
     }
 }}
+
+
 
 
 
