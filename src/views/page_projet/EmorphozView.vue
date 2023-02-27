@@ -22,7 +22,7 @@
 
             <div class="pictures-container">
 
-                <img src="../../../public/images/gif rendu final.gif" alt="vidéo de présentation de mon projet">
+                <img src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
                 <img src="../../../public/images/photo-perso.webp" alt="">
 
             </div>
