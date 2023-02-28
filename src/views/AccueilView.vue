@@ -566,9 +566,18 @@ import Barre_contact from '../components/icons/barre_contact.vue';
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
 
-  beforeMount(){
-    this.$router.afterEach(() => (this.menuOuvert = false));
-  },
+  beforeMount() {
+  this.$router.afterEach(() => (this.menuOuvert = false));
+
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const seuilDeScroll = 100; // seuil de scroll à partir duquel le menu se fermera automatiquement
+
+    if (scrollPosition > seuilDeScroll) {
+      this.menuOuvert = false;
+    }
+  });
+},
 
   data() {
     return {
