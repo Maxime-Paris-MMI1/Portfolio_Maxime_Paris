@@ -420,7 +420,8 @@
         <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
       </a>
     </div>
-  </section>
+
+    </section>
 
 
   <footer>

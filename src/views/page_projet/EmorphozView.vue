@@ -1,6 +1,7 @@
 <template>
 
     <header>
+
     <div class=" justify-between items-start lg:flex hidden">
         <RouterLink to="/">
             <img id="haut_accueil" src="../../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain 
@@ -347,10 +348,22 @@ import Barre_contact from '../../components/icons/barre_contact.vue';
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
 
+
   beforeMount() {
   this.$router.afterEach(() => (this.menuOuvert = false));
-  },
 
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    const seuilDeScroll = 100; // seuil de scroll à partir duquel le menu se fermera automatiquement
+
+    if (scrollPosition > seuilDeScroll) {
+      this.menuOuvert = false;
+    }
+  });
+
+},
+
+  
   mounted() {
     // Récupérer l'ancre dans l'URL
     const anchor = window.location.hash.slice(1);
@@ -360,8 +373,12 @@ export default {
       // Scroll vers l'ancre
       element.scrollIntoView({ behavior: 'smooth' });
     }
-  }
+  },
 
-};
+  data() {
+    return {
+      menuOuvert: false,
+    }
+}}
 
 </script>
