@@ -426,7 +426,9 @@
   <footer>
     <div class="bg-white py-6 w-full">
       <div class="flex xs:flex-row xxxs:flex-col items-center xs:justify-center md:gap-[100px] foo:gap-[80px] xfoo:gap-[60px] xs:gap-[40px]">
-        <img class="xs:object-contain xs:w-[60px] xfoo:w-[70px] foo:w-[80px] md:w-[90px] xxxs:w-[94px]" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
+        <a href="#haut_accueil">
+          <img class="xs:object-contain xs:w-[60px] xfoo:w-[70px] foo:w-[80px] md:w-[90px] xxxs:w-[94px]" src="../../public/images/logo_max_noir.webp" alt="logo de mon portfolio en noir">
+        </a>
 
         <li class="font-unbounded 
         xs:text-[16px] 
