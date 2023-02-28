@@ -124,6 +124,10 @@
             </h1>
     </div>
 
+    <div class="flex justify-center mb-48">
+        <img class="w-[1000px]" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
+    </div>
+
 
 
     <div class="column">
@@ -152,7 +156,7 @@
         </div>
         <div class="row">
             <div class="heading-content text-black">
-                <h4 class="bg-white text-center font-unbounded">logo</h4>
+                <h4 class="bg-white text-center font-unbounded">Logo</h4>
             </div>
             
             <div class="pictures-container">
