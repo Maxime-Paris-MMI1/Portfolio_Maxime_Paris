@@ -48,7 +48,7 @@
       </button>
     </div>
 
-    <div id="menu" class="z-50 fixed inset-0  translate-x-full bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full xs:hidden" v-if="menuOuvert"
+    <div id="menu" class="z-[50] fixed inset-0 -translate-x-0 bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full xs:hidden" v-if="menuOuvert"
       :class="{ 'translate-x-0': menuOuvert }">
         <div class="flex flex-row justify-end mr-10">
           <button class="relative z-50 mt-14" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
