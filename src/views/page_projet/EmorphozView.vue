@@ -59,14 +59,41 @@
 
             </div>
         </div>
-        <div class="mt-[500px]">
-
-        </div>
     </div> 
+
+    <div>
+        <div class="parallax-effect"></div>
+            <div>
+                <p class="text-white font-unbounded flex justify-center text-2xl"></p>
+            </div>
+        <div class="parallax-effect">
+        </div>
+    </div>
+
+    <div>
+        <h3 class="text-white py-96 flex justify-center">Voir le résultat</h3>
+    </div>
 
 </template>
 
 <style>
+
+.parallax-effect {
+        background-image: url("../../../public/images/fond_emorphoz.png");
+        min-height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .parallax-effect + div {
+        height: 500px;
+        background-image: #000;
+        font-size: 36px;
+        text-align: center;
+        font-family: "Raleway", Arial, sans-serif;
+      }
 
 .carret {
     text-transform: uppercase;
