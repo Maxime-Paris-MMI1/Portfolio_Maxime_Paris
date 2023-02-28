@@ -18,4 +18,12 @@ const router = createRouter({
   ]
 })
 
+router.beforeEach((to, from, next) => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+  next();
+});
+
 export default router

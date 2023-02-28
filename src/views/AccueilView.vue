@@ -303,7 +303,8 @@
         <Card_projet
         id="cursor"
         titre="E-morphoz"
-        img_presentation="/images/e-morphoz_presentation.webp"/>
+        img_presentation="/images/e-morphoz_presentation.webp"
+        lien="/emorphoz"/>
       </div>
 
     </div>
@@ -553,6 +554,7 @@
   cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
   
 }
+
 </style>
 
 <script>
@@ -577,8 +579,8 @@ export default {
       this.menuOuvert = false;
     }
   });
-},
 
+},
   data() {
     return {
       menuOuvert: false,
