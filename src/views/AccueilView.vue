@@ -265,7 +265,7 @@
       <div>
           <Card_projet
           id="cursor"
-          titre="E-morphoz"
+          titre="Educatif"
           img_presentation="/images/e-morphoz_presentation.webp"
           lien="/emorphoz"/>
 
@@ -274,35 +274,35 @@
       <div>
         <Card_projet
         id="cursor"
-        titre="E-morphoz"
+        titre="Educatif"
         img_presentation="/images/e-morphoz_presentation.webp"/>
       </div>
 
       <div>
         <Card_projet
         id="cursor"
-        titre="E-morphoz"
+        titre="Educatif"
         img_presentation="/images/e-morphoz_presentation.webp"/>
       </div>
 
       <div>
         <Card_projet
         id="cursor"
-        titre="E-morphoz"
+        titre="Personnel"
         img_presentation="/images/e-morphoz_presentation.webp"/>
       </div>
 
       <div>
         <Card_projet
         id="cursor"
-        titre="E-morphoz"
+        titre="Personnel"
         img_presentation="/images/e-morphoz_presentation.webp"/>
       </div>
 
       <div>
         <Card_projet
         id="cursor"
-        titre="E-morphoz"
+        titre="Personnel"
         img_presentation="/images/e-morphoz_presentation.webp"
         lien="/emorphoz"/>
       </div>
@@ -581,15 +581,9 @@ export default {
   });
 
 },
-  data() {
+data() {
     return {
       menuOuvert: false,
     }
 }}
-
-
-
-
-
-
 </script>
