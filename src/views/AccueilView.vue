@@ -36,7 +36,7 @@
 
 
 
-    <div class="lg:hidden flex justify-between mx-8 mt-10">
+    <div class="xs:hidden flex justify-between mx-8 mt-10">
       <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
       xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
 
@@ -48,7 +48,7 @@
       </button>
     </div>
 
-    <div id="menu" class="z-50 fixed inset-0  translate-x-full bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full lg:hidden" v-if="menuOuvert"
+    <div id="menu" class="z-50 fixed inset-0  translate-x-full bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full xs:hidden" v-if="menuOuvert"
       :class="{ 'translate-x-0': menuOuvert }">
         <div class="flex flex-row justify-end mr-10">
           <button class="relative z-50 mt-14" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
@@ -63,6 +63,46 @@
            <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
           </ul>
         </nav>   
+    </div>
+
+
+
+
+    <div class="xxxs:hidden lg:hidden xs:flex flex justify-between mx-8 mt-10">
+
+      <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
+      xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+
+      <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+        <div>
+          <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig" :class="{menuOuvert}"/>
+        </div>
+        <span class="sr-only">Menu</span>
+      </button>
+
+    </div>
+
+    <div id="menu" class="z-50 fixed inset-0  translate-x-3/4 bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform xs:h-1/2 sm:h-full xxxs:hidden lg:hidden xs:flex border-l-4 border-b-4 border-t-4 border-white " v-if="menuOuvert"
+      :class="{ 'translate-x-0': menuOuvert }">
+
+
+        <nav class="text-white font-unbounded font-medium md:text-[25px] sm:text-[20px] flex z-[100]">
+          <ul class="flex flex-col gap-[50px] text-center sm:ml-14 xs:ml-5 mt-40 xsme:ml-10 ">
+           <RouterLink :class="{' motion-safe:animate-[Depart_0.2s_ease-in-out]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
+           <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
+           <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
+          </ul>
+        </nav>   
+
+        <div class="mt-16 me:ml-10 xsme:-ml-4 xs:ml-[-30px] relative z-[200]">
+          <button class="" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+            <div class="mx-auto">
+              <img src="../../public/images/croix_menu.svg" alt="croix du menu" :class="{'motion-safe:animate-[BackInRight_1s_cubic-bezier(0,1,.24,1)]' : menuOuvert}">
+            </div>
+          </button>
+        </div>
+
+
     </div>
 
 

@@ -65,14 +65,20 @@ module.exports = {
     'xfoo': '774px',
     // => @media (min-width: 750px) { ... }
 
+    'xsme': '810px',
+    // => @media (min-width: 810px) { ... }
+
     'foo': '950px',
     // => @media (min-width: 950px) { ... }
 
     'sm': '1000px',
     // => @media (min-width: 1000px) { ... }
 
+    'me': '1120px',
+    // => @media (min-width: 1120px) { ... }
+
     'md': '1240px',
-    // => @media (min-width: 768px) { ... }
+    // => @media (min-width: 1240px) { ... }
 
     'lg': '1495px',
     // => @media (min-width: 1024px) { ... }
