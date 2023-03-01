@@ -2,15 +2,19 @@
     <RouterLink to="/">
         <button class="flex justify-center text-white">HOME</button>
     </RouterLink>
-    <h1 class="text-white flex justify-center text-9xl">TEST apropos</h1>   
 
 
-    <section class="mt-10 parallax" style="background-image: url(../../public/images/geometry_node.png); background-position: center; background-size: 180%;" data-speed="0.5">
+    <section class="mt-10 parallax" style="background-image: url(../../public/images/geometry_node.png); background-position:center 50%; background-size: 180%;" data-speed="0.5">
       <div class="parallax-content">
-        <p class="text-white py-96 font font-unbounded justify-center flex text-2xl"> TEST</p>
+        <div class="contenair mb-96 mt-10 py-44">
+            <h1 class=" justify-center flex text-xs text-white font-unbounded mt-16 mb-16 carret">
+                <span class="bg-black py-10 px-10">
+                    À-propos
+                </span>
+            </h1>
+      </div>
         <!-- contenu de la section -->
       </div>
-        <!-- <img class="h-[400px] w-full object-cover" src="../../public/images/fond_emorphoz.png" alt="photo projet e-morphoz"> -->
     </section>
 
     <div class="mb-[500px]">
@@ -20,14 +24,15 @@
 
 <script>
 
+
 window.addEventListener("scroll", function() {
   var scrollPosition = window.pageYOffset;
   var parallaxElements = document.getElementsByClassName("parallax");
   for (var i = 0; i < parallaxElements.length; i++) {
     var parallaxElement = parallaxElements[i];
     var parallaxSpeed = parallaxElement.getAttribute("data-speed");
-    var parallaxPosition = -(scrollPosition * parallaxSpeed);
-    parallaxElement.style.backgroundPositionY = parallaxPosition + "px";
+    var parallaxPosition = -(scrollPosition * parallaxSpeed) + "px";
+    parallaxElement.style.backgroundPosition = "center " + parallaxPosition;
   }
 });
 
@@ -43,7 +48,10 @@ export default {
 <style>
 
 .parallax{
-  background-position-y: center;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

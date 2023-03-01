@@ -251,7 +251,6 @@
         background-image: #000;
         font-size: 36px;
         text-align: center;
-        font-family: "Raleway", Arial, sans-serif;
       }
 
 .carret {
@@ -318,8 +317,6 @@
 
 .contenair {
     max-width: 1600px;
-    margin: 0 auto;
-    padding: 20px 0;
 }
 
 .column{
