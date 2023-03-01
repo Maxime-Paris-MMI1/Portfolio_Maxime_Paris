@@ -9,7 +9,7 @@
         <div class="contenair mb-96 mt-10 py-44">
             <h1 class=" justify-center flex text-xs text-white font-unbounded mt-16 mb-16 carret">
                 <span class="bg-black py-10 px-10">
-                    À-propos
+                    À-propos-
                 </span>
             </h1>
       </div>
