@@ -6,7 +6,7 @@
   <h1>test</h1>
 </div>
 
-    <section class="mt-10 parallax" style="background-image: url(../../public/images/geometry_node.png); background-position:center 50%; background-size: 180%;" data-speed="0.5">
+    <section class="mt-10 parallax" style="background-image: url(https://cdn.discordapp.com/attachments/887317553398026341/1079679313231757312/IMG_7431.jpg); background-position:center 50%; background-size: 180%;" data-speed="0.5">
       <div class="parallax-content">
         <div class="contenair mb-96 mt-10 py-44">
             <h1 class=" justify-center flex text-xs text-white font-unbounded mt-16 mb-16 carret">
