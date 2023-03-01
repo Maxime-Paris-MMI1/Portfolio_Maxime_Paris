@@ -2,7 +2,9 @@
     <RouterLink to="/">
         <button class="flex justify-center text-white">HOME</button>
     </RouterLink>
-
+<div class="flex justify-center my-96 py-32 text-white" style="background-image: url(../../public/images/geometry_node.png);">
+  <h1>test</h1>
+</div>
 
     <section class="mt-10 parallax" style="background-image: url(../../public/images/geometry_node.png); background-position:center 50%; background-size: 180%;" data-speed="0.5">
       <div class="parallax-content">
