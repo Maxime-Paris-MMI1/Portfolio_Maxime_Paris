@@ -88,8 +88,8 @@
 </template>
 
 <style>
-
-.parallax-effect {
+@media (min-width: 1000px) {
+    .parallax-effect {
         background-image: url("../../../public/images/fond_emorphoz.png");
         min-height: 600px;
         background-attachment: fixed;
@@ -104,6 +104,9 @@
         font-size: 36px;
         text-align: center;
       }
+
+    
+}
 
 
 .carret {
