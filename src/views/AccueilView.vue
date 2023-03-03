@@ -228,31 +228,36 @@
     <div class=" flex flex-row justify-around mt-[50px]">
 
 
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+      <button         
+                       class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
                       lg:text-[25px] 
                       md:text-[22px]
                       sm:text-[20px] 
                       xs:text-[18px]
                       xxs:text-[15px]
-                      xxxs:text-[12px]" @click="filtrerCartes('tout')">Tout</button>
+                      xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
 
 
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+        <button          
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                        lg:text-[25px] 
+                        md:text-[22px]
+                        sm:text-[20px] 
+                        xs:text-[18px]
+                        xxs:text-[15px]
+                        xxxs:text-[12px]" @click="filtrerCartes('éducatif')" v-bind:class="{ 'btn-selected': filtreActif === 'éducatif' }">Éducatif</button>
+
+
+
+      <button 
+                      
+                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
                       lg:text-[25px] 
                       md:text-[22px]
                       sm:text-[20px] 
                       xs:text-[18px]
                       xxs:text-[15px]
-                      xxxs:text-[12px]" @click="filtrerCartes('éducatif')">Éducatif</button>
-
-
-      <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                      lg:text-[25px] 
-                      md:text-[22px]
-                      sm:text-[20px] 
-                      xs:text-[18px]
-                      xxs:text-[15px]
-                      xxxs:text-[12px]" @click="filtrerCartes('personnel')">Personnel</button>
+                      xxxs:text-[12px]" @click="filtrerCartes('personnel')" v-bind:class="{ 'btn-selected': filtreActif === 'personnel' }">Personnel</button>
 
 
     </div>
@@ -436,6 +441,11 @@
 
 <style>
 
+.btn-selected {
+    background-color: white;
+    color: black;
+  }
+
 .animate__slideInRight{
   animation-delay: 0.5s;
 }
@@ -515,12 +525,7 @@
     transform: translate(-100%, 0);
   }
 }
-.curseur:hover {
-  cursor: default;
-}
-#cursor{
-  cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
-}
+
 
 </style>
 
@@ -565,16 +570,17 @@ mounted() {
   data() {
     return {
       cartes: [
-        { id: 1, titre: 'Projet 1', categorie: 'éducatif', },
-        { id: 2, titre: 'Projet 2', categorie: 'personnel' },
-        { id: 3, titre: 'Projet 3', categorie: 'éducatif' },
-        { id: 4, titre: 'Projet 4', categorie: 'personnel' },
-        { id: 5, titre: 'Projet 5', categorie: 'éducatif' },
-        { id: 6, titre: 'Projet 6', categorie: 'personnel' },
-        { id: 7, titre: 'Projet 7', categorie: 'éducatif' },
-        { id: 8, titre: 'Projet 8', categorie: 'personnel' },
-        { id: 9, titre: 'Projet 9', categorie: 'éducatif' },
+        { id: 1, titre: 'E-morphoz', categorie: 'éducatif', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 2, titre: 'Usine Blender', categorie: 'personnel', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 3, titre: 'Togethearth', categorie: 'éducatif', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 4, titre: 'Logo MAX', categorie: 'personnel', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 5, titre: 'Affiche Alpha1', categorie: 'éducatif', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 6, titre: 'Site cookies', categorie: 'personnel', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 7, titre: 'Spread-night', categorie: 'éducatif', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 8, titre: 'MAX Blender', categorie: 'personnel', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
+        { id: 9, titre: 'Meat my grill', categorie: 'éducatif', img_presentation: '../../public/images/e-morphoz_presentation.webp' },
       ],
+      filtreActif: null,
       filtreCategorie: 'tout',
       categorieSelectionnee: 'Tout',
       menuOuvert: false,
@@ -591,7 +597,18 @@ mounted() {
     },
   },
   methods: {
-    filtrerCartes(categorie) {
+
+    setActive(categorie) {
+    if (this.categorie === categorie) {
+      return 'active';
+    } else {
+      return '';
+    }
+  },
+
+    
+    filtrerCartes(categorie, filtre) {
+      this.filtreActif = filtre;
       this.filtreCategorie = categorie;
     },
   },

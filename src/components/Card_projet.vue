@@ -1,5 +1,6 @@
 <template>
-    <RouterLink class="curseur" :to="lien">
+  <div>
+    <RouterLink class="curseur" :to="lien" id="cursor">
       <div class="xs:w-[365px] xs:h-[365px] xxxs:w-[275px] xxxs:h-[275px] relative">
         <!--  -->
         <div class="xs:w-[365px] xs:h-[365px] xxxs:w-[275px] xxxs:h-[275px] absolute left-[-1px] top-[-1px]">
@@ -24,6 +25,7 @@
       </div>
         
     </RouterLink>
+  </div>
 
 </template>
 
@@ -64,6 +66,14 @@
 
 #cursor2{
   cursor: pointer;
+}
+
+.curseur:hover {
+  cursor: default;
+}
+
+#cursor{
+  cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
 }
 
 </style>
