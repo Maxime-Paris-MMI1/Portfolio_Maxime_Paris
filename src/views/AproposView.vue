@@ -1,9 +1,8 @@
 <template>
+
   <header>
     <Header_total/>
   </header>
-
-
 
       <div class="contenair">
               <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px]">
