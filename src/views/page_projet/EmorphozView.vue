@@ -71,7 +71,7 @@
     <div>
         <div class="parallax-effect"></div>
             <div>
-                <p class="text-white font-unbounded flex justify-center text-2xl"></p>
+                <p class="text-white font-unbounded flex justify-center text-2xl">bonjour</p>
             </div>
         <div class="parallax-effect">
         </div>
@@ -99,11 +99,12 @@
       }
 
       .parallax-effect + div {
-        height: 500px;
+        height: 1000px;
         background-image: #000;
         font-size: 36px;
         text-align: center;
       }
+
 
 .carret {
     text-transform: uppercase;
