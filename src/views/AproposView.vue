@@ -5,7 +5,7 @@
   </header>
 
       <div class="contenair">
-              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px]">
+              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px] 2xl:ml-[300px]">
                   <span>
                       À-propos
                   </span>
@@ -29,17 +29,21 @@
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain " /> 
       </div>
     </div>
-    <div class="mb-[5000px]">
 
-    </div>
+    <footer>
+      <div class="mt-[600px]">
+        <Footer_total/>
+      </div>
+    </footer>
 </template>
 
 <script>
 import Header_total from '../components/Header_total.vue'
+import Footer_total from '../components/Footer_total.vue'
 
 export default {
 
-  components: {Header_total},
+  components: {Header_total, Footer_total},
 
 
   data() {
@@ -70,7 +74,7 @@ export default {
 <style>
 
 .parallax-offset {
-  transform: translateY(1000px);
+  transform: translateY(500px);
 }
 
 .parallax-base {

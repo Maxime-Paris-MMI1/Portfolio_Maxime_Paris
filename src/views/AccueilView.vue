@@ -555,7 +555,6 @@
 }
 #cursor{
   cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
-  
 }
 
 </style>
