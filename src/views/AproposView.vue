@@ -9,21 +9,20 @@
 
     <div class="overflow-x-hidden parallax-offset">
       <div class="flex justify-center gap-5">
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px]" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain" />
       </div>
 
       <div class="flex justify-center gap-5">
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px]" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain" />
       </div>
 
       <div class="flex justify-center gap-5">
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] " />
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain " />
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain " /> 
       </div>
     </div>
-
     <div class="mb-[5000px]">
 
     </div>
@@ -45,9 +44,9 @@ export default {
   methods: {
     handleScroll() {
       // Calculer la nouvelle position X en fonction de la position de défilement
-      this.positionX = window.scrollY * 1 // Réglage de la vitesse de défilement
+      this.positionX = window.scrollY * 0.8 // Réglage de la vitesse de défilement
       this.positionXX = window.scrollY * 0.6 // Réglage de la vitesse de défilement
-      this.positionXXX = window.scrollY * 0.4 // Réglage de la vitesse de défilement
+      this.positionXXX = window.scrollY * 0.5 // Réglage de la vitesse de défilement
     }
   },
   beforeDestroy() {
