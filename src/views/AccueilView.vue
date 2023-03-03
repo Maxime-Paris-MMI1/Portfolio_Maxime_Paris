@@ -234,7 +234,7 @@
                       sm:text-[20px] 
                       xs:text-[18px]
                       xxs:text-[15px]
-                      xxxs:text-[12px]">Tout</button>
+                      xxxs:text-[12px]" @click="filtrerCartes('tout')">Tout</button>
 
 
       <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
@@ -243,7 +243,7 @@
                       sm:text-[20px] 
                       xs:text-[18px]
                       xxs:text-[15px]
-                      xxxs:text-[12px]">Éducatif</button>
+                      xxxs:text-[12px]" @click="filtrerCartes('éducatif')">Éducatif</button>
 
 
       <button class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
@@ -252,7 +252,7 @@
                       sm:text-[20px] 
                       xs:text-[18px]
                       xxs:text-[15px]
-                      xxxs:text-[12px]">Personnel</button>
+                      xxxs:text-[12px]" @click="filtrerCartes('personnel')">Personnel</button>
 
 
     </div>
@@ -262,51 +262,16 @@
     <div class="border-t-4 border-white mt-[47px]"></div>
 
     <div class="mx-auto md:w-3/4 xxxs:w-2/4 xxxs:ml-[100px] xxs:mx-auto justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(330px,1fr))]">
-      <div>
-          <Card_projet
-          id="cursor"
-          titre="Educatif"
-          img_presentation="/images/e-morphoz_presentation.webp"
-          lien="/emorphoz"/>
-
+      <div v-for="carte in cartesFiltrees" :key="carte.id">
+        <Card_projet 
+                    :carte="carte" 
+                    :id="carte.id" 
+                    :titre="carte.titre" 
+                    :img_presentation="carte.img_presentation" 
+                    :lien="carte.lien"
+                    v-show="carte.titre === categorieSelectionnee || categorieSelectionnee === 'Tout'"/>
+        
       </div>
-
-      <div>
-        <Card_projet
-        id="cursor"
-        titre="Educatif"
-        img_presentation="/images/e-morphoz_presentation.webp"/>
-      </div>
-
-      <div>
-        <Card_projet
-        id="cursor"
-        titre="Educatif"
-        img_presentation="/images/e-morphoz_presentation.webp"/>
-      </div>
-
-      <div>
-        <Card_projet
-        id="cursor"
-        titre="Personnel"
-        img_presentation="/images/e-morphoz_presentation.webp"/>
-      </div>
-
-      <div>
-        <Card_projet
-        id="cursor"
-        titre="Personnel"
-        img_presentation="/images/e-morphoz_presentation.webp"/>
-      </div>
-
-      <div>
-        <Card_projet
-        id="cursor"
-        titre="Personnel"
-        img_presentation="/images/e-morphoz_presentation.webp"
-        lien="/emorphoz"/>
-      </div>
-
     </div>
 
     <div class="flex justify-center mt-20 relative z-20 mb-20">
@@ -560,6 +525,8 @@
 </style>
 
 <script>
+
+
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
 import Barre_contact from '../components/icons/barre_contact.vue';
@@ -583,9 +550,53 @@ export default {
   });
 
 },
-data() {
-    return {
-      menuOuvert: false,
+
+mounted() {
+    // Récupérer l'ancre dans l'URL
+    const anchor = window.location.hash.slice(1);
+    // Vérifier si l'ancre existe sur la page
+    const element = document.getElementById(anchor);
+    if (element) {
+      // Scroll vers l'ancre
+      element.scrollIntoView({ behavior: 'smooth' });
     }
-}}
+  },
+
+  data() {
+    return {
+      cartes: [
+        { id: 1, titre: 'Projet 1', categorie: 'éducatif', },
+        { id: 2, titre: 'Projet 2', categorie: 'personnel' },
+        { id: 3, titre: 'Projet 3', categorie: 'éducatif' },
+        { id: 4, titre: 'Projet 4', categorie: 'personnel' },
+        { id: 5, titre: 'Projet 5', categorie: 'éducatif' },
+        { id: 6, titre: 'Projet 6', categorie: 'personnel' },
+        { id: 7, titre: 'Projet 7', categorie: 'éducatif' },
+        { id: 8, titre: 'Projet 8', categorie: 'personnel' },
+        { id: 9, titre: 'Projet 9', categorie: 'éducatif' },
+      ],
+      filtreCategorie: 'tout',
+      categorieSelectionnee: 'Tout',
+      menuOuvert: false,
+    };
+  },
+
+  computed: {
+    cartesFiltrees() {
+      if (this.filtreCategorie === 'tout') {
+        return this.cartes;
+      } else {
+        return this.cartes.filter(carte => carte.categorie === this.filtreCategorie);
+      }
+    },
+  },
+  methods: {
+    filtrerCartes(categorie) {
+      this.filtreCategorie = categorie;
+    },
+  },
+
+}
+
+
 </script>

@@ -1,28 +1,9 @@
 <template>
-    <div id="app">
-       <router-view v-slot="{ Component }">
-        <div>
-          <transition name="fade" mode="out-in">
-            <div>
-              <component :is="Component" />
-            </div>
-          </transition>
-        </div>
-       </router-view>
-     </div>
+  <router-view/>
+
 </template>
 
 <style>
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
 
 body::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */

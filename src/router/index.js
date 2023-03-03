@@ -4,6 +4,7 @@ import EmorphozView from '../views/page_projet/EmorphozView.vue'
 import AproposView from '../views/AproposView.vue'
 import ProjetsView from '../views/ProjetsView.vue'
 import MentionslegalesView from '../views/MentionslegalesView.vue'
+import Togethearth from '../views/page_projet/Togethearth.vue'
 
 
 const router = createRouter({
@@ -14,6 +15,7 @@ const router = createRouter({
     { path: '/a_propos', name: 'AproposView', component: AproposView, },
     { path: '/projets', name: 'ProjetsView', component: ProjetsView, },
     { path: '/mentions_legales', name: 'MentionslegalesView', component: MentionslegalesView, },
+    { path: '/togethearth', name: 'Togethearth', component: Togethearth, },
     // ici les autre routes
   ]
 })
