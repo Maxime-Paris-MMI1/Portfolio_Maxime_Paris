@@ -3,18 +3,26 @@
         <button class="flex justify-center text-white">HOME</button>
     </RouterLink>
 
-    <div class="overflow-x-hidden parallax-offset">
-      <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5" />
-      <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] -ml-10 mb-5" />
-      <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] -ml-20" />
-    </div>
-
-
     <div>
-      <h3 class="text-white flex justify-center text-2xl -mt-96">TEST Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis accusantium vitae, quia consectetur doloremque a odit quam sapiente nihil qui dolores voluptatem labore numquam quaerat vel eius tempora eligendi doloribus.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi architecto a ad accusamus itaque, quaerat reprehenderit, quos repudiandae odio nulla quidem. Temporibus eum delectus odit quos repellendus repudiandae a quaerat!</p>
     </div>
 
+    <div class="overflow-x-hidden parallax-offset">
+      <div class="flex justify-center gap-5">
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px]" />
+      </div>
 
+      <div class="flex justify-center gap-5">
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px]" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5" />
+      </div>
+
+      <div class="flex justify-center gap-5">
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] " />
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] " /> 
+      </div>
+    </div>
 
     <div class="mb-[5000px]">
 
@@ -37,9 +45,9 @@ export default {
   methods: {
     handleScroll() {
       // Calculer la nouvelle position X en fonction de la position de défilement
-      this.positionX = window.scrollY * 0.8 // Réglage de la vitesse de défilement
-      this.positionXX = window.scrollY * 0.5 // Réglage de la vitesse de défilement
-      this.positionXXX = window.scrollY * 0.3 // Réglage de la vitesse de défilement
+      this.positionX = window.scrollY * 1 // Réglage de la vitesse de défilement
+      this.positionXX = window.scrollY * 0.6 // Réglage de la vitesse de défilement
+      this.positionXXX = window.scrollY * 0.4 // Réglage de la vitesse de défilement
     }
   },
   beforeDestroy() {
@@ -57,7 +65,7 @@ export default {
 
 .parallax-base {
   position: relative;
-  right: 100px;
+  right: 800px;
 }
 
 
