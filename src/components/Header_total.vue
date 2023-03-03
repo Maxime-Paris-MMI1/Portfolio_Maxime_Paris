@@ -39,8 +39,10 @@
 
 
     <div class="xs:hidden flex justify-between mx-8 mt-10">
-      <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeIn
-      xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+      <RouterLink to="/">
+        <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeIn
+        xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+      </RouterLink>
 
       <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
         <div>
@@ -71,9 +73,10 @@
 
 
     <div class="xxxs:hidden lg:hidden xs:flex flex justify-between mx-8 mt-10">
-
-      <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeIn
-      xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+      <RouterLink to="/">
+        <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeIn
+        xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+      </RouterLink>
 
       <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
         <div>
