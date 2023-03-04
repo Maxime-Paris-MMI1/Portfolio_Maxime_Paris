@@ -614,6 +614,4 @@ mounted() {
   },
 
 }
-
-
 </script>
