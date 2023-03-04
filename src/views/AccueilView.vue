@@ -267,25 +267,25 @@
     <div class="border-t-4 border-white mt-[47px]"></div>
 
     <!-- <div class="mx-auto md:w-3/4 xxxs:w-2/4 xxxs:ml-[100px] xxs:mx-auto justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(330px,1fr))]">-->
-    <div class="flex flex-col items-center">
-      <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
-  
-  
-        <div v-for="carte in cartesFiltrees" :key="carte.id">
-          <Card_projet 
-                      :carte="carte" 
-                      :id="carte.id" 
-                      :titre="carte.titre" 
-                      :img_presentation="carte.img_presentation" 
-                      :lien="carte.lien"
-                      v-show="carte.titre === categorieSelectionnee || categorieSelectionnee === 'Tout'"/>
+      <div class="flex flex-col items-center">
+        <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
+          
+          
+          <div v-for="carte in cartesFiltrees" :key="carte.id">
+            <Card_projet 
+            :carte="carte" 
+            :id="carte.id" 
+            :titre="carte.titre" 
+            :img_presentation="carte.img_presentation" 
+            :lien="carte.lien"
+            v-show="carte.titre === categorieSelectionnee || categorieSelectionnee === 'Tout'"/>
+            
+          </div>
+          
           
         </div>
-  
-  
       </div>
-    </div>
-
+        
     <div class="flex justify-center mt-20 relative z-20 mb-20">
 
       <button class="text-white font Unbounded                      
@@ -447,7 +447,6 @@
 
 
 <style>
-
 .btn-selected {
     background-color: white;
     color: black;
@@ -605,20 +604,10 @@ mounted() {
   },
   methods: {
 
-    setActive(categorie) {
-    if (this.categorie === categorie) {
-      return 'active';
-    } else {
-      return '';
-    }
-  },
 
     
-    filtrerCartes(categorie, filtre) {
-      this.filtreActif = filtre;
+    filtrerCartes(categorie) {
       this.filtreCategorie = categorie;
     },
-  },
-
-}
+}};
 </script>
