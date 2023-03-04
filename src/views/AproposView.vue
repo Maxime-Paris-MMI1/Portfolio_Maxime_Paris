@@ -15,28 +15,28 @@
 
     <div class="overflow-x-hidden parallax-offset">
       <div class="flex justify-center gap-5 -ml-[1500px]">
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain hidden lg:flex" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain hidden lg:flex" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Casque_large.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
       </div>
 
       <div class="flex justify-center gap-5">
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Togethearth_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Spread_night_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
       </div>
 
       <div class="flex justify-center gap-5 -ml-[1500px]">
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain " />
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain " /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain " /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/fond_emorphoz.png" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " />
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
       </div>
     </div>
 
