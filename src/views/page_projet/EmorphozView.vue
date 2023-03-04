@@ -90,7 +90,7 @@
 <style>
 @media (min-width: 1000px) {
     .parallax-effect {
-        background-image: url("../../../public/images/fond_emorphoz.png");
+        background-image: url("../../../public/images/fond_emorphoz.webp");
         min-height: 600px;
         background-attachment: fixed;
         background-position: center;
