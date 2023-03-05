@@ -12,9 +12,84 @@
               </h1>
       </div>
 
+      <div class="flex justify-center">
+        <img class="w-[500px] -mt-10" src="../../public/images/card-apropos.webp" alt="image de présentation">
+      </div>
+
+      <div class="flex justify-center mt-[90px]">
+        <p class="font-unbounded font-[700] text-[25px] text-white">Bonjour et bienvenue sur mon site portfolio !</p>
+      </div>
+      <div class="mx-60 mt-10">
+        <p class="font-ubuntu text-[16px] text-white text-left mb-6 font-[400]">
+            Je m'appelle Maxime et je suis actuellement âgé de 19 ans. Je suis étudiant en bachelor orienté vers les métiers du multimédia et de l'internet à Montbéliard, où j'ai choisi de me spécialiser en design. Ce portfolio est crée dans le cadre d’un exercice pédagogique au sein de ma formation.
+        </p>
+        <p class="font-ubuntu text-[16px] text-white text-left mb-6 font-[400]">
+          Grâce au MMI, j'ai pu acquérir des compétences techniques solides dans les domaines du design graphique, de la création de sites web et de l'expérience utilisateur. J'ai également appris à travailler en équipe et à communiquer efficacement avec mes collègues de travail.
+
+        </p>
+        <p class="font-ubuntu text-[16px] text-white text-left mb-6 font-[400]">
+          Je suis passionné par le design depuis plusieurs années et j'ai eu l'opportunité de travailler sur divers projets. J'aime concevoir des visuels et toute sorte de design graphique à destinations de clients.
+        </p>
+        <p class="font-ubuntu text-[16px] text-white text-left font-[400]"> 
+          Sur ce site, vous trouverez une sélection de mes travaux récents, ainsi que des informations sur mes compétences. N'hésitez pas à me contacter si vous avez des questions !
+        </p>
+      </div>
+
+      <div class="flex justify-center mt-28 mb-10">
+      <a href="mailto:maximepro.contact25@gmail.com">
+        <button class="text-white font Unbounded 
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px] 
+        font-bold border 
+        lg:px-[130px]
+        md:px-[110px]
+        sm:px-[90px] 
+        xs:px-[70px]
+        xxs:px-[50px]
+        xxxs:px-[50px] 
+         py-3 animation_texte">Me contacter par mail</button>
+
+
+      </a>
+    </div>
+
+    <div class="flex justify-center mt-[150px]">
+        <p class="font-unbounded font-[700] text-[25px] text-white">Mes principales qualités</p>
+    </div>
+    <div class="flex justify-center items-center gap-16 mt-16">
+
+      <div class="flex flex-col gap-8">
+        <img src="../../public/images/creatif.webp" alt="icone créatif">
+        <p class="text-white font-unbounded font-bold flex justify-center">Créatif</p>
+      </div>
+
+      <Barre_contact/>
+
+      <div class="flex flex-col gap-8">
+        <img src="../../public/images/veille.webp" alt="icone veille">
+        <p class="text-white font-unbounded font-bold flex justify-center">Veille</p>
+      </div>
+
+      <Barre_contact/>
+
+      <div class="flex flex-col gap-8">
+        <img src="../../public/images/autonome.webp" alt="icone autonome">
+        <p class="text-white font-unbounded font-bold flex justify-center">Autonome</p>
+      </div>
+
+    </div>
+
+    <div class="flex justify-center mt-[150px]">
+        <p class="font-unbounded font-[700] text-[25px] text-white">N’hésitez pas à voir mes projets !</p>
+    </div>
+
 
     <div class="overflow-x-hidden parallax-offset">
-      <div class="flex justify-center gap-5 -ml-[1500px]">
+      <div class="flex justify-center gap-5 -ml-[4000px]">
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Casque_large.webp" class="parallax-base h-[300px] object-contain" />
@@ -23,7 +98,7 @@
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
       </div>
 
-      <div class="flex justify-center gap-5">
+      <div class="flex justify-center gap-5 -mr-[1900px]">
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Togethearth_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Spread_night_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
@@ -31,7 +106,7 @@
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
       </div>
 
-      <div class="flex justify-center gap-5 -ml-[1500px]">
+      <div class="flex justify-center gap-5 -ml-[2900px]">
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " />
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] object-contain " /> 
@@ -41,19 +116,20 @@
     </div>
 
     <footer>
-      <div class="mt-[600px]">
+      <div class="mt-[100px]">
         <Footer_total/>
       </div>
     </footer>
 </template>
 
 <script>
+import Barre_contact from '../components/icons/barre_contact.vue';
 import Header_total from '../components/Header_total.vue'
 import Footer_total from '../components/Footer_total.vue'
 
 export default {
 
-  components: {Header_total, Footer_total},
+  components: {Header_total, Footer_total, Barre_contact},
 
 
   data() {
@@ -84,7 +160,7 @@ export default {
 <style>
 
 .parallax-offset {
-  transform: translateY(500px);
+  transform: translateY(50px);
 }
 
 .parallax-base {

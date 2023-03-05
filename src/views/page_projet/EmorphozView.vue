@@ -6,7 +6,7 @@
 
 
     <div class="contenair">
-            <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[100px]">
+            <h1 class=" justify-center flex text-[5xl] text-white font-unbounded mt-16 mb-16 carret lg:-mt-[100px]">
                 <span>
                     E-morphoz
                 </span>
@@ -23,7 +23,7 @@
         <div class="row">
             
             <div class="heading-content text-black">
-                <h4 class="bg-white text-center font-unbounded">Présentation</h4>
+                <h4 class="bg-white text-center font-unbounded text-[25px]">Présentation</h4>
                 <div class="text-white text-lg">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
@@ -45,7 +45,7 @@
         </div>
         <div class="row">
             <div class="heading-content text-black">
-                <h4 class="bg-white text-center font-unbounded">Logo</h4>
+                <h4 class="bg-white text-center font-unbounded text-[25px]">Logo</h4>
             </div>
             
             <div class="pictures-container">
@@ -57,7 +57,7 @@
 
         <div class="row">
             <div class="heading-content text-black">
-                <h4 class="bg-white text-center font-unbounded">Harmonie colorée</h4>
+                <h4 class="bg-white text-center font-unbounded text-[25px]">Harmonie colorée</h4>
             </div>
             
             <div class="pictures-container">
