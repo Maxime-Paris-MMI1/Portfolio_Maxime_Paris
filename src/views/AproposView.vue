@@ -1,16 +1,18 @@
 <template>
-
-  <header>
-    <Header_total/>
-  </header>
-
-      <div class="contenair">
-              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px]">
-                  <span>
-                      À-propos
-                  </span>
-              </h1>
-      </div>
+  <div class="derriere2">
+    <header>
+      <Header_total/>
+    </header>
+  
+        <div class="contenair">
+                <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 pb-16 carret lg:-mt-[0px]">
+                    <span>
+                        À-propos
+                    </span>
+                </h1>
+        </div>
+  </div>
+  <div class="border-t-4 border-white"></div>
 
       <div class="flex justify-center">
         <img class="w-[500px] -mt-10" src="../../public/images/card-apropos.webp" alt="image de présentation">
@@ -178,6 +180,23 @@ export default {
 </script>
 
 <style>
+
+.derriere2 {
+  position: relative;
+}
+.derriere2::before {
+  content: "";
+  background-image: url(../../public/images/Emorphoz_large.webp);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
 .parallax-offset {
   transform: translateY(50px);

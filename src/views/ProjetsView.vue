@@ -90,9 +90,9 @@
 }
 .derriere::before {
   content: "";
-  background-image: url(../../public/images/Max_Blender_large.webp);
+  background-image: url(../../public/images/Usine_large.webp);
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
