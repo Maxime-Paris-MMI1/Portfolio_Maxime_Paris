@@ -17,20 +17,28 @@
       </div>
 
       <div class="flex justify-center mt-[90px]">
-        <p class="font-unbounded font-[700] text-[25px] text-white">Bonjour et bienvenue sur mon site portfolio !</p>
+        <p class="font-unbounded font-[700] text-white mx-10
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]">Bienvenue sur mon site portfolio !</p>
       </div>
-      <div class="mx-60 mt-10">
-        <p class="font-ubuntu text-[16px] text-white text-left mb-6 font-[400]">
+
+
+      <div class="xxxs:mx-auto xxxs:ml-10 xxxs:mr-10 xxxs:mt-10 sm:mx-60">
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400]">
             Je m'appelle Maxime et je suis actuellement âgé de 19 ans. Je suis étudiant en bachelor orienté vers les métiers du multimédia et de l'internet à Montbéliard, où j'ai choisi de me spécialiser en design. Ce portfolio est crée dans le cadre d’un exercice pédagogique au sein de ma formation.
         </p>
-        <p class="font-ubuntu text-[16px] text-white text-left mb-6 font-[400]">
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400]">
           Grâce au MMI, j'ai pu acquérir des compétences techniques solides dans les domaines du design graphique, de la création de sites web et de l'expérience utilisateur. J'ai également appris à travailler en équipe et à communiquer efficacement avec mes collègues de travail.
 
         </p>
-        <p class="font-ubuntu text-[16px] text-white text-left mb-6 font-[400]">
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400]">
           Je suis passionné par le design depuis plusieurs années et j'ai eu l'opportunité de travailler sur divers projets. J'aime concevoir des visuels et toute sorte de design graphique à destinations de clients.
         </p>
-        <p class="font-ubuntu text-[16px] text-white text-left font-[400]"> 
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left font-[400]"> 
           Sur ce site, vous trouverez une sélection de mes travaux récents, ainsi que des informations sur mes compétences. N'hésitez pas à me contacter si vous avez des questions !
         </p>
       </div>
@@ -57,24 +65,30 @@
       </a>
     </div>
 
-    <div class="flex justify-center mt-[150px]">
-        <p class="font-unbounded font-[700] text-[25px] text-white">Mes principales qualités</p>
+    <div class="flex justify-center mt-[150px] mx-10">
+        <p class="font-unbounded font-[700] text-white
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]">Mes principales qualités</p>
     </div>
-    <div class="flex justify-center items-center gap-16 mt-16">
+    <div class="flex md:flex-row xxxs:flex-col justify-center items-center gap-16 mt-16">
 
       <div class="flex flex-col gap-8">
         <img src="../../public/images/creatif.webp" alt="icone créatif">
         <p class="text-white font-unbounded font-bold flex justify-center">Créatif</p>
       </div>
 
-      <Barre_contact/>
+      <Barre_contact class="md:flex xxxs:hidden"/>
 
       <div class="flex flex-col gap-8">
         <img src="../../public/images/veille.webp" alt="icone veille">
         <p class="text-white font-unbounded font-bold flex justify-center">Veille</p>
       </div>
 
-      <Barre_contact/>
+      <Barre_contact class="md:flex xxxs:hidden"/>
 
       <div class="flex flex-col gap-8">
         <img src="../../public/images/autonome.webp" alt="icone autonome">
@@ -83,13 +97,19 @@
 
     </div>
 
-    <div class="flex justify-center mt-[150px]">
-        <p class="font-unbounded font-[700] text-[25px] text-white">N’hésitez pas à voir mes projets !</p>
+    <div class="flex justify-center mt-[150px] mx-10">
+        <p class="font-unbounded font-[700] text-white
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]">N’hésitez pas à voir mes projets !</p>
     </div>
 
 
     <div class="overflow-x-hidden parallax-offset">
-      <div class="flex justify-center gap-5 -ml-[4000px]">
+      <div class="flex justify-center gap-5 xxxs:-ml-[4800px] md:-ml-[4000px]">
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Casque_large.webp" class="parallax-base h-[300px] object-contain" />
@@ -98,7 +118,7 @@
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
       </div>
 
-      <div class="flex justify-center gap-5 -mr-[1900px]">
+      <div class="flex justify-center gap-5 xxxs:-mr-[2350px] md:-mr-[1900px]">
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Togethearth_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Spread_night_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
@@ -106,10 +126,10 @@
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
       </div>
 
-      <div class="flex justify-center gap-5 -ml-[2900px]">
+      <div class="flex justify-center gap-5 xxxs:-ml-[3200px] md:-ml-[2800px]">
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " />
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
       </div>
