@@ -1,81 +1,107 @@
 <template>
-    <header>
-        <Header_total/>
-    </header>
-    <section>
-        <div class="contenair">
-              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px] 2xl:ml-[300px]">
-                  <span>
-                      Mes projets
-                  </span>
-              </h1>
-        </div>
-
-
-        <div class=" flex flex-row justify-around mt-[50px]">
-
-
-                <button         
-                 class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                lg:text-[25px] 
-                md:text-[22px]
-                sm:text-[20px] 
-                xs:text-[18px]
-                xxs:text-[15px]
-                xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
-
-
-                  <button          
+  <div class="derriere">
+        <header>
+            <Header_total/>
+        </header>
+        <section>
+          <div class="contenair">
+                <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px]">
+                    <span>
+                        Mes projets
+                    </span>
+                </h1>
+          </div>
+  
+  
+          <div class=" flex flex-row justify-around mt-[50px] pb-[47px]">
+  
+  
+                  <button         
+                   class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                  lg:text-[25px] 
+                  md:text-[22px]
+                  sm:text-[20px] 
+                  xs:text-[18px]
+                  xxs:text-[15px]
+                  xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
+  
+  
+                    <button          
+                    class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                    lg:text-[25px] 
+                    md:text-[22px]
+                    sm:text-[20px] 
+                    xs:text-[18px]
+                    xxs:text-[15px]
+                    xxxs:text-[12px]" @click="filtrerCartes('éducatif')" v-bind:class="{ 'btn-selected': filtreActif === 'éducatif' }">Éducatif</button>
+  
+  
+  
+                  <button 
+                  
                   class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
                   lg:text-[25px] 
                   md:text-[22px]
                   sm:text-[20px] 
                   xs:text-[18px]
                   xxs:text-[15px]
-                  xxxs:text-[12px]" @click="filtrerCartes('éducatif')" v-bind:class="{ 'btn-selected': filtreActif === 'éducatif' }">Éducatif</button>
-
-
-
-                <button 
-                
-                class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                lg:text-[25px] 
-                md:text-[22px]
-                sm:text-[20px] 
-                xs:text-[18px]
-                xxs:text-[15px]
-                xxxs:text-[12px]" @click="filtrerCartes('personnel')" v-bind:class="{ 'btn-selected': filtreActif === 'personnel' }">Personnel</button>
-
+                  xxxs:text-[12px]" @click="filtrerCartes('personnel')" v-bind:class="{ 'btn-selected': filtreActif === 'personnel' }">Personnel</button>
+  
+  
+          </div>
+        </section>
 
         </div>
 
-        <div class="border-t-4 border-white mt-[47px]"></div>
-
-        <div class="flex flex-col items-center">
-            <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
-            
-            
-              <div v-for="carte in cartesFiltrees" :key="carte.id">
-                <Card_projet 
-                :carte="carte" 
-                :id="carte.id" 
-                :titre="carte.titre" 
-                :img_presentation="carte.img_presentation" 
-                :lien="carte.lien"
-                v-show="carte.titre === categorieSelectionnee || categorieSelectionnee === 'Tout'"/>
-
+        <section>
+          <div class="border-t-4 border-white"></div>
+  
+          <div class="flex flex-col items-center">
+              <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
+              
+              
+                <div v-for="carte in cartesFiltrees" :key="carte.id">
+                  <Card_projet 
+                  :carte="carte" 
+                  :id="carte.id" 
+                  :titre="carte.titre" 
+                  :img_presentation="carte.img_presentation" 
+                  :lien="carte.lien"
+                  v-show="carte.titre === categorieSelectionnee || categorieSelectionnee === 'Tout'"/>
+  
+                </div>
+  
+  
               </div>
+          </div>
+        </section>
 
 
-            </div>
-        </div>
 
-    </section>
 
     <footer>
         <Footer_total/>
     </footer>
 </template>
+
+<style> 
+.derriere {
+  position: relative;
+}
+.derriere::before {
+  content: "";
+  background-image: url(../../public/images/Max_Blender_large.webp);
+  background-position: center;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+</style>
 
 <script>
 

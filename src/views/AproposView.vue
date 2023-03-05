@@ -5,7 +5,7 @@
   </header>
 
       <div class="contenair">
-              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px] 2xl:ml-[300px]">
+              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:-mt-[0px]">
                   <span>
                       À-propos
                   </span>
@@ -187,67 +187,4 @@ export default {
   position: relative;
   left: 200px;
 }
-
-.carret {
-    text-transform: uppercase;
-    color: #000;
-    font-weight: 900;
-    color: transparent;
-    font-size: 0px;
-}
-
-.carret span {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    font-size: clamp(20px, 8vw, 120px);
-}
-
-
-.carret span::after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-}
-.carret:nth-child(1) {
-    font-weight: 600;
-    animation: txt-appearance 0s 1s forwards,  /* Ajouter une animation de fondu enchaîné */
-    
-}
-
-.carret:nth-child(1) span::after {
-    background:#fff;
-    animation: slide-in 0.75s ease-out forwards,
-    slide-out 0.75s 1s ease-out forwards;
-}
-
-@keyframes slide-in {
-    100% {
-        transform: translateX(0%);
-    }
-}
-@keyframes slide-out {
-    90%{
-        opacity: 1;
-    }
-    100% {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-}
-@keyframes txt-appearance {
-    100% {
-        color: #fff;
-    }
-}
-
-
-
-
-
 </style>

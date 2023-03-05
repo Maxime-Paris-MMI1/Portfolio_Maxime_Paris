@@ -2,12 +2,12 @@
 <header>
     <div class=" justify-between items-start lg:flex hidden">
       <RouterLink to="/">
-        <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeIn
+        <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] pt-[90px] object-contain animate__animated animate__fadeIn
         xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
       </RouterLink>
 
 
-      <div class="mt-[90px] relative z-30 animate__animated animate__fadeIn">
+      <div class="pt-[90px] relative z-30 animate__animated animate__fadeIn">
         <ul class="text-white text-right font-unbounded text-xl font-bold">
 
           <div class="flex justify-end">
@@ -38,7 +38,7 @@
 
 
 
-    <div class="xs:hidden flex justify-between mx-8 mt-10">
+    <div class="xs:hidden flex justify-between mx-8 pt-10">
       <RouterLink to="/">
         <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeIn
         xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
@@ -72,7 +72,7 @@
 
 
 
-    <div class="xxxs:hidden lg:hidden xs:flex flex justify-between mx-8 mt-10">
+    <div class="xxxs:hidden lg:hidden xs:flex flex justify-between mx-8 pt-10">
       <RouterLink to="/">
         <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeIn
         xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">

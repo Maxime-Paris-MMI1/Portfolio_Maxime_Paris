@@ -121,7 +121,7 @@
     display: inline-block;
     position: relative;
     overflow: hidden;
-    font-size: clamp(20px, 8vw, 120px);
+    font-size: clamp(15px, 6vw, 80px);
 }
 
 
@@ -172,7 +172,7 @@
 
 
 .contenair {
-    max-width: 1600px;
+    max-width: 6000px;
 }
 
 .column{
