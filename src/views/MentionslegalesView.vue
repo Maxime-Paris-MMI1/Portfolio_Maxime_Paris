@@ -1,19 +1,24 @@
 <template>
+  <div class="derriere3">
     <header>
         <Header_total/>
     </header>
     <section>
         <div class="contenair">
-              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 mb-16 carret lg:mt-[20px]">
+              <h1 class=" justify-center flex text-5xl text-white font-unbounded mt-16 pb-16 carret lg:mt-[20px]">
                   <span>
                       Mentions légales
                   </span>
               </h1>
         </div>
+
+        <div class="border-t-4 border-white"></div>
+    </section>
+  </div>
+
         <div class="mb-40 text-white">
             <h3 class="text-white">Information de contact</h3>
         </div>
-    </section>
 
     <footer>
         <Footer_total/>
@@ -23,6 +28,27 @@
 
 
 </template>
+
+<style>
+
+.derriere3 {
+  position: relative;
+}
+.derriere3::before {
+  content: "";
+  background-image: url(../../public/images/Blender_site_large.webp);
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  background-position: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+</style>
 
 <script>
 
