@@ -266,7 +266,6 @@
   <section>
     <div class="border-t-4 border-white mt-[47px]"></div>
 
-    <!-- <div class="mx-auto md:w-3/4 xxxs:w-2/4 xxxs:ml-[100px] xxs:mx-auto justify-center items-center gap-7 mt-20 mb-20 grid grid-cols-[repeat(auto-fit,minmax(330px,1fr))]">-->
       <div class="flex flex-col items-center">
         <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
           
