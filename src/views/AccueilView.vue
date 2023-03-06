@@ -301,6 +301,7 @@
       </button>
 
     </div>
+
   </section>
   <section id="contact">
     <div class="ml-[128px] sm:ml-[100px] xxxs:ml-[40px]">
@@ -446,6 +447,7 @@
 
 
 <style>
+
 .btn-selected {
     background-color: white;
     color: black;
@@ -536,7 +538,7 @@
 
 <script>
 
-
+import Parallax from 'parallax-js'
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';
 import Barre_contact from '../components/icons/barre_contact.vue';
@@ -546,6 +548,7 @@ import Barre_contact from '../components/icons/barre_contact.vue';
 
 export default {
   components: { Barre_menu, Card_projet, Barre_contact },
+  
 
   beforeMount() {
   this.$router.afterEach(() => (this.menuOuvert = false));
@@ -570,6 +573,7 @@ mounted() {
       // Scroll vers l'ancre
       element.scrollIntoView({ behavior: 'smooth' });
     }
+
   },
 
   data() {
@@ -577,10 +581,7 @@ mounted() {
       cartes: [
         { id: 1, titre: 'E-morphoz', categorie: 'éducatif', img_presentation: 'images/e-morphoz_presentation.webp', lien: '/emorphoz' },
         { id: 2, titre: 'Usine Blender', categorie: 'personnel', img_presentation: 'images/Usine_blender.webp', lien: '/emorphoz' },
-        // { id: 3, titre: 'Togethearth', categorie: 'éducatif', img_presentation: 'images/Togethearth_presentation.jpg', lien: '/emorphoz' },
         { id: 3, titre: 'Logo MAX', categorie: 'personnel', img_presentation: 'images/Logo_MAX.webp', lien: '/emorphoz' },
-        // { id: 4, titre: 'Affiche Alpha1', categorie: 'éducatif', img_presentation: 'images/Alpha1.webp', lien: '/emorphoz' },
-        // { id: 6, titre: 'Site cookies', categorie: 'personnel', img_presentation: 'images/Animation_cookie.webp', lien: '/emorphoz' },
         { id: 5, titre: 'Meat my grill', categorie: 'éducatif', img_presentation: 'images/Meat_my_grill.webp', lien: '/emorphoz' },
         { id: 6, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/emorphoz' },
         { id: 7, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/emorphoz' },
