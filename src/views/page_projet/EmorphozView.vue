@@ -21,11 +21,13 @@
 
     <div class="column">
 
+        <!-- Première partie -->
+
 
             <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded text-[25px]">Présentation</h4>
+                    <h4 class="bg-white text-center font-unbounded text-[25px] mb-3">Présentation</h4>
     
                     <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
@@ -60,32 +62,91 @@
             </div>
 
 
-        <div class="row">
-            <div class="heading-content text-black">
-                <h4 class="bg-white text-center font-unbounded text-[25px]">Logo</h4>
+            <!-- Deuxième partie -->
+
+
+            <div class="row">
+                
+                <div class="heading-content text-black">
+                    <h4 class="bg-white text-center font-unbounded text-[25px] mb-3">Logo</h4>
+    
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="pictures-container">
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-10 justify-center">
+                        <img class="h-[300px] object-contain" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
+                        <img class="h-[300px] object-contain" src="../../../public/images/photo-perso.webp" alt="">
+                    </div>
+    
+    
+                </div>
+    
             </div>
-            
-            <div class="pictures-container">
 
-                <img src="../../../public/images/e-morphoz_presentation.webp" alt="">
 
+
+            <!-- Troisième Partie -->
+
+            <div class="row">
+                
+                <div class="heading-content text-black">
+                    <h4 class="bg-white text-center font-unbounded text-[25px] mb-3">Harmonie colorée</h4>
+    
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="pictures-container">
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-10 justify-center">
+                        <img class="h-[300px] object-contain" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
+                        <img class="h-[300px] object-contain" src="../../../public/images/photo-perso.webp" alt="">
+                    </div>
+    
+    
+                </div>
+    
             </div>
-        </div>
 
 
-
-        <div class="row">
-            <div class="heading-content text-black">
-                <h4 class="bg-white text-center font-unbounded text-[25px]">Harmonie colorée</h4>
-            </div>
-            
-            <div class="pictures-container">
-
-                <img src="../../../public/images/e-morphoz_presentation.webp" alt="">
-
-            </div>
-        </div>
     </div> 
+
+    <div class="border-t-4 border-white"></div>
 
     <div>
         <div class="parallax-effect"></div>
