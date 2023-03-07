@@ -13,9 +13,10 @@
             </h1>
     </div>
 
-    <div class="flex justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/38MRUKACrD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="flex justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3 ">
+        <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] xfoo:h-[315px] sm:w-[800px] sm:h-[450px]" src="https://www.youtube.com/embed/38MRUKACrD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+    <div class="border-t-4 border-white"></div>
 
 
 
