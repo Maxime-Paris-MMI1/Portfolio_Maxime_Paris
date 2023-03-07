@@ -13,7 +13,7 @@
             </h1>
     </div>
 
-    <div class="flex justify-center mb-48">
+    <div class="flex justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3">
         <img class="w-[1000px]" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
     </div>
 
@@ -27,7 +27,7 @@
                 <div class="heading-content text-black">
                     <h4 class="bg-white text-center font-unbounded text-[25px]">Présentation</h4>
     
-                    <div class="text-white text-lg hidden sm:flex">
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
@@ -39,7 +39,7 @@
                 </div>
     
                 <div class="pictures-container">
-                    <div class="text-white text-lg flex sm:hidden">
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
@@ -48,9 +48,12 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
                         </p>
                     </div>
+
+                    <div class="flex flex-col gap-10 justify-center">
+                        <img class="h-[300px] object-contain" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
+                        <img class="h-[300px] object-contain" src="../../../public/images/photo-perso.webp" alt="">
+                    </div>
     
-                    <img src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
-                    <img src="../../../public/images/photo-perso.webp" alt="">
     
                 </div>
     
