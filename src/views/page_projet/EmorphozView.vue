@@ -63,8 +63,12 @@
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
-                        <img class="h-[300px] object-contain" src="../../../public/images/photo-perso.webp" alt="">
+                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation.webp" alt="vidéo de présentation de mon projet">
+                        <div class="flex justify-center gap-3 mb-10">
+                            <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                            <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                            <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                        </div>
                     </div>
     
     
@@ -111,8 +115,8 @@
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
-                        <img class="h-[300px] object-contain" src="../../../public/images/photo-perso.webp" alt="">
+                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_logo.webp" alt="vidéo de présentation de mon projet">
+                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_logo2.webp" alt="">
                     </div>
     
     
@@ -159,8 +163,7 @@
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
-                        <img class="h-[300px] object-contain" src="../../../public/images/photo-perso.webp" alt="">
+                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
                     </div>
     
     
