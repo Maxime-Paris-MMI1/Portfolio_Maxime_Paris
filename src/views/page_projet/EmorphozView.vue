@@ -14,8 +14,9 @@
     </div>
 
     <div class="flex justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3">
-        <img class="w-[1000px]" src="../../../public/images/gif_rendu_final.gif" alt="vidéo de présentation de mon projet">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u_M7HGD5Xz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+
 
 
 
@@ -306,5 +307,19 @@ export default {
   components :{Header_total, Footer_total}
 
 }
+
+var lazyVideos = document.querySelectorAll('.lazyload');
+
+function lazyLoad() {
+  lazyVideos.forEach(function(video) {
+    if (video.getBoundingClientRect().top <= window.innerHeight && video.getBoundingClientRect().bottom >= 0 && getComputedStyle(video).display !== 'none') {
+      video.src = video.dataset.src;
+      video.classList.remove('lazyload');
+      window.removeEventListener('scroll', lazyLoad);
+    }
+  });
+}
+
+window.addEventListener('scroll', lazyLoad);
 
 </script>
