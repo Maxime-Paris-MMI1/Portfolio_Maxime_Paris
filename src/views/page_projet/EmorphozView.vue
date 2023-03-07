@@ -23,7 +23,7 @@
 
 
 
-    <div class="column">
+    <div class="column mt-10">
 
         <!-- Première partie -->
 
@@ -31,7 +31,14 @@
             <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded text-[25px] mb-3">Présentation</h4>
+                    <h4 class="bg-white text-center font-unbounded font-[500]  sm:mx-10 xxxs:mx-3
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]
+              mb-3">Présentation</h4>
     
                     <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
@@ -72,7 +79,14 @@
             <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded text-[25px] mb-3">Logo</h4>
+                    <h4 class="bg-white text-center font-unbounded font-[500] sm:mx-10 xxxs:mx-3
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]
+              mb-3">Logo</h4>
     
                     <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
@@ -113,7 +127,14 @@
             <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded text-[25px] mb-3">Harmonie colorée</h4>
+                    <h4 class="bg-white text-center font-unbounded font-[500] sm:mx-10 xxxs:mx-3
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]
+              mb-3">Harmonie colorée</h4>
     
                     <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
