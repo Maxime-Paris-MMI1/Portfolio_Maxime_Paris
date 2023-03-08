@@ -40,25 +40,54 @@
               xxxs:text-[16px]
               mb-3">Présentation</h4>
     
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+
+                        <p class="mb-5">
+                            E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
+                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
+                            des NFT's.
+                        </p>
+
+                        <p class="mb-5">
+                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
+                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
+                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
+                            écologique.
+                        </p>
+
+                        <p>
+                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
+                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
+                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
+                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
+                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
+                            qui y habitent.
                         </p>
                     </div>
                 </div>
     
                 <div class="pictures-container">
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <p class="mb-5">
+                            E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
+                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
+                            des NFT's.
+                        </p>
+
+                        <p class="mb-5">
+                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
+                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
+                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
+                            écologique.
+                        </p>
+
+                        <p class="mb-5">
+                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
+                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
+                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
+                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
+                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
+                            qui y habitent.
                         </p>
                     </div>
 
