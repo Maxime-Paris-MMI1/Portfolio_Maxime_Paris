@@ -28,7 +28,7 @@
         <!-- Première partie -->
 
 
-            <div class="row">
+            <div class="row mb-10">
                 
                 <div class="heading-content text-black">
                     <h4 class="bg-white text-center font-unbounded font-[500]  sm:mx-10 xxxs:mx-3
@@ -63,7 +63,9 @@
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation.webp" alt="vidéo de présentation de mon projet">
+                        <div class="flex justify-center">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                        </div>
 
 
 
@@ -135,8 +137,8 @@
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_logo.webp" alt="vidéo de présentation de mon projet">
-                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_logo2.webp" alt="">
+                        <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
+                        <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-logo2.webp" alt="">
                     </div>
     
     
@@ -183,7 +185,7 @@
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                        <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
                     </div>
     
     
