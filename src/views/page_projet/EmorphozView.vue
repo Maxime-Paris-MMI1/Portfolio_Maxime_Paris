@@ -63,6 +63,11 @@
                             est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
                             qui y habitent.
                         </p>
+
+                        <p class="mt-28">
+                            Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
+                            Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
+                        </p>
                     </div>
                 </div>
     
@@ -91,14 +96,21 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col gap-10 justify-center">
-                        <div class="flex justify-center">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                    <div class="flex flex-col gap-10">
+                        <div class="flex flex-col items-center gap-10 mt-48 md:mt-0">
+                            <div class="flex justify-center">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                            </div>
+    
+                            <div class=" justify-center gap-3 hidden sm:flex">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            </div>
                         </div>
 
 
-
-                        <div class="mb-[160px] w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center">
+                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center">
 
                             <div class="snap-center shrink-0 first:pl-5 last:pr-5">
                                 <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
@@ -114,11 +126,6 @@
 
                         </div>
 
-                        <div class=" justify-center gap-3 hidden sm:flex">
-                            <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                            <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                            <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                        </div>
 
                     </div>
     
