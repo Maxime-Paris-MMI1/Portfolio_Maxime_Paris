@@ -102,7 +102,7 @@
             <!-- Deuxième partie -->
 
 
-            <div class="row">
+            <div class="row mb-10">
                 
                 <div class="heading-content text-black">
                     <h4 class="bg-white text-center font-unbounded font-[500] sm:mx-10 xxxs:mx-3
