@@ -28,10 +28,10 @@
         <!-- Première partie -->
 
 
-            <div class="row mb-10">
+            <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded font-[500]  sm:mx-10 xxxs:mx-3
+                    <h4 class="bg-white text-center font-unbounded font-[500]
               lg:text-[35px]
               md:text-[35px]
               sm:text-[30px]
@@ -40,7 +40,122 @@
               xxxs:text-[16px]
               mb-3">Présentation</h4>
     
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+
+                        <p class="mb-5">
+                            E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
+                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
+                            des NFT's.
+                        </p>
+
+                        <p class="mb-5">
+                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
+                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
+                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
+                            écologique.
+                        </p>
+
+                        <p>
+                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
+                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
+                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
+                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
+                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
+                            qui y habitent.
+                        </p>
+
+                        <p class="mt-28">
+                            Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
+                            Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's <span><a href="#fonctionnement" class="underline">un peu plus bas</a></span> 
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="pictures-container">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <p class="mb-5">
+                            E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
+                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
+                            des NFT's.
+                        </p>
+
+                        <p class="mb-5">
+                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
+                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
+                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
+                            écologique.
+                        </p>
+
+                        <p class="">
+                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
+                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
+                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
+                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
+                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
+                            qui y habitent.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-10">
+                        <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
+                            <div class="flex justify-center">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                            </div>
+
+                            <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                                Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
+                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's <span> <a href="#fonctionnement" class="underline">un peu plus bas</a></span>
+                            </p>
+    
+                            <div class=" justify-center gap-3 hidden sm:flex mb-10">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                            </div>
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                            </div>
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
+                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+
+
+            <!-- Deuxième partie -->
+
+
+            <div class="row">
+                
+                <div class="heading-content text-black">
+                    <h4 class="bg-white text-center font-unbounded font-[500]
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]
+              mb-3" id="fonctionnement">Fonctionnement</h4>
+    
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
 
                         <p class="mb-5">
                             E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
@@ -72,7 +187,7 @@
                 </div>
     
                 <div class="pictures-container">
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                         <p class="mb-5">
                             E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
                             Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
@@ -86,7 +201,7 @@
                             écologique.
                         </p>
 
-                        <p class="mb-5">
+                        <p class="">
                             Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
                             offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
                             nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
@@ -97,12 +212,17 @@
                     </div>
 
                     <div class="flex flex-col gap-10">
-                        <div class="flex flex-col items-center gap-10 mt-48 md:mt-0">
+                        <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                             <div class="flex justify-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
                             </div>
+
+                            <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                                Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
+                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
+                            </p>
     
-                            <div class=" justify-center gap-3 hidden sm:flex">
+                            <div class=" justify-center gap-3 hidden sm:flex mb-10">
                                 <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
                                 <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
                                 <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
@@ -110,7 +230,7 @@
                         </div>
 
 
-                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center">
+                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
 
                             <div class="snap-center shrink-0 first:pl-5 last:pr-5">
                                 <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
@@ -135,13 +255,13 @@
             </div>
 
 
-            <!-- Deuxième partie -->
+            <!-- Troisième partie -->
 
 
-            <div class="row mb-10">
+            <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded font-[500] sm:mx-10 xxxs:mx-3
+                    <h4 class="bg-white text-center font-unbounded font-[500]
               lg:text-[35px]
               md:text-[35px]
               sm:text-[30px]
@@ -189,7 +309,7 @@
             <div class="row">
                 
                 <div class="heading-content text-black">
-                    <h4 class="bg-white text-center font-unbounded font-[500] sm:mx-10 xxxs:mx-3
+                    <h4 class="bg-white text-center font-unbounded font-[500]
               lg:text-[35px]
               md:text-[35px]
               sm:text-[30px]
@@ -222,6 +342,121 @@
 
                     <div class="flex flex-col gap-10 justify-center">
                         <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+
+
+            <!-- Cinquième partie -->
+
+
+            <div class="row">
+                
+                <div class="heading-content text-black">
+                    <h4 class="bg-white text-center font-unbounded font-[500]
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]
+              mb-3">Communication</h4>
+    
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+
+                        <p class="mb-5">
+                            E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
+                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
+                            des NFT's.
+                        </p>
+
+                        <p class="mb-5">
+                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
+                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
+                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
+                            écologique.
+                        </p>
+
+                        <p>
+                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
+                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
+                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
+                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
+                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
+                            qui y habitent.
+                        </p>
+
+                        <p class="mt-28">
+                            Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
+                            Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="pictures-container">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <p class="mb-5">
+                            E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
+                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
+                            des NFT's.
+                        </p>
+
+                        <p class="mb-5">
+                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
+                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
+                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
+                            écologique.
+                        </p>
+
+                        <p class="">
+                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
+                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
+                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
+                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
+                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
+                            qui y habitent.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-10">
+                        <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
+                            <div class="flex justify-center">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                            </div>
+
+                            <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                                Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
+                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
+                            </p>
+    
+                            <div class=" justify-center gap-3 hidden sm:flex mb-10">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                            </div>
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                            </div>
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
+                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            </div>
+
+                        </div>
+
+
                     </div>
     
     
