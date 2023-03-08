@@ -64,11 +64,31 @@
 
                     <div class="flex flex-col gap-10 justify-center">
                         <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation.webp" alt="vidéo de présentation de mon projet">
-                        <div class="flex justify-center gap-3 mb-10">
-                            <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                            <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                            <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+
+
+
+                        <div class="mb-[160px] w-full flex gap-5 snap-x overflow-x-auto sm:hidden justify-center">
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                            </div>
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                            </div>
+
+                            <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
+                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            </div>
+
                         </div>
+
+                        <div class=" justify-center gap-3 hidden sm:flex">
+                            <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
+                            <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
+                            <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                        </div>
+
                     </div>
     
     
