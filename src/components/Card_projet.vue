@@ -38,7 +38,7 @@
 .back:hover{
   background-color: white;
   color: black;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .cadre:hover{
@@ -59,7 +59,7 @@
   .image:hover{
     -ms-transform: scale(1.3); /* IE 9 */
     -webkit-transform: scale(1.3); /* Safari 3-8 */
-    transform: scale(1.3);
+    transform: scale(1.15);
   }
 }
 
