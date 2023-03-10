@@ -411,7 +411,7 @@
 
                     </div>
 
-                    <div class="flex flex-col gap-10 justify-center items-center mb-10">
+                    <div class="flex flex-col gap-10 justify-center items-center my-10">
                         <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
                     </div>
     
