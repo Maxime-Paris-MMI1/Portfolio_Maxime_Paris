@@ -158,31 +158,38 @@
                     <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
 
                         <p class="mb-5">
-                            E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
-                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                            des NFT's.
+                            Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
+                            au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
+                            et Photoshop pour enlever le fond et exporter au format PDF. Nous avions imaginé 30 thèmes par exemple :
+                            La neige, la lave, médiéval, désert... Mais compte tenu du temps assez restreint pour rendre le projet, nous
+                            avions pu en faire 5.
                         </p>
 
                         <p class="mb-5">
-                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                            écologique.
+                            De plus, ce qui fait notre générateur innovant, le NFT change de couleur en fonction de la température
+                            où la génération sera faite. En effet, une A.P.I va prendre la température extérieure, et si par exemple
+                            la température se trouve en dessous de 5°C, l’arrière-plan du NFT aura un aspect froid et au contraire,
+                            si le NFT est générée à une température supérieure à 25°C, l’arrière-plan aura quant à lui un aspect chaud.
+                        </p>
+
+                        <p class="mb-5">
+                            Pour le fonctionnement des systèmes de calques, pour rendre la génération aléatoire, il a fallu "couper"
+                            la coccinelle en 4 calques distincts. La tête, la carapace (qui est personnalisable), le corps avec le support
+                            et l’arrière-plan qui peut prendre plusieurs aspects en fonction de la température. 
+                        </p>
+
+                        <p class="mb-5">
+                            Enfin après ceci, le générateur va prendre au hasard dans chaque groupe de calque
+                            c'est-à-dire que par exemple le générateur va choisir la tête dans le thème médiéval,
+                            le corps dans le thème du désert, la carapace dans le thème de la forêt et l’arrière-plan en lave et vu que
+                            la température est supérieure à 25°C, l’arrière-plan lave aura un aspect encore plus chaud.
                         </p>
 
                         <p>
-                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                            qui y habitent.
+                            Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
+                            Wallet pour créer l’NFT et la publier sur le web.
                         </p>
-
-                        <p class="mt-28">
-                            Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
-                            Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
-                        </p>
+                        
                     </div>
                 </div>
     
