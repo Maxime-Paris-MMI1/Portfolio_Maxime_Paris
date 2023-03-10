@@ -240,7 +240,7 @@
                             </p>
     
                             <div class="flex justify-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain xxxs:mb-10 sm:mb0" src="../../../public/images/Fonctionnement_calque_final.gif" alt="">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain xxxs:mb-10" src="../../../public/images/Fonctionnement_calque_final.gif" alt="">
                             </div>
                         </div>
 
@@ -308,14 +308,14 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
+                    <div class="flex flex-col gap-10 justify-center items-center">
+                        <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
 
                         <p class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
                         </p>
 
-                        <img class="h-[300px] object-contain mb-10" src="../../../public/images/e-morphoz-logo2.webp" alt="">
+                        <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-logo2.webp" alt="">
                     </div>
     
     
@@ -339,7 +339,7 @@
               xxxs:text-[16px]
               mb-3">Harmonie colorée</h4>
     
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                    <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                         <p class="mb-5">
                             Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
                             En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
@@ -375,7 +375,7 @@
                 </div>
     
                 <div class="pictures-container">
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                    <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                         <p class="mb-5">
                             Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
                             En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
@@ -407,10 +407,12 @@
                                 Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
                             </li>
                         </ul>
+
+
                     </div>
 
-                    <div class="flex flex-col gap-10 justify-center">
-                        <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                    <div class="flex flex-col gap-10 justify-center items-center mb-10">
+                        <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
                     </div>
     
     
@@ -437,94 +439,83 @@
                     <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
 
                         <p class="mb-5">
-                            E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
-                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                            des NFT's.
+                            Au niveau de la communication, nous avons fait des posts sur différents réseaux sociaux comme Discord,
+                            TikTok ou encore Instagram. Nous nous sommes concentrés sur une cible jeune, c'est pour cela que nous avons choisis ces réseaux sociaux. 
                         </p>
 
                         <p class="mb-5">
-                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                            écologique.
+                            Vous pouvez voir ci-dessous les liens vers les différents réseaux sociaux d’E-morphoz
                         </p>
 
-                        <p>
-                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                            qui y habitent.
-                        </p>
-
-                        <p class="mt-28">
-                            Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
-                            Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
-                        </p>
+                        <div class="flex justify-center gap-10 my-10">
+                            <a href="https://www.instagram.com/emorphoz5/" target="_blank">
+                                <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
+                            </a>
+                            <a href="https://www.tiktok.com/@emorphoz" target="_blank">
+                                <img class="object-contain -mt-4" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
+                            </a>
+                            <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
+                                <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
+                            </a>
+                        </div>
                     </div>
                 </div>
     
                 <div class="pictures-container">
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+
+                    <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+
                         <p class="mb-5">
-                            E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
-                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                            des NFT's.
+                            Au niveau de la communication, nous avons fait des posts sur différents réseaux sociaux comme Discord,
+                            TikTok ou encore Instagram. Nous nous sommes concentrés sur une cible jeune, c'est pour cela que nous avons choisis ces réseaux sociaux. 
                         </p>
 
                         <p class="mb-5">
-                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                            écologique.
+                            Vous pouvez voir ci-dessous les liens vers les différents réseaux sociaux d’E-morphoz
                         </p>
 
-                        <p class="">
-                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                            qui y habitent.
-                        </p>
+                        <div class="xxs:flex xxxs:hidden flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px] my-10">
+                            <a href="https://www.instagram.com/emorphoz5/" target="_blank">
+                                <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
+                            </a>
+
+                            <a href="https://www.tiktok.com/@emorphoz" target="_blank">
+                                <img class="object-contain w-[80px] -mt-2" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
+                            </a>
+
+                            <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
+                                <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
+                            </a>
+                        </div>
+
+                        <div class="flex xxs:hidden flex-col justify-center items-center gap-10 my-10">
+                            <a href="https://www.instagram.com/emorphoz5/" target="_blank">
+                                <img class="object-contain w-[50px]" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
+                            </a>
+                            <a href="https://www.tiktok.com/@emorphoz" target="_blank">
+                                <img class="object-contain w-[70px]" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
+                            </a>
+                            <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
+                                <img class="w-[50px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
+                            </a>
+                        </div>
+
                     </div>
 
-                    <div class="flex flex-col gap-10">
-                        <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
-                            <div class="flex justify-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
-                            </div>
+                    <div class="w-full flex xxxs:gap-5  snap-x overflow-x-auto xxxs:justify-start xxs:justify-between xxs:max-w-[650px] mt-10 xxs:mx-auto mb-10">
 
-                            <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
-                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
-                            </p>
-    
-                            <div class=" justify-center gap-3 hidden sm:flex mb-10">
-                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                            </div>
+                        <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                            <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/tiktok_emorphoz.webp" alt="">
                         </div>
 
-
-                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
-
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                            </div>
-
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                            </div>
-
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
-                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                            </div>
-
+                        
+                        <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                            <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/emorphoz_tiktok_cocc.gif" alt="">
                         </div>
 
+                        <div class="snap-center shrink-0 first:pl-5 last:pr-5">
+                            <img class="h-[300px] object-contain" src="../../../public/images/instagram_emorphoz.webp" alt="">
+                        </div>
 
                     </div>
     
