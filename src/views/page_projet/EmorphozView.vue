@@ -40,7 +40,7 @@
               xxxs:text-[16px]
               mb-3">Présentation</h4>
     
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
 
                         <p class="mb-5">
                             E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
@@ -72,7 +72,7 @@
                 </div>
     
                 <div class="pictures-container">
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                         <p class="mb-5">
                             E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
                             Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
@@ -99,7 +99,7 @@
                     <div class="flex flex-col gap-10">
                         <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                             <div class="flex justify-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
                             </div>
 
                             <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
@@ -155,8 +155,46 @@
               xxxs:text-[16px]
               mb-3" id="fonctionnement">Fonctionnement</h4>
     
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
 
+                        <p class="mb-5">
+                            Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
+                            au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
+                            et Photoshop pour enlever le fond et exporter au format PDF. Nous avions imaginé 30 thèmes par exemple :
+                            La neige, la lave, médiéval, désert... Mais compte tenu du temps assez restreint pour rendre le projet, nous
+                            avions pu en faire 5.
+                        </p>
+
+                        <p class="mb-5">
+                            De plus, ce qui fait notre générateur innovant, le NFT change de couleur en fonction de la température
+                            où la génération sera faite. En effet, une A.P.I va prendre la température extérieure, et si par exemple
+                            la température se trouve en dessous de 5°C, l’arrière-plan du NFT aura un aspect froid et au contraire,
+                            si le NFT est générée à une température supérieure à 25°C, l’arrière-plan aura quant à lui un aspect chaud.
+                        </p>
+
+                        <p class="mb-5">
+                            Pour le fonctionnement des systèmes de calques, pour rendre la génération aléatoire, il a fallu "couper"
+                            la coccinelle en 4 calques distincts. La tête, la carapace (qui est personnalisable), le corps avec le support
+                            et l’arrière-plan qui peut prendre plusieurs aspects en fonction de la température. 
+                        </p>
+
+                        <p class="mb-5">
+                            Enfin après ceci, le générateur va prendre au hasard dans chaque groupe de calque
+                            c'est-à-dire que par exemple le générateur va choisir la tête dans le thème médiéval,
+                            le corps dans le thème du désert, la carapace dans le thème de la forêt et l’arrière-plan en lave et vu que
+                            la température est supérieure à 25°C, l’arrière-plan lave aura un aspect encore plus chaud. Vous pouvez voir un exemple de génération à droite.
+                        </p>
+
+                        <p>
+                            Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
+                            Wallet pour créer l’NFT et la publier sur le web.
+                        </p>
+                        
+                    </div>
+                </div>
+    
+                <div class="pictures-container">
+                    <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                         <p class="mb-5">
                             Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
                             au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
@@ -189,68 +227,21 @@
                             Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
                             Wallet pour créer l’NFT et la publier sur le web.
                         </p>
-                        
-                    </div>
-                </div>
-    
-                <div class="pictures-container">
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                        <p class="mb-5">
-                            E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
-                            Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                            des NFT's.
-                        </p>
-
-                        <p class="mb-5">
-                            Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                            Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                            Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                            écologique.
-                        </p>
-
-                        <p class="">
-                            Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                            offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                            nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                            environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                            est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                            qui y habitent.
-                        </p>
                     </div>
 
                     <div class="flex flex-col gap-10">
                         <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                             <div class="flex justify-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/Presentation_fonctionnement.webp" alt="vidéo de présentation de mon projet">
                             </div>
 
                             <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
-                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's un peu plus bas 
+                                Voici en dessous, Un exemple de génération d'NFT avec la carapace qui est totalement personnalisable.
                             </p>
     
-                            <div class=" justify-center gap-3 hidden sm:flex mb-10">
-                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                                <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                            <div class="flex justify-center">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain xxxs:mb-10 sm:mb0" src="../../../public/images/Fonctionnement_calque_final.gif" alt="">
                             </div>
-                        </div>
-
-
-                        <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
-
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                            </div>
-
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                            </div>
-
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
-                                <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                            </div>
-
                         </div>
 
 
@@ -277,31 +268,54 @@
               xxxs:text-[16px]
               mb-3">Logo</h4>
     
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                        <p class="mb-5">
+                            Au niveau de la recherche de logo, nous nous sommes orientés sur un logo typographique avec la police d’écriture Audiowide. Puis, nous avons pu modifier la lettre “o” pour montrer cet aspect de métamorphose que l’on propose pour créer les NFT’s. 
+                        </p>
+
+                        <p class="mb-5">
+                            De plus, pour le deuxième “o”, nous avons représenté un cube en 3d avec des courbes qui tournent autour.
+                            Cet élément graphique montre une représentation de la “blockchain” qui est l’élément qui va certifier l’NFT.
+                        </p>
+
+                        <p>
+                            Dans un second temps, nous avons designer un logo minimaliste en s’inspirant du premier pour qu’il s’adapte pour tous types de support comme le téléphone ou encore la tablette.
+                            Le logo minimaliste reprend cette idée de blockchain, mais avec la lettre “e” (en référence à E-morphoz) inscrite sur le bloc. On peut voir que les deux propositions de logos
+                            en fonctions des supports fonctionnent assez bien puisqu’ils sont reconnaissables en petite taille.
+                        </p>
+
+                        <p class="mt-10">
+                            Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
                         </p>
                     </div>
                 </div>
     
                 <div class="pictures-container">
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <p class="mb-5">
+                            Au niveau de la recherche de logo, nous nous sommes orientés sur un logo typographique avec la police d’écriture Audiowide. Puis, nous avons pu modifier la lettre “o” pour montrer cet aspect de métamorphose que l’on propose pour créer les NFT’s. 
+                        </p>
+
+                        <p class="mb-5">
+                            De plus, pour le deuxième “o”, nous avons représenté un cube en 3d avec des courbes qui tournent autour.
+                            Cet élément graphique montre une représentation de la “blockchain” qui est l’élément qui va certifier l’NFT.
+                        </p>
+
+                        <p>
+                            Dans un second temps, nous avons designer un logo minimaliste en s’inspirant du premier pour qu’il s’adapte pour tous types de support comme le téléphone ou encore la tablette.
+                            Le logo minimaliste reprend cette idée de blockchain, mais avec la lettre “e” (en référence à E-morphoz) inscrite sur le bloc. On peut voir que les deux propositions de logos
+                            en fonctions des supports fonctionnent assez bien puisqu’ils sont reconnaissables en petite taille.
                         </p>
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
                         <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
-                        <img class="h-[300px] object-contain" src="../../../public/images/e-morphoz-logo2.webp" alt="">
+
+                        <p class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                            Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
+                        </p>
+
+                        <img class="h-[300px] object-contain mb-10" src="../../../public/images/e-morphoz-logo2.webp" alt="">
                     </div>
     
     
@@ -325,7 +339,7 @@
               xxxs:text-[16px]
               mb-3">Harmonie colorée</h4>
     
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
@@ -337,7 +351,7 @@
                 </div>
     
                 <div class="pictures-container">
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
@@ -372,7 +386,7 @@
               xxxs:text-[16px]
               mb-3">Communication</h4>
     
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
 
                         <p class="mb-5">
                             E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
@@ -404,7 +418,7 @@
                 </div>
     
                 <div class="pictures-container">
-                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                    <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                         <p class="mb-5">
                             E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
                             Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
