@@ -28,7 +28,7 @@
 
     <div class="mb-10 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px]">
       <p>Editeur du site : Maxime Paris</p>
-      <p>Adresse : 1 avenue de la principauté de Montbéliard 25250 Montbéliard</p>
+      <p>Adresse : 4, place Tharradin 25 200 Montbéliard</p>
       <p>Numéro de téléphone : +33(0)6 36 47 01 96</p>
       <div class="flex justify-start gap-3">
         <p>Adresse email :</p>
