@@ -325,7 +325,7 @@
 
 
 
-            <!-- Troisième Partie -->
+            <!-- Quatrième partie -->
 
             <div class="row">
                 
@@ -339,26 +339,74 @@
               xxxs:text-[16px]
               mb-3">Harmonie colorée</h4>
     
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                        <p class="mb-5">
+                            Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
+                            En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
                         </p>
+
+                        <p class="mb-5">
+                            L’harmonie se décompose en 5 couleurs :
+                        </p>
+
+                        <ul class="mb-5 ml-3">
+                            <li><span class="mr-3">·</span>couleur blanche</li>
+                            <li><span class="mr-3">·</span>couleurs de fond violet</li>
+                            <li><span class="mr-3">·</span>couleurs toniques :  rose et bleu turquoise.</li>
+                        </ul>
+
+                        <p class="mb-5">   
+                            Pour la couleur blanche, elle est utilisée principalement pour la typographie. En effet,
+                            c'est une couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncé sur notre site.
+                            Ceci respecte donc les normes de contraste pour la lisibilité.
+                        </p>
+
+                        <p class="mb-5">
+                            Pour les couleurs violettes, elles sont utilisées pour créer le fond de notre site :
+                        </p>
+
+                        <ul class="ml-3">
+                            <li class="mb-3"><span class="mr-3">·</span>En utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de blur. </li>
+                            <li><span class="mr-3">·</span>Au niveau des 2 dernières couleurs, elles sont appliquées comme couleur tonique pour inciter l’utilisateur de notre site à l’action.
+                                Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
+                            </li>
+                        </ul>
                     </div>
                 </div>
     
                 <div class="pictures-container">
-                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nihil delectus sed asperiores id harum iste. Quidem assumenda, optio iusto commodi dolor, magni deserunt corporis expedita corrupti, molestiae ducimus exercitationem!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto odio facilis corrupti possimus similique, iste eaque, natus doloribus, eius consequuntur dolor tempore pariatur eveniet neque? Perspiciatis officia doloribus omnis optio.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe in iusto eius vero quae, laudantium fuga eaque ipsum. Quia nostrum accusantium omnis, alias fuga illo ratione porro. Repudiandae, maiores
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ipsa aperiam praesentium temporibus dicta aspernatur architecto! Optio similique autem error deserunt fuga commodi repellat quisquam accusamus laboriosam, voluptatibus quidem sit!
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, qui? Dolorem recusandae animi debitis, saepe optio mollitia repudiandae tempore laudantium officia aliquam ipsam minima eaque vitae molestiae ipsum dolor harum.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est laboriosam commodi sed libero eveniet quam obcaecati totam illo? Rerum magnam esse, aliquid autem explicabo aspernatur maiores ullam quod quis.
+                    <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <p class="mb-5">
+                            Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
+                            En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
                         </p>
+
+                        <p class="mb-5">
+                            L’harmonie se décompose en 5 couleurs :
+                        </p>
+
+                        <ul class="mb-5 ml-3">
+                            <li><span class="mr-3">·</span>couleur blanche</li>
+                            <li><span class="mr-3">·</span>couleurs de fond violet</li>
+                            <li><span class="mr-3">·</span>couleurs toniques :  rose et bleu turquoise.</li>
+                        </ul>
+
+                        <p class="mb-5">   
+                            Pour la couleur blanche, elle est utilisée principalement pour la typographie. En effet,
+                            c'est une couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncé sur notre site.
+                            Ceci respecte donc les normes de contraste pour la lisibilité.
+                        </p>
+
+                        <p class="mb-5">
+                            Pour les couleurs violettes, elles sont utilisées pour créer le fond de notre site :
+                        </p>
+
+                        <ul class="ml-3">
+                            <li class="mb-3"><span class="mr-3">·</span>En utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de blur. </li>
+                            <li><span class="mr-3">·</span>Au niveau des 2 dernières couleurs, elles sont appliquées comme couleur tonique pour inciter l’utilisateur de notre site à l’action.
+                                Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="flex flex-col gap-10 justify-center">
