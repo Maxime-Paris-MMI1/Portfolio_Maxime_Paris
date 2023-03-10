@@ -531,15 +531,38 @@
 
     <div>
         <div class="parallax-effect"></div>
-            <div>
-                <p class="text-white font-unbounded flex justify-center text-2xl">bonjour</p>
-            </div>
-        <div class="parallax-effect">
-        </div>
-    </div>
+        <div class="flex justify-center items-center sm:-mt-[200px] sm:-mb-[180px] xxxs:mt-10 xxxs:mb-10">
+            <h3 class="font-unbounded font-[700] text-white sm:mx-10 xxxs:mx-3 text-center
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]">
 
-    <div>
-        <h3 class="text-white py-96 flex justify-center">Voir le résultat</h3>
+              Vous pouvez dès à présent voir le site d’E-morphoz !
+            </h3>
+        </div>
+        <div class="flex justify-center items-center mb-[100px]">
+            <a href="https://emorphoz.marwin-rodrigues.fr/" target="_blank">
+              <button class="text-white font Unbounded 
+                            lg:text-[25px] 
+                            md:text-[22px]
+                            sm:text-[20px] 
+                            xs:text-[18px]
+                            xxs:text-[15px]
+                            xxxs:text-[12px] 
+              font-bold border 
+              lg:px-[130px]
+              md:px-[110px]
+              sm:px-[90px] 
+              xs:px-[70px]
+              xxs:px-[50px]
+              xxxs:px-[50px] 
+               py-3 animation_texte">Voir le site</button>
+            </a>
+        </div>
+        <div class="parallax-effect"></div>
     </div>
 
     <footer>
@@ -572,7 +595,7 @@
 @media (min-width: 1000px) {
     .parallax-effect {
         background-image: url("../../../public/images/fond_emorphoz.webp");
-        min-height: 600px;
+        min-height: 500px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -580,7 +603,7 @@
       }
 
       .parallax-effect + div {
-        height: 1000px;
+        height: 600px;
         background-image: #000;
         font-size: 36px;
         text-align: center;
