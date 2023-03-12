@@ -1,5 +1,5 @@
 <template>
-<header>
+<header id="haute">
     <div class=" justify-between items-start lg:flex hidden">
       <RouterLink to="/">
         <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] pt-[90px] object-contain animate__animated animate__fadeIn
@@ -113,7 +113,42 @@
 
 </header>
 
+<div>
+    <a href="#haute">
+      <button @click="scrollTop" v-if="showButton" class="fixed bottom-4 right-4 bg-white text-black p-3 rounded-full shadow-2xl buttoned">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="black">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+          </svg>
+      </button>
+    </a>
+</div>
+
 </template>
+
+<style>
+
+.buttoned {
+  z-index: 500;
+  animation-name: slideInFromRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  transition: all;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(100%);
+  }
+}
+
+
+
+</style>
 
 <script>
 
@@ -142,6 +177,8 @@ export default {
 
   
   mounted() {
+
+    window.addEventListener('scroll', this.handleScroll);
     // Récupérer l'ancre dans l'URL
     const anchor = window.location.hash.slice(1);
     // Vérifier si l'ancre existe sur la page
@@ -152,10 +189,24 @@ export default {
     }
   },
 
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+
+
   data() {
     return {
       menuOuvert: false,
+      showButton: false,
     }
-}}
+},
+
+
+methods: {
+  handleScroll() {
+      this.showButton = window.pageYOffset > 200},
+},
+
+}
 
 </script>

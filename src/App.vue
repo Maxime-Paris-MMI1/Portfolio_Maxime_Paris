@@ -23,4 +23,8 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid white; /* creates padding around scroll thumb */
 }
 
+body {
+  overflow-x: hidden;
+}
+
 </style>

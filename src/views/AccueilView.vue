@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header id="haute">
     <div class=" justify-between items-start lg:flex hidden">
       <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig
       xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
@@ -197,6 +197,19 @@
 
 
   </section>
+
+  <div>
+    <a href="#haute">
+      <button @click="scrollTop" v-if="showButton" class="fixed bottom-4 right-4 bg-white text-black p-3 rounded-full shadow-2xl buttoned">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="black">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+          </svg>
+      </button>
+    </a>
+  </div>
+
+
+
   <section class="mt-[163px]">
     <div class=" sm:ml-[100px] xxxs:ml-[40px]">
       <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond" class="
@@ -372,7 +385,7 @@
       </a>
 
     </div>
-    <div class="flex flex-row items-center justify-center gap-2">
+    <div class="flex flex-row items-center justify-center gap-2 mb-[100px]">
       <Barre_contact class="mt-[42px]"/>
       <h3 class="font-unbounded                       
                       lg:text-[25px] 
@@ -383,19 +396,6 @@
                       xxxs:text-[12px]  text-white font-bold mt-[42px]">Mes réseaux sociaux</h3>
 
       <Barre_contact class="mt-[42px]"/>
-    </div>
-
-
-    <div class=" justify-end mr-16 mb-[100px] mt-16 hidden lg:flex">
-      <a href="#haut_accueil">
-        <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
-      </a>
-    </div>
-
-    <div class=" justify-center mb-[100px] mt-16 lg:hidden flex">
-      <a href="#haut_accueil2">
-        <img src="../../public/images/fleche.png" class="animation_rebond" alt="flèche pour retourner en haut">
-      </a>
     </div>
 
     </section>
@@ -447,6 +447,26 @@
 
 
 <style>
+
+.buttoned {
+  z-index: 500;
+  animation-name: slideInFromRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  transition: all;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(100%);
+  }
+}
+
 
 .btn-selected {
     background-color: white;
@@ -565,6 +585,8 @@ export default {
 },
 
 mounted() {
+
+    window.addEventListener('scroll', this.handleScroll);
     // Récupérer l'ancre dans l'URL
     const anchor = window.location.hash.slice(1);
     // Vérifier si l'ancre existe sur la page
@@ -574,6 +596,10 @@ mounted() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
 
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll);
   },
 
   data() {
@@ -590,6 +616,7 @@ mounted() {
       filtreCategorie: 'tout',
       categorieSelectionnee: 'Tout',
       menuOuvert: false,
+      showButton: false,
     };
   },
 
@@ -605,9 +632,12 @@ mounted() {
   methods: {
 
 
-    
+    handleScroll() {
+      this.showButton = window.pageYOffset > 100},
+
     filtrerCartes(categorie) {
       this.filtreCategorie = categorie;
     },
-}};
+},
+};
 </script>
