@@ -1,5 +1,5 @@
 <template>
-    <div class="derriere2">
+    <div class="derriere4">
     
         <header>
           <Header_total/>
@@ -15,7 +15,7 @@
             </div>
         
             <div class="flex justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3 ">
-                <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] xfoo:h-[315px] sm:w-[800px] sm:h-[450px]" src="https://www.youtube.com/embed/38MRUKACrD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] xfoo:h-[315px] sm:w-[800px] sm:h-[450px]" src="https://www.youtube.com/embed/CyflnR4MVKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="border-t-4 border-white"></div>
     </div>
@@ -572,6 +572,23 @@
     </template>
     
     <style>
+
+.derriere4 {
+  position: relative;
+}
+.derriere4::before {
+  content: "";
+  background-image: url(../../../public/images/Usine_large.webp);
+  background-size: cover;
+  opacity: 0.6;
+  position: absolute;
+  background-position: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
     
     </style>
