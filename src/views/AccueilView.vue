@@ -381,7 +381,7 @@
       </a>
 
       <a href="https://www.behance.net/maximeparis5" target="_blank" class="sm:w-[76px] xs:w-[60px] xxs:w-[50px] xxxs:w-[40px]">
-        <img class="object-contain" src="../../public/images/behance_logo.webp" alt="logo behance">
+        <img class="object-contain" src="../../public/images/behance_logo.webp" alt="Behance Logo Black And White@pngkey.com">
       </a>
 
     </div>
