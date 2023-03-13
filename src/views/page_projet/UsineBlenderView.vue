@@ -587,14 +587,14 @@
 @media only screen and (max-width: 1000px) {
   .vers_bas{
     opacity: 0;
-    transform: translateY(-300px);
+    transform: translateY(-150px);
     animation: deplacement2 2s cubic-bezier(.97,-0.01,.63,1) forwards;
   }
 
   @keyframes deplacement2 {
   from {
     opacity: 0;
-    transform: translateY(-300px);
+    transform: translateY(-150px);
   }
   to {
     opacity: 1;
