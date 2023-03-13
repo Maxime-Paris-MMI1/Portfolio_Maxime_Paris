@@ -111,29 +111,41 @@ xxxs:w-[100px] xsme:
     </div>
     <div class="flex flex-col items-center justify-center">
         <div class="xxs:mx-auto xxxs:mx-5 my-8 grid xxxs:grid-cols-2 xsme:grid-cols-3 gap-10">
-          <a target="_blank" href="https://www.blender.org/">
+          <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.blender.org/">
             <img src="../../public/images/blender.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo blender">
           </a>
 
-          <a target="_blank" href="https://www.adobe.com/fr/products/audition.html">
+          <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/audition.html">
             <img src="../../public/images/audition.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo audition">
           </a>
 
-            <a target="_blank" href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPaogRoRe6zK-CHgDkXoHAYgmz-a9pFVU6Y6iUySLnsMnH03c9S5xTIaAkOJEALw_wcB&mv=search&mv=search&sdid=MYYBRYZH&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPaogRoRe6zK-CHgDkXoHAYgmz-a9pFVU6Y6iUySLnsMnH03c9S5xTIaAkOJEALw_wcB:G:s&s_kwcid=AL!3085!3!600183576446!e!!g!!adobe%20after%20effects!1435912503!56537400619">
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPaogRoRe6zK-CHgDkXoHAYgmz-a9pFVU6Y6iUySLnsMnH03c9S5xTIaAkOJEALw_wcB&mv=search&mv=search&sdid=MYYBRYZH&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPaogRoRe6zK-CHgDkXoHAYgmz-a9pFVU6Y6iUySLnsMnH03c9S5xTIaAkOJEALw_wcB:G:s&s_kwcid=AL!3085!3!600183576446!e!!g!!adobe%20after%20effects!1435912503!56537400619">
               <img src="../../public/images/logo_after_effect.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo after effect">
             </a> 
 
-            <a target="_blank" href="https://www.adobe.com/fr/products/photoshop/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPb9lnnSKiPCzkxpaNzqzkJS6xTJd7NS5IMIxUha28EAUiFuDdRg5-EaAsuREALw_wcB&mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPb9lnnSKiPCzkxpaNzqzkJS6xTJd7NS5IMIxUha28EAUiFuDdRg5-EaAsuREALw_wcB:G:s&s_kwcid=AL!3085!3!441889279823!e!!g!!adobe%20photoshop!1435912275!56537390339">
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/photoshop/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPb9lnnSKiPCzkxpaNzqzkJS6xTJd7NS5IMIxUha28EAUiFuDdRg5-EaAsuREALw_wcB&mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPb9lnnSKiPCzkxpaNzqzkJS6xTJd7NS5IMIxUha28EAUiFuDdRg5-EaAsuREALw_wcB:G:s&s_kwcid=AL!3085!3!441889279823!e!!g!!adobe%20photoshop!1435912275!56537390339">
               <img src="../../public/images/photoshop.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo photoshop">
             </a>   
 
     
-            <a target="_blank" href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!adobe%20premiere%20pro!1435912734!56537474099">
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!adobe%20premiere%20pro!1435912734!56537474099">
               <img src="../../public/images/premiere_pro.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo première pro">
             </a>
     
-            <a target="_blank" href="https://www.adobe.com/fr/products/illustrator.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZJoZ7BR-evM4IwNzZYreQ8FSTIJN4p3v_rafd9oIZCLdaX5c4dY_AaAuLMEALw_wcB&mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZJoZ7BR-evM4IwNzZYreQ8FSTIJN4p3v_rafd9oIZCLdaX5c4dY_AaAuLMEALw_wcB:G:s&s_kwcid=AL!3085!3!600183673892!e!!g!!adobe%20illustrator!1478148655!58836721084">
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/illustrator.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZJoZ7BR-evM4IwNzZYreQ8FSTIJN4p3v_rafd9oIZCLdaX5c4dY_AaAuLMEALw_wcB&mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZJoZ7BR-evM4IwNzZYreQ8FSTIJN4p3v_rafd9oIZCLdaX5c4dY_AaAuLMEALw_wcB:G:s&s_kwcid=AL!3085!3!600183673892!e!!g!!adobe%20illustrator!1478148655!58836721084">
               <img src="../../public/images/illustrator.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo illustrator">
+            </a>
+    
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://code.visualstudio.com/">
+              <img src="../../public/images/vscode.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo vscode">
+            </a>
+    
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/indesign/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPaGnZxOkNB3jDKSsz6NK2KHSZhENkkVpmQfidcn8qLsgsJNBxg1gIYaAgkHEALw_wcB&mv=search&mv=search&sdid=LCDWTLJX&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPaGnZxOkNB3jDKSsz6NK2KHSZhENkkVpmQfidcn8qLsgsJNBxg1gIYaAgkHEALw_wcB:G:s&s_kwcid=AL!3085!3!600117236569!e!!g!!indesign!1435912704!58952470471">
+              <img src="../../public/images/indesign.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo indesign">
+            </a>
+    
+            <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.figma.com/">
+              <img src="../../public/images/figma.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo figma">
             </a>
 
       </div>
@@ -142,7 +154,7 @@ xxxs:w-[100px] xsme:
 
 
 
-    <div class="flex justify-center mt-[150px] mx-10">
+    <div class="flex justify-center mt-[50px] mx-10">
         <p class="font-unbounded font-[700] text-white
               lg:text-[35px]
               md:text-[35px]
@@ -181,7 +193,7 @@ xxxs:w-[100px] xsme:
     </div>
 
     
-    <div class="flex justify-center mt-28 mb-10 xs:hidden">
+    <div class="flex justify-center mt-16 mb-10 xs:hidden">
       <RouterLink to="/projets">
         <button class="text-white font Unbounded 
                       lg:text-[25px] 
