@@ -18,11 +18,11 @@
                 <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] rounded-3xl xfoo:h-[315px] sm:w-[800px] sm:h-[450px] z-10" src="https://www.youtube.com/embed/CyflnR4MVKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div class="flex sm:flex-col xxxs:flex-row items-center justify-center gap-16 bg-black sm:rounded-r-2xl xxxs:rounded-b-2xl sm:rounded-l-none sm:px-5 sm:py-5 xxxs:px-8 xxxs:py-3 z-0 vers_droite vers_bas">
 
-                    <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:w">
+                    <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
                         <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
                     </a>
 
-                    <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="">
+                    <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300">
                         <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
                     </a>
 

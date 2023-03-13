@@ -127,7 +127,6 @@ xxxs:w-[100px] xsme:
               <img src="../../public/images/photoshop.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo photoshop">
             </a>   
 
-    
             <a target="_blank" class="hover:scale-110 ease-in-out duration-300" href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!adobe%20premiere%20pro!1435912734!56537474099">
               <img src="../../public/images/premiere_pro.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo première pro">
             </a>
