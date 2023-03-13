@@ -79,25 +79,68 @@
     <div class="flex md:flex-row xxxs:flex-col justify-center items-center gap-16 mt-16">
 
       <div class="flex flex-col gap-8">
-        <img src="../../public/images/creatif.webp" alt="icone créatif">
+        <img src="../../public/images/picto_ampoule.webp" class="sm:w-[200px] xxxs:w-[170px]" alt="icone créatif">
         <p class="text-white font-unbounded font-bold flex justify-center">Créatif</p>
       </div>
 
       <Barre_contact class="md:flex xxxs:hidden"/>
 
       <div class="flex flex-col gap-8">
-        <img src="../../public/images/veille.webp" alt="icone veille">
-        <p class="text-white font-unbounded font-bold flex justify-center">Veille</p>
+        <img src="../../public/images/picto_livre.webp" class="sm:w-[200px] xxxs:w-[170px]" alt="icone veille">
+        <p class="text-white font-unbounded font-bold flex justify-center">Curieux</p>
       </div>
 
       <Barre_contact class="md:flex xxxs:hidden"/>
 
       <div class="flex flex-col gap-8">
-        <img src="../../public/images/autonome.webp" alt="icone autonome">
+        <img src="../../public/images/picto_user.webp" class="sm:w-[200px] xxxs:w-[170px]" alt="icone autonome">
         <p class="text-white font-unbounded font-bold flex justify-center">Autonome</p>
       </div>
 
     </div>
+
+xxxs:w-[100px] xsme:
+    <div class="flex justify-center mt-[150px] mx-10">
+        <p class="font-unbounded font-[700] text-white
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]">Les logiciels que je maîtrise </p>
+    </div>
+    <div class="flex flex-col items-center justify-center">
+        <div class="xxs:mx-auto xxxs:mx-5 my-8 grid xxxs:grid-cols-2 xsme:grid-cols-3 gap-10">
+          <a target="_blank" href="https://www.blender.org/">
+            <img src="../../public/images/blender.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo blender">
+          </a>
+
+          <a target="_blank" href="https://www.adobe.com/fr/products/audition.html">
+            <img src="../../public/images/audition.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo audition">
+          </a>
+
+            <a target="_blank" href="https://www.adobe.com/fr/products/aftereffects/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPaogRoRe6zK-CHgDkXoHAYgmz-a9pFVU6Y6iUySLnsMnH03c9S5xTIaAkOJEALw_wcB&mv=search&mv=search&sdid=MYYBRYZH&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPaogRoRe6zK-CHgDkXoHAYgmz-a9pFVU6Y6iUySLnsMnH03c9S5xTIaAkOJEALw_wcB:G:s&s_kwcid=AL!3085!3!600183576446!e!!g!!adobe%20after%20effects!1435912503!56537400619">
+              <img src="../../public/images/logo_after_effect.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo after effect">
+            </a> 
+
+            <a target="_blank" href="https://www.adobe.com/fr/products/photoshop/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPb9lnnSKiPCzkxpaNzqzkJS6xTJd7NS5IMIxUha28EAUiFuDdRg5-EaAsuREALw_wcB&mv=search&mv=search&sdid=LZ32SYVR&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPb9lnnSKiPCzkxpaNzqzkJS6xTJd7NS5IMIxUha28EAUiFuDdRg5-EaAsuREALw_wcB:G:s&s_kwcid=AL!3085!3!441889279823!e!!g!!adobe%20photoshop!1435912275!56537390339">
+              <img src="../../public/images/photoshop.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo photoshop">
+            </a>   
+
+    
+            <a target="_blank" href="https://www.adobe.com/fr/products/premiere/landpb.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB&mv=search&mv=search&sdid=LQLZT7BT&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZeNl1L_9IQRmMJejR2UaJYXsTPqWHQfeaTYZ2A82t07oFPFKJwNgAaAv-zEALw_wcB:G:s&s_kwcid=AL!3085!3!341217015802!e!!g!!adobe%20premiere%20pro!1435912734!56537474099">
+              <img src="../../public/images/premiere_pro.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo première pro">
+            </a>
+    
+            <a target="_blank" href="https://www.adobe.com/fr/products/illustrator.html?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPZJoZ7BR-evM4IwNzZYreQ8FSTIJN4p3v_rafd9oIZCLdaX5c4dY_AaAuLMEALw_wcB&mv=search&mv=search&sdid=KCJMVLF6&ef_id=Cj0KCQjwk7ugBhDIARIsAGuvgPZJoZ7BR-evM4IwNzZYreQ8FSTIJN4p3v_rafd9oIZCLdaX5c4dY_AaAuLMEALw_wcB:G:s&s_kwcid=AL!3085!3!600183673892!e!!g!!adobe%20illustrator!1478148655!58836721084">
+              <img src="../../public/images/illustrator.webp" class="xxxs:w-[100px] xs:w-[150px]" alt="logo illustrator">
+            </a>
+
+      </div>
+
+    </div>
+
+
 
     <div class="flex justify-center mt-[150px] mx-10">
         <p class="font-unbounded font-[700] text-white
@@ -110,31 +153,52 @@
     </div>
 
 
-    <div class="overflow-x-hidden parallax-offset">
+    <div class="overflow-x-hidden parallax-offset hidden xs:grid">
       <div class="flex justify-center gap-5 xxxs:-ml-[4800px] md:-ml-[4000px]">
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Casque_large.webp" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
       </div>
 
       <div class="flex justify-center gap-5 xxxs:-mr-[2350px] md:-mr-[1900px]">
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Togethearth_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Spread_night_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] mb-5 object-contain hidden lg:flex" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
       </div>
 
       <div class="flex justify-center gap-5 xxxs:-ml-[3200px] md:-ml-[2800px]">
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " />
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain  hidden lg:flex" /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
       </div>
+    </div>
+
+    
+    <div class="flex justify-center mt-28 mb-10 xs:hidden">
+      <RouterLink to="/projets">
+        <button class="text-white font Unbounded 
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px] 
+        font-bold border 
+        lg:px-[130px]
+        md:px-[110px]
+        sm:px-[90px] 
+        xs:px-[70px]
+        xxs:px-[50px]
+        xxxs:px-[50px] 
+         py-3 animation_texte">Voir mes projets</button>
+      </RouterLink>
     </div>
 
     <footer>
