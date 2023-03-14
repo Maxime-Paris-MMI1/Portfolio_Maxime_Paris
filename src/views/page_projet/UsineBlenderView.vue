@@ -255,6 +255,8 @@
             </div>
         </div>
 
+        <div class="border-t-4 border-white"></div>
+
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
                 <img class="w-full h-full object-contain" src="../../../public/images/paysage_usine.webp" alt="image galerie présentant mon projet sur une animation">
                 <img class="w-full h-full object-contain" src="../../../public/images/fumée_usine.webp" alt="image galerie présentant mon projet sur une animation">

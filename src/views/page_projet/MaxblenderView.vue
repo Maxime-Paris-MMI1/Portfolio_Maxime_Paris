@@ -55,9 +55,8 @@
                         <div class=" mt-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p>
-                                Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
-                                la présentation et la promotion de mon portfolio qui est affiché sur le téléphone entièrement
-                                modélisé en 3d. Le but était d’approfondir mes connaissances sur le logiciel en me donnant des objectifs.
+                                Après avoir eu quelques connaissances sur Blender, j’ai décidé de faire ma propre animation sur Blender avec le logo de mon portfolio.
+                                J’ai utilisé le moteur de rendu cycle ainsi que la fonctionnalité géometry nodes  pour réaliser les cylindres aux différentes positions.
                             </p>
                         </div>
                     </div>
@@ -65,9 +64,8 @@
                     <div class="pictures-container">
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p>
-                                Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
-                                la présentation et la promotion de mon portfolio qui est affiché sur le téléphone entièrement
-                                modélisé en 3d. Le but était d’approfondir mes connaissances sur le logiciel en me donnant des objectifs.
+                                Après avoir eu quelques connaissances sur Blender, j’ai décidé de faire ma propre animation sur Blender avec le logo de mon portfolio.
+                                J’ai utilisé le moteur de rendu cycle ainsi que la fonctionnalité géometry nodes  pour réaliser les cylindres aux différentes positions.
                             </p>
                         </div>
     
@@ -105,27 +103,28 @@
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p class="mb-5">
-                                Après avoir acquis un peu d’expérience sur Blender, je me suis lancé pour créer une animation
-                                de A à Z avec un environnement complet. Je me suis aidé d’un plug-in qui se nomme <span class="underline"><a target="_blank" href="https://abaga.gumroad.com/l/BbGVh">Baga-Pie</a></span>,
-                                qui m’a permis de créer les tuyaux d’aération qui forment l’usine, mais aussi les poteaux électriques.
-                                J’ai ensuite modéliser une porte qui se trouve au sol ainsi que le téléphone en entier.
-                                J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
+                                En ce qui concerne le travail effectué sur cette animation, j’ai tout d’abord créé le géometry nodes pour avoir la répartition
+                                de tous les cylindres sur une surface. Puis j’ai commencé à vectoriser sur Blender mon logo en 3d pour pouvoir appliquer les propriétés
+                                du géometry nodes sur cette dernière. 
 
                             </p>
+
+                            <p class="mb-5">
+                                Ensuite, j’ai du donner des textures aux objets de la scène, c’était assez simple de les appliquer sur ce projet.
+                                J’ai également commencé à faire l’animation de ma scène avec la caméra ainsi que le logo qui apparait au fil de la vidéo.
+                            </p>
+
+                            <p class="mb-5">
+                                Enfin, l’étape la plus importante ici est l’éclairage qui fait toute l’ambiance de cette scène,
+                                j’ai mis des spots de couleur bleue avec une intensité assez élevé pour créer cette réverbération sur les matériaux.  
+                            </p>
+
+
 
                             <div class="flex justify-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/capture_travail.webp" alt="">
                             </div>
 
-                            <p class="mb-5">
-                                Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
-                                un certain nombre de paramêtres pour que la caméra suive ce dernier.
-
-                            </p>
-
-                            <p>
-                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre la vidéo plus dynamique.
-                            </p>
                             
                         </div>
                                 
@@ -133,14 +132,24 @@
         
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+
                             <p class="mb-5">
-                                Après avoir acquis un peu d’expérience sur Blender, je me suis lancé pour créer une animation
-                                de A à Z avec un environnement complet. Je me suis aidé d’un plug-in qui se nomme <span class="underline"><a target="_blank" href="https://abaga.gumroad.com/l/BbGVh">Baga-Pie</a></span>,
-                                qui m’a permis de créer les tuyaux d’aération qui forment l’usine, mais aussi les poteaux électriques.
-                                J’ai ensuite modéliser une porte qui se trouve au sol ainsi que le téléphone en entier.
-                                J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
+                                En ce qui concerne le travail effectué sur cette animation, j’ai tout d’abord créé le géometry nodes pour avoir la répartition
+                                de tous les cylindres sur une surface. Puis j’ai commencé à vectoriser sur Blender mon logo en 3d pour pouvoir appliquer les propriétés
+                                du géometry nodes sur cette dernière. 
 
                             </p>
+
+                            <p class="mb-5">
+                                Ensuite, j’ai du donner des textures aux objets de la scène, c’était assez simple de les appliquer sur ce projet.
+                                J’ai également commencé à faire l’animation de ma scène avec la caméra ainsi que le logo qui apparait au fil de la vidéo.
+                            </p>
+
+                            <p class="mb-5">
+                                Enfin, l’étape la plus importante ici est l’éclairage qui fait toute l’ambiance de cette scène,
+                                j’ai mis des spots de couleur bleue avec une intensité assez élevé pour créer cette réverbération sur les matériaux.  
+                            </p>
+
                         </div>
     
                         <div class="flex flex-col gap-10">
@@ -149,18 +158,10 @@
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/capture_geometry_nodes.webp" alt="vidéo de présentation de mon projet">
                                 </div>
 
-                                <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                                    Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
-                                    un certain nombre de paramêtres pour que la caméra suive ce dernier.
-                                </p>
         
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/animation_capture.webp" alt="">
                                 </div>
-
-                                <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                                    Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre la vidéo plus dynamique.
-                                </p>
 
                                 <div class="sm:hidden flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_travail.webp" alt="">
@@ -193,8 +194,7 @@
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mb-5 mt-10">
-                                Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
-                                sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
+                                Vous pouvez dès à présent voir le résultat en cliquant sur un de mes réseaux :
                             </p>
                             <div class="flex flex-row justify-center gap-20 mt-8">
                                 
@@ -213,8 +213,7 @@
                     <div class="pictures-container">
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5">
-                                Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
-                                sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
+                                Vous pouvez dès à présent voir le résultat en cliquant sur un de mes réseaux :
                             </p>
                             <div class="flex flex-row justify-center gap-20">
                                 
@@ -254,6 +253,8 @@
                   ">Galerie photo</h5>
             </div>
         </div>
+
+        <div class="border-t-4 border-white"></div>
 
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
                 <img class="w-full h-full object-contain" src="../../../public/images/image_debut_max.webp" alt="image galerie présentant mon projet sur une animation">
