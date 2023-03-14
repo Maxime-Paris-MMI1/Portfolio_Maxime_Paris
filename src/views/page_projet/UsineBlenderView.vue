@@ -14,7 +14,7 @@
                     </h1>
             </div>
         
-            <div class="flex sm:flex-row xxxs:flex-col items-center justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3 ">
+            <div class="flex sm:flex-row xxxs:flex-col items-center justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3">
                 <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] sm:rounded-3xl xxxs:rounded-xl xfoo:h-[315px] sm:w-[800px] sm:h-[450px] z-10" src="https://www.youtube.com/embed/CyflnR4MVKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div class="flex sm:flex-col xxxs:flex-row items-center justify-center gap-16 bg-black sm:rounded-r-2xl xxxs:rounded-b-2xl sm:rounded-l-none sm:px-5 sm:py-5 xxxs:px-8 xxxs:py-3 z-0 vers_droite vers_bas">
 
@@ -28,6 +28,7 @@
 
                 </div>
             </div>
+
             <div class="border-t-4 border-white"></div>
     </div>
     
@@ -278,11 +279,17 @@
   }
 
   @keyframes deplacement2 {
-  from {
+  0% {
     opacity: 0;
     transform: translateY(-150px);
   }
-  to {
+
+  70%{
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -295,18 +302,26 @@
 
 @media (min-width: 1000px) {
 
-    .vers_droite {
+
+.vers_droite {
   opacity: 0;
   transform: translateX(-300px);
   animation: deplacement 2s cubic-bezier(.97,-0.01,.63,1) forwards;
 }
 
 @keyframes deplacement {
-  from {
+  0% {
     opacity: 0;
     transform: translateX(-300px);
   }
-  to {
+
+  70% {
+
+    opacity: 0.2;
+    transform: translateX(-120px);
+  }
+
+  100% {
     opacity: 1;
     transform: translateX(0);
   }
