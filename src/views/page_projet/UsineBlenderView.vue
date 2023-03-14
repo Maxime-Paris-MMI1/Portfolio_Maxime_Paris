@@ -53,57 +53,20 @@
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
-                            <p class="mb-5">
-                                E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
-                                Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                                des NFT's.
-                            </p>
-    
-                            <p class="mb-5">
-                                Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                                Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                                Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                                écologique.
-                            </p>
-    
                             <p>
-                                Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                                offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                                nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                                environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                                est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                                qui y habitent.
-                            </p>
-    
-                            <p class="mt-28">
-                                Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
-                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's <span><a href="#fonctionnement" class="underline">un peu plus bas</a></span> 
+                                Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
+                                la présentation et la promotion de mon portfolio qui est affiché sur le téléphone entièrement
+                                modélisé en 3d. Le but était d’approfondir mes connaissances sur le logiciel en me donnant des objectifs.
                             </p>
                         </div>
                     </div>
         
                     <div class="pictures-container">
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
-                                Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                                des NFT's.
-                            </p>
-    
-                            <p class="mb-5">
-                                Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                                Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                                Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                                écologique.
-                            </p>
-    
-                            <p class="">
-                                Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                                offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                                nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                                environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                                est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                                qui y habitent.
+                            <p>
+                                Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
+                                la présentation et la promotion de mon portfolio qui est affiché sur le téléphone entièrement
+                                modélisé en 3d. Le but était d’approfondir mes connaissances sur le logiciel en me donnant des objectifs.
                             </p>
                         </div>
     
@@ -112,34 +75,12 @@
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
                                 </div>
-    
-                                <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                    Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
-                                    Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's <span> <a href="#fonctionnement" class="underline">un peu plus bas</a></span>
-                                </p>
         
                                 <div class=" justify-center gap-3 hidden sm:flex mb-10">
                                     <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
                                     <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
                                     <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
                                 </div>
-                            </div>
-    
-    
-                            <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
-    
-                                <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                    <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                                </div>
-    
-                                <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                    <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                                </div>
-    
-                                <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
-                                    <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                                </div>
-    
                             </div>
     
     
@@ -164,41 +105,27 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3" id="fonctionnement">Fonctionnement</h4>
+                  mb-3" id="fonctionnement">Travail effectué</h4>
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p class="mb-5">
-                                Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
-                                au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
-                                et Photoshop pour enlever le fond et exporter au format PDF. Nous avions imaginé 30 thèmes par exemple :
-                                La neige, la lave, médiéval, désert... Mais compte tenu du temps assez restreint pour rendre le projet, nous
-                                avions pu en faire 5.
+                                Après avoir acquis un peu d’expérience sur Blender, je me suis lancé pour créer une animation
+                                de A à Z avec un environnement complet. Je me suis aidé d’un plug-in qui se nomme <span class="underline"><a target="_blank" href="https://abaga.gumroad.com/l/BbGVh">Baga-Pie</a></span>,
+                                qui m’a permis de créer les tuyaux d’aération qui forment l’usine, mais aussi les poteaux électriques.
+                                J’ai ensuite modéliser une porte qui se trouve au sol ainsi que le téléphone en entier.
+                                J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
+
                             </p>
-    
+
                             <p class="mb-5">
-                                De plus, ce qui fait notre générateur innovant, le NFT change de couleur en fonction de la température
-                                où la génération sera faite. En effet, une A.P.I va prendre la température extérieure, et si par exemple
-                                la température se trouve en dessous de 5°C, l’arrière-plan du NFT aura un aspect froid et au contraire,
-                                si le NFT est générée à une température supérieure à 25°C, l’arrière-plan aura quant à lui un aspect chaud.
+                                Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
+                                un certain nombre de paramêtres pour que la caméra suive ce dernier.
+
                             </p>
-    
-                            <p class="mb-5">
-                                Pour le fonctionnement des systèmes de calques, pour rendre la génération aléatoire, il a fallu "couper"
-                                la coccinelle en 4 calques distincts. La tête, la carapace (qui est personnalisable), le corps avec le support
-                                et l’arrière-plan qui peut prendre plusieurs aspects en fonction de la température. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Enfin après ceci, le générateur va prendre au hasard dans chaque groupe de calque
-                                c'est-à-dire que par exemple le générateur va choisir la tête dans le thème médiéval,
-                                le corps dans le thème du désert, la carapace dans le thème de la forêt et l’arrière-plan en lave et vu que
-                                la température est supérieure à 25°C, l’arrière-plan lave aura un aspect encore plus chaud. Vous pouvez voir un exemple de génération à droite.
-                            </p>
-    
+
                             <p>
-                                Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
-                                Wallet pour créer l’NFT et la publier sur le web.
+                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre une vidéo plus dynamique.
                             </p>
                             
                         </div>
@@ -207,36 +134,22 @@
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5">
-                                Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
-                                au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
-                                et Photoshop pour enlever le fond et exporter au format PDF. Nous avions imaginé 30 thèmes par exemple :
-                                La neige, la lave, médiéval, désert... Mais compte tenu du temps assez restreint pour rendre le projet, nous
-                                avions pu en faire 5.
+                                Après avoir acquis un peu d’expérience sur Blender, je me suis lancé pour créer une animation
+                                de A à Z avec un environnement complet. Je me suis aidé d’un plug-in qui se nomme <span class="underline"><a target="_blank" href="https://abaga.gumroad.com/l/BbGVh">Baga-Pie</a></span>,
+                                qui m’a permis de créer les tuyaux d’aération qui forment l’usine, mais aussi les poteaux électriques.
+                                J’ai ensuite modéliser une porte qui se trouve au sol ainsi que le téléphone en entier.
+                                J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
+
                             </p>
-    
+
                             <p class="mb-5">
-                                De plus, ce qui fait notre générateur innovant, le NFT change de couleur en fonction de la température
-                                où la génération sera faite. En effet, une A.P.I va prendre la température extérieure, et si par exemple
-                                la température se trouve en dessous de 5°C, l’arrière-plan du NFT aura un aspect froid et au contraire,
-                                si le NFT est générée à une température supérieure à 25°C, l’arrière-plan aura quant à lui un aspect chaud.
+                                Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
+                                un certain nombre de paramêtres pour que la caméra suive ce dernier.
+
                             </p>
-    
-                            <p class="mb-5">
-                                Pour le fonctionnement des systèmes de calques, pour rendre la génération aléatoire, il a fallu "couper"
-                                la coccinelle en 4 calques distincts. La tête, la carapace (qui est personnalisable), le corps avec le support
-                                et l’arrière-plan qui peut prendre plusieurs aspects en fonction de la température. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Enfin après ceci, le générateur va prendre au hasard dans chaque groupe de calque
-                                c'est-à-dire que par exemple le générateur va choisir la tête dans le thème médiéval,
-                                le corps dans le thème du désert, la carapace dans le thème de la forêt et l’arrière-plan en lave et vu que
-                                la température est supérieure à 25°C, l’arrière-plan lave aura un aspect encore plus chaud.
-                            </p>
-    
+
                             <p>
-                                Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
-                                Wallet pour créer l’NFT et la publier sur le web.
+                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre une vidéo plus dynamique.
                             </p>
                         </div>
     
@@ -245,10 +158,6 @@
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/Presentation_fonctionnement.webp" alt="vidéo de présentation de mon projet">
                                 </div>
-    
-                                <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                    Voici en dessous, Un exemple de génération d'NFT avec la carapace qui est totalement personnalisable.
-                                </p>
         
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain xxxs:mb-10" src="../../../public/images/Fonctionnement_calque_final.gif" alt="">
@@ -277,54 +186,48 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3">Logo</h4>
+                  mb-3">Résultat</h4>
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mb-5">
-                                Au niveau de la recherche de logo, nous nous sommes orientés sur un logo typographique avec la police d’écriture Audiowide. Puis, nous avons pu modifier la lettre “o” pour montrer cet aspect de métamorphose que l’on propose pour créer les NFT’s. 
+                                Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
+                                sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
                             </p>
-    
-                            <p class="mb-5">
-                                De plus, pour le deuxième “o”, nous avons représenté un cube en 3d avec des courbes qui tournent autour.
-                                Cet élément graphique montre une représentation de la “blockchain” qui est l’élément qui va certifier l’NFT.
-                            </p>
-    
-                            <p>
-                                Dans un second temps, nous avons designer un logo minimaliste en s’inspirant du premier pour qu’il s’adapte pour tous types de support comme le téléphone ou encore la tablette.
-                                Le logo minimaliste reprend cette idée de blockchain, mais avec la lettre “e” (en référence à E-morphoz) inscrite sur le bloc. On peut voir que les deux propositions de logos
-                                en fonctions des supports fonctionnent assez bien puisqu’ils sont reconnaissables en petite taille.
-                            </p>
-    
-                            <p class="mt-10">
-                                Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
-                            </p>
+                            <div class="flex flex-row justify-center gap-10">
+                                
+                                <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
+                                    <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
+                                </a>
+
+                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3">
+                                    <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
+                                </a>
+
+                            </div>  
                         </div>
                     </div>
         
                     <div class="pictures-container">
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5">
-                                Au niveau de la recherche de logo, nous nous sommes orientés sur un logo typographique avec la police d’écriture Audiowide. Puis, nous avons pu modifier la lettre “o” pour montrer cet aspect de métamorphose que l’on propose pour créer les NFT’s. 
+                                Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
+                                sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
                             </p>
-    
-                            <p class="mb-5">
-                                De plus, pour le deuxième “o”, nous avons représenté un cube en 3d avec des courbes qui tournent autour.
-                                Cet élément graphique montre une représentation de la “blockchain” qui est l’élément qui va certifier l’NFT.
-                            </p>
-    
-                            <p>
-                                Dans un second temps, nous avons designer un logo minimaliste en s’inspirant du premier pour qu’il s’adapte pour tous types de support comme le téléphone ou encore la tablette.
-                                Le logo minimaliste reprend cette idée de blockchain, mais avec la lettre “e” (en référence à E-morphoz) inscrite sur le bloc. On peut voir que les deux propositions de logos
-                                en fonctions des supports fonctionnent assez bien puisqu’ils sont reconnaissables en petite taille.
-                            </p>
+                            <div class="flex flex-row justify-center gap-10">
+                                
+                                <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
+                                    <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
+                                </a>
+
+                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3">
+                                    <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
+                                </a>
+
+                            </div>  
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center">
                             <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
-    
-                            <p class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
-                            </p>
     
                             <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-logo2.webp" alt="">
                         </div>
@@ -333,215 +236,13 @@
                     </div>
         
                 </div>
-    
-    
-    
-                <!-- Quatrième partie -->
-    
-                <div class="row">
-                    
-                    <div class="heading-content text-black">
-                        <h4 class="bg-white text-center font-unbounded font-[500]
-                  lg:text-[35px]
-                  md:text-[35px]
-                  sm:text-[30px]
-                  xs:text-[25px]
-                  xxs:text-[20px]
-                  xxxs:text-[16px]
-                  mb-3">Harmonie colorée</h4>
-        
-                        <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-                            <p class="mb-5">
-                                Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
-                                En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
-                            </p>
-    
-                            <p class="mb-5">
-                                L’harmonie se décompose en 5 couleurs :
-                            </p>
-    
-                            <ul class="mb-5 ml-3">
-                                <li><span class="mr-3">·</span>couleur blanche</li>
-                                <li><span class="mr-3">·</span>couleurs de fond violet</li>
-                                <li><span class="mr-3">·</span>couleurs toniques :  rose et bleu turquoise.</li>
-                            </ul>
-    
-                            <p class="mb-5">   
-                                Pour la couleur blanche, elle est utilisée principalement pour la typographie. En effet,
-                                c'est une couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncé sur notre site.
-                                Ceci respecte donc les normes de contraste pour la lisibilité.
-                            </p>
-    
-                            <p class="mb-5">
-                                Pour les couleurs violettes, elles sont utilisées pour créer le fond de notre site :
-                            </p>
-    
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>En utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de blur. </li>
-                                <li><span class="mr-3">·</span>Au niveau des 2 dernières couleurs, elles sont appliquées comme couleur tonique pour inciter l’utilisateur de notre site à l’action.
-                                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-        
-                    <div class="pictures-container">
-                        <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
-                                En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
-                            </p>
-    
-                            <p class="mb-5">
-                                L’harmonie se décompose en 5 couleurs :
-                            </p>
-    
-                            <ul class="mb-5 ml-3">
-                                <li><span class="mr-3">·</span>couleur blanche</li>
-                                <li><span class="mr-3">·</span>couleurs de fond violet</li>
-                                <li><span class="mr-3">·</span>couleurs toniques :  rose et bleu turquoise.</li>
-                            </ul>
-    
-                            <p class="mb-5">   
-                                Pour la couleur blanche, elle est utilisée principalement pour la typographie. En effet,
-                                c'est une couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncé sur notre site.
-                                Ceci respecte donc les normes de contraste pour la lisibilité.
-                            </p>
-    
-                            <p class="mb-5">
-                                Pour les couleurs violettes, elles sont utilisées pour créer le fond de notre site :
-                            </p>
-    
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>En utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de blur. </li>
-                                <li><span class="mr-3">·</span>Au niveau des 2 dernières couleurs, elles sont appliquées comme couleur tonique pour inciter l’utilisateur de notre site à l’action.
-                                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
-                                </li>
-                            </ul>
-    
-    
-                        </div>
-    
-                        <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                        </div>
-        
-        
-                    </div>
-        
-                </div>
-    
-    
-                <!-- Cinquième partie -->
-    
-    
-                <div class="row">
-                    
-                    <div class="heading-content text-black">
-                        <h4 class="bg-white text-center font-unbounded font-[500]
-                  lg:text-[35px]
-                  md:text-[35px]
-                  sm:text-[30px]
-                  xs:text-[25px]
-                  xxs:text-[20px]
-                  xxxs:text-[16px]
-                  mb-3">Communication</h4>
-        
-                        <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-    
-                            <p class="mb-5">
-                                Au niveau de la communication, nous avons fait des posts sur différents réseaux sociaux comme Discord,
-                                TikTok ou encore Instagram. Nous nous sommes concentrés sur une cible jeune, c'est pour cela que nous avons choisis ces réseaux sociaux. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Vous pouvez voir ci-dessous les liens vers les différents réseaux sociaux d’E-morphoz
-                            </p>
-    
-                            <div class="flex justify-center gap-10 my-10">
-                                <a href="https://www.instagram.com/emorphoz5/" target="_blank">
-                                    <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
-                                </a>
-                                <a href="https://www.tiktok.com/@emorphoz" target="_blank">
-                                    <img class="object-contain -mt-4" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
-                                </a>
-                                <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
-                                    <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="pictures-container">
-    
-                        <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-    
-                            <p class="mb-5">
-                                Au niveau de la communication, nous avons fait des posts sur différents réseaux sociaux comme Discord,
-                                TikTok ou encore Instagram. Nous nous sommes concentrés sur une cible jeune, c'est pour cela que nous avons choisis ces réseaux sociaux. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Vous pouvez voir ci-dessous les liens vers les différents réseaux sociaux d’E-morphoz
-                            </p>
-    
-                            <div class="xxs:flex xxxs:hidden flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px] my-10">
-                                <a href="https://www.instagram.com/emorphoz5/" target="_blank">
-                                    <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
-                                </a>
-    
-                                <a href="https://www.tiktok.com/@emorphoz" target="_blank">
-                                    <img class="object-contain w-[80px] -mt-2" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
-                                </a>
-    
-                                <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
-                                    <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
-                                </a>
-                            </div>
-    
-                            <div class="flex xxs:hidden flex-col justify-center items-center gap-10 my-10">
-                                <a href="https://www.instagram.com/emorphoz5/" target="_blank">
-                                    <img class="object-contain w-[50px]" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
-                                </a>
-                                <a href="https://www.tiktok.com/@emorphoz" target="_blank">
-                                    <img class="object-contain w-[70px]" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
-                                </a>
-                                <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
-                                    <img class="w-[50px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
-                                </a>
-                            </div>
-    
-                        </div>
-    
-                        <div class="w-full flex xxxs:gap-5  snap-x overflow-x-auto xxxs:justify-start xxs:justify-between xxs:max-w-[650px] mt-10 xxs:mx-auto mb-10">
-    
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/tiktok_emorphoz.webp" alt="">
-                            </div>
-    
-                            
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/emorphoz_tiktok_cocc.gif" alt="">
-                            </div>
-    
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] object-contain" src="../../../public/images/instagram_emorphoz.webp" alt="">
-                            </div>
-    
-                        </div>
-        
-        
-                    </div>
-        
-                </div>
-    
-    
-        </div> 
+
+        </div>
     
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect"></div>
+            <div class="parallax-effect2"></div>
             <div class="flex justify-center items-center sm:-mt-[200px] sm:-mb-[180px] xxxs:mt-10 xxxs:mb-10">
                 <h3 class="font-unbounded font-[700] text-white sm:mx-10 xxxs:mx-3 text-center
                   lg:text-[35px]
@@ -573,7 +274,7 @@
                    py-3 animation_texte">Voir le site</button>
                 </a>
             </div>
-            <div class="parallax-effect"></div>
+            <div class="parallax-effect2"></div>
         </div>
     
         <footer>
@@ -625,6 +326,25 @@
     transform: translateX(0);
   }
 }
+
+
+
+.parallax-effect2 {
+        background-image: url("../../../public/images/Usine_large.webp");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .parallax-effect2 + div {
+        height: 600px;
+        background-image: #000;
+        font-size: 36px;
+        text-align: center;
+      }
+
 
 }
 
