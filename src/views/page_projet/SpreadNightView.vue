@@ -96,36 +96,9 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/image_site_spread_night.webp" alt="vidéo de présentation de mon projet">
                                 </div>
-    
-                                <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                    Voici en dessous, quelques exemples d'NFT's qui sont généré directement sur le site.
-                                    Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's <span> <a href="#fonctionnement" class="underline">un peu plus bas</a></span>
-                                </p>
         
-                                <div class=" justify-center gap-3 hidden sm:flex mb-10">
-                                    <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                                    <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                                    <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                                </div>
-                            </div>
-    
-    
-                            <div class="w-full flex gap-5 snap-x overflow-x-auto sm:hidden xxxs:justify-start xsme:justify-center mb-10">
-    
-                                <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                    <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                                </div>
-    
-                                <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                    <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                                </div>
-    
-                                <div class="snap-center shrink-0 first:pl-5 last:pr-5"> 
-                                    <img class="h-[300px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
-                                </div>
-    
                             </div>
     
     
@@ -150,7 +123,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3" id="fonctionnement">Fonctionnement</h4>
+                  mb-3" id="fonctionnement">Recherche de logo</h4>
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
@@ -430,7 +403,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3">Animation 3D</h4>
+                  mb-3">Construction site</h4>
         
                         <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mb-5">
@@ -479,7 +452,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3">Communication</h4>
+                  mb-3">Développement</h4>
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
@@ -585,11 +558,11 @@
                   xxs:text-[20px]
                   xxxs:text-[16px]">
     
-                  Vous pouvez dès à présent voir le site d’E-morphoz !
+                  Vous pouvez dès à présent voir le site de Spread Night !
                 </h3>
             </div>
             <div class="flex justify-center items-center mb-[100px]">
-                <a href="https://emorphoz.marwin-rodrigues.fr/" target="_blank">
+                <a href="https://spread-night.max-prs.fr/" target="_blank">
                   <button class="text-white font Unbounded 
                                 lg:text-[25px] 
                                 md:text-[22px]
@@ -656,7 +629,7 @@
     
     @media (min-width: 1000px) {
         .parallax-effect {
-            background-image: url("../../../public/images/fond_emorphoz.webp");
+            background-image: url("../../../public/images/image_site_spread_night.webp");
             min-height: 500px;
             background-attachment: fixed;
             background-position: center;
