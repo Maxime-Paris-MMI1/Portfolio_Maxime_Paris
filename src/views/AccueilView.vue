@@ -1,202 +1,205 @@
 <template>
-  <header id="haute">
-    <div class=" justify-between items-start lg:flex hidden">
-      <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] mt-[90px] object-contain animate__animated animate__fadeInDownBig
-      xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
+  <div class="derriere5">
 
-
-      <div class="mt-[90px] relative z-30 animate__animated animate__slideInRight">
-        <ul class="text-white text-right font-unbounded text-xl font-bold">
-
-          <div class="flex justify-end">
-            <RouterLink to="/projets">
-              <li class="mb-[50px] mr-[11px] animation_texte">Mes projets</li>
-            </RouterLink>
-            <Barre_menu class="mt-[15px]"/>
-          </div>
-
-          <div class="flex justify-end">
-            <a href="#contact">
-              <li class="mb-[50px] mr-[11px] animation_texte" >Contact</li> 
-            </a>
-
-            <Barre_menu class="mt-[15px]"/>
-          </div>
-
-          <div class="flex justify-end">
-            <RouterLink to="/a_propos">
-              <li class="mr-[11px] animation_texte">À propos</li>
-            </RouterLink>
-            <Barre_menu class="mt-[15px]"/>
-          </div>
-
-        </ul>
+    <header id="haute">
+      <div class=" justify-between items-start lg:flex hidden">
+        <img id="haut_accueil" src="../../public/images/logo_blanc.webp" class=" ml-[100px] pt-[90px] object-contain animate__animated animate__fadeInDownBig
+        xs:w-[84px] xxs:w-[60px]" alt="logo blanc de mon portfolio">
+  
+  
+        <div class="pt-[90px] relative z-30 animate__animated animate__slideInRight">
+          <ul class="text-white text-right font-unbounded text-xl font-bold">
+  
+            <div class="flex justify-end">
+              <RouterLink to="/projets">
+                <li class="mb-[50px] mr-[11px] animation_texte">Mes projets</li>
+              </RouterLink>
+              <Barre_menu class="mt-[15px]"/>
+            </div>
+  
+            <div class="flex justify-end">
+              <a href="#contact">
+                <li class="mb-[50px] mr-[11px] animation_texte" >Contact</li> 
+              </a>
+  
+              <Barre_menu class="mt-[15px]"/>
+            </div>
+  
+            <div class="flex justify-end">
+              <RouterLink to="/a_propos">
+                <li class="mr-[11px] animation_texte">À propos</li>
+              </RouterLink>
+              <Barre_menu class="mt-[15px]"/>
+            </div>
+  
+          </ul>
+        </div>
       </div>
-    </div>
-
-
-
-    <div class="xs:hidden flex justify-between mx-8 mt-10">
-      <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
-      xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
-
-      <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
-        <div>
-          <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig" :class="{menuOuvert}"/>
-        </div>
-        <span class="sr-only">Menu</span>
-      </button>
-    </div>
-
-    <div id="menu" class="z-[50] fixed inset-0 -translate-x-0 bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full xs:hidden" v-if="menuOuvert"
-      :class="{ 'translate-x-0': menuOuvert }">
-        <div class="flex flex-row justify-end mr-10">
-          <button class="relative z-50 mt-14" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
-            <img src="../../public/images/croix_menu.svg" alt="croix du menu" :class="{'motion-safe:animate-[BackInRight_1s_cubic-bezier(0,1,.24,1)]' : menuOuvert}">
-          </button>
-        </div>
-
-        <nav class="text-white font-unbounded font-medium text-2xl pt-20">
-          <ul class="flex flex-col text-center gap-[70px]">
-           <RouterLink :class="{' motion-safe:animate-[Depart_0.2s_ease-in-out]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
-           <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
-           <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
-          </ul>
-        </nav>   
-    </div>
-
-
-
-
-    <div class="xxxs:hidden lg:hidden xs:flex flex justify-between mx-8 mt-10">
-
-      <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
-      xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
-
-      <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
-        <div>
-          <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig" :class="{menuOuvert}"/>
-        </div>
-        <span class="sr-only">Menu</span>
-      </button>
-
-    </div>
-
-    <div id="menu" class="z-50 fixed inset-0  translate-x-3/4 bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform xs:h-1/2 sm:h-full xxxs:hidden lg:hidden xs:flex border-l-4 border-b-4 border-t-4 border-white " v-if="menuOuvert"
-      :class="{ 'translate-x-0': menuOuvert }">
-
-
-        <nav class="text-white font-unbounded font-medium md:text-[25px] sm:text-[20px] flex z-[100]">
-          <ul class="flex flex-col gap-[50px] text-center sm:ml-14 xs:ml-5 mt-40 xsme:ml-10 ">
-           <RouterLink :class="{' motion-safe:animate-[Depart_0.2s_ease-in-out]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
-           <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
-           <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
-          </ul>
-        </nav>   
-
-        <div class="mt-16 me:ml-10 xsme:-ml-4 xs:ml-[-30px] relative z-[200]">
-          <button class="" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
-            <div class="mx-auto">
+  
+  
+  
+      <div class="xs:hidden flex justify-between mx-8 pt-10">
+        <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
+        xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+  
+        <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+          <div>
+            <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig" :class="{menuOuvert}"/>
+          </div>
+          <span class="sr-only">Menu</span>
+        </button>
+      </div>
+  
+      <div id="menu" class="z-[50] fixed inset-0 -translate-x-0 bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform h-full xs:hidden" v-if="menuOuvert"
+        :class="{ 'translate-x-0': menuOuvert }">
+          <div class="flex flex-row justify-end mr-10">
+            <button class="relative z-50 mt-14" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
               <img src="../../public/images/croix_menu.svg" alt="croix du menu" :class="{'motion-safe:animate-[BackInRight_1s_cubic-bezier(0,1,.24,1)]' : menuOuvert}">
-            </div>
-          </button>
-        </div>
-
-
-    </div>
-
-
-  </header>
-
-
-  <section>
-    <div class="sm:flex-row xxxs:flex-col flex">
-      <div class="flex flex-col lg:-mt-[120px] md:mt-[90px]">
-
-        <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
-          <div class="xxxs:flex xxxs:flex-col xxxs:items-center xxxs:mt-[80px] sm:mt-[0px]">
-
-
-            <h1 class="font-unbounded  text-white font-bold sm:ml-[100px] xxs:ml-[0px]
-            lg:text-[100px] 
-            md:text-[75px] md:-mt-[40px] 
-            sm:text-[60px] sm:mt-[40px]
-            xs:text-[60px] xs:flex xs:justify-center
-            xxs:text-[40px] xxs:flex xxs:justify-center
-            xxxs:text-[30px] xxxs:flex xxxs:justify-center">PORTFOLIO</h1>
-
-
-            <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class=
-            "lg:ml-[120px] lg:-mt-[100px] lg:w-[716px]
-            md:w-[530px] md:ml-[120px] md:-mt-[75px]
-            sm:w-[430px] sm:ml-[113px]  sm:mb-[70px] sm:-mt-[60px]
-            xs:w-[430px] xs:flex xs:justify-center xs:ml-[10px] xs:-mt-[60px]
-            xxs:w-[290px] xxs:flex xxs:justify-center xxs:ml-[10px] xxs:-mt-[40px]
-            xxxs:w-[215px] xxxs:flex xxxs:justify-center xxxs:ml-[8px] xxxs:-mt-[30px]">
-
-
+            </button>
           </div>
-        </div>
-
-
-        <div class="animate__animated animate__backInLeft md:mb-[70px] md:-mt-[70px] lg:mb-0 lg:-mt-[70px] sm:mb-[30px] sm:-mt-[70px]">
-
-          <div class="xxxs:flex xxxs:flex-col xxxs:items-center sm:items-baseline xxxs:mt-5 sm:mt-0 xxxs:mb-5 sm:mb-0">
-            <div>
-              <h2 class="font-unbounded text-white font-bold sm:ml-[100px] xxs:ml-[0px]
-              lg:text-[75px] 
-              md:text-[50px]
-              sm:text-[35px] 
-              xs:text-[45px]
-              xxs:text-[30px]
-              xxxs:text-[23px]">MAXIME</h2>
-            </div>
-            <div>
-              <img class=
-              "lg:ml-[103px] lg:-mt-[14px] lg:w-[274px]
-               md:w-[200px]
-               sm:w-[126px] sm:ml-[103px] sm:mt-[2px] sm:mb-[70px]
-               xs:w-[160px] xs:ml-[0px] xs:mt-[2px] xs:mb-[70px]
-               xxs:w-[110px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]
-               xxxs:w-[90px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+  
+          <nav class="text-white font-unbounded font-medium text-2xl pt-20">
+            <ul class="flex flex-col text-center gap-[70px]">
+             <RouterLink :class="{' motion-safe:animate-[Depart_0.2s_ease-in-out]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
+             <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
+             <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
+            </ul>
+          </nav>   
+      </div>
+  
+  
+  
+  
+      <div class="xxxs:hidden lg:hidden xs:flex flex justify-between mx-8 pt-10">
+  
+        <img src="../../public/images/logo_blanc.webp" class="object-contain animate__animated animate__fadeInDownBig
+        xxxs:w-[50px] xxs:w-[70px] xs:w-[80px] sm:w-[84px]" alt="logo blanc de mon portfolio">
+  
+        <button class="relative z-50 text-xl" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+          <div>
+            <img id="haut_accueil2" src="../../public/images/Ligne-header.svg" alt="menu" class="animate__animated animate__fadeInRightBig" :class="{menuOuvert}"/>
+          </div>
+          <span class="sr-only">Menu</span>
+        </button>
+  
+      </div>
+  
+      <div id="menu" class="z-50 fixed inset-0  translate-x-3/4 bg-[#000] motion-safe:duration-1000 motion-safe:transition-transform xs:h-1/2 sm:h-full xxxs:hidden lg:hidden xs:flex border-l-4 border-b-4 border-t-4 border-white " v-if="menuOuvert"
+        :class="{ 'translate-x-0': menuOuvert }">
+  
+  
+          <nav class="text-white font-unbounded font-medium md:text-[25px] sm:text-[20px] flex z-[100]">
+            <ul class="flex flex-col gap-[50px] text-center sm:ml-14 xs:ml-5 mt-40 xsme:ml-10 ">
+             <RouterLink :class="{' motion-safe:animate-[Depart_0.2s_ease-in-out]' : menuOuvert}" to="/projets">Mes projets</RouterLink>
+             <RouterLink :class="{' motion-safe:animate-[Depart_0.4s_ease-in-out]' : menuOuvert}" to="/a_propos">À propos</RouterLink>
+             <a href="#contact" :class="{' motion-safe:animate-[Depart_0.6s_ease-in-out]' : menuOuvert}">Contact</a>
+            </ul>
+          </nav>   
+  
+          <div class="mt-16 me:ml-10 xsme:-ml-4 xs:ml-[-30px] relative z-[200]">
+            <button class="" aria-haspopup="true" aria-controls="menu" :aria-expanded="menuOuvert" @click="menuOuvert = !menuOuvert">
+              <div class="mx-auto">
+                <img src="../../public/images/croix_menu.svg" alt="croix du menu" :class="{'motion-safe:animate-[BackInRight_1s_cubic-bezier(0,1,.24,1)]' : menuOuvert}">
+              </div>
+            </button>
+          </div>
+  
+  
+      </div>
+  
+  
+    </header>
+  
+  
+    <section>
+      <div class="sm:flex-row xxxs:flex-col flex">
+        <div class="flex flex-col lg:-mt-[120px] md:mt-[90px]">
+  
+          <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
+            <div class="xxxs:flex xxxs:flex-col xxxs:items-center xxxs:mt-[80px] sm:mt-[0px]">
+  
+  
+              <h1 class="font-unbounded  text-white font-bold sm:ml-[100px] xxs:ml-[0px]
+              lg:text-[100px] 
+              md:text-[75px] md:-mt-[40px] 
+              sm:text-[60px] sm:mt-[40px]
+              xs:text-[60px] xs:flex xs:justify-center
+              xxs:text-[40px] xxs:flex xxs:justify-center
+              xxxs:text-[30px] xxxs:flex xxxs:justify-center">PORTFOLIO</h1>
+  
+  
+              <img src="../../public/images/portfolio-stroke.webp" alt="portfolio sans fond" class=
+              "lg:ml-[120px] lg:-mt-[100px] lg:w-[716px]
+              md:w-[530px] md:ml-[120px] md:-mt-[75px]
+              sm:w-[430px] sm:ml-[113px]  sm:mb-[70px] sm:-mt-[60px]
+              xs:w-[430px] xs:flex xs:justify-center xs:ml-[10px] xs:-mt-[60px]
+              xxs:w-[290px] xxs:flex xxs:justify-center xxs:ml-[10px] xxs:-mt-[40px]
+              xxxs:w-[215px] xxxs:flex xxxs:justify-center xxxs:ml-[8px] xxxs:-mt-[30px]">
+  
+  
             </div>
           </div>
+  
+  
+          <div class="animate__animated animate__backInLeft md:mb-[70px] md:-mt-[70px] lg:mb-0 lg:-mt-[70px] sm:mb-[30px] sm:-mt-[70px]">
+  
+            <div class="xxxs:flex xxxs:flex-col xxxs:items-center sm:items-baseline xxxs:mt-5 sm:mt-0 xxxs:mb-5 sm:mb-0">
+              <div>
+                <h2 class="font-unbounded text-white font-bold sm:ml-[100px] xxs:ml-[0px]
+                lg:text-[75px] 
+                md:text-[50px]
+                sm:text-[35px] 
+                xs:text-[45px]
+                xxs:text-[30px]
+                xxxs:text-[23px]">MAXIME</h2>
+              </div>
+              <div>
+                <img class=
+                "lg:ml-[103px] lg:-mt-[14px] lg:w-[274px]
+                 md:w-[200px]
+                 sm:w-[126px] sm:ml-[103px] sm:mt-[2px] sm:mb-[70px]
+                 xs:w-[160px] xs:ml-[0px] xs:mt-[2px] xs:mb-[70px]
+                 xxs:w-[110px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]
+                 xxxs:w-[90px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+              </div>
+            </div>
+          </div>
+  
+  
         </div>
-
-
+  
+  
+        <div class= "sm:-mt-[220px] sm:-ml-[60px] flex animate__animated animate__fadeInRight">
+          <img class="w-full h-full object-contain min-h-full min-w-full 
+          xxxs:h-[300px] xxxs:-mt-[110px]
+          xxs:h-[370px] xxs:-mt-[110px]
+          xs:h-[550px] xs:-mt-[110px]
+          md:h-[570px] md:mt-[90px] 
+          sm:h-[445px] sm:mt-[80px]
+          lg:h-full lg:mt-[0px]" 
+          src="../../public/images/photo-perso.webp" alt="photo personnelle">
+        </div>
+  
       </div>
-
-
-      <div class= "sm:-mt-[220px] sm:-ml-[60px] flex animate__animated animate__fadeInRight">
-        <img class="w-full h-full object-contain min-h-full min-w-full 
-        xxxs:h-[300px] xxxs:-mt-[110px]
-        xxs:h-[370px] xxs:-mt-[110px]
-        xs:h-[550px] xs:-mt-[110px]
-        md:h-[570px] md:mt-[90px] 
-        sm:h-[445px] sm:mt-[80px]
-        lg:h-full lg:mt-[0px]" 
-        src="../../public/images/photo-perso.webp" alt="photo personnelle">
+      
+    </section>
+    <section>
+  
+  
+      <div class="container2 bg-white text-black font-unbounded font-bold 
+      sm:text-[40px] sm:py-5
+      xs:text-[30px] xs:py-5
+      xxs:text-[25px] xxs:py-5
+      xxxs:text-[20px] xxxs:py-3 xxxs:-mt-[20px]">
+  
+        <span class="txt t1">Artiste 3D - Motion Design - 3D VFX - Webdesign - Création de logo - Affiche -&nbsp;</span>
+        <span class="txt t2">Artiste 3D - Motion Design - 3D VFX - Webdesign - Création de logo - Affiche -&nbsp;</span>
+  
       </div>
-
-    </div>
-    
-  </section>
-  <section>
-
-
-    <div class="container2 bg-white text-black font-unbounded font-bold 
-    sm:text-[40px] sm:py-5
-    xs:text-[30px] xs:py-5
-    xxs:text-[25px] xxs:py-5
-    xxxs:text-[20px] xxxs:py-3 xxxs:-mt-[20px]">
-
-      <span class="txt t1">Artiste 3D - Motion Design - 3D VFX - Webdesign - Création de logo - Affiche -&nbsp;</span>
-      <span class="txt t2">Artiste 3D - Motion Design - 3D VFX - Webdesign - Création de logo - Affiche -&nbsp;</span>
-
-    </div>
-
-
-  </section>
+  
+  
+    </section>
+  </div>
 
   <div>
     <a href="#haute">
@@ -447,6 +450,22 @@
 
 
 <style>
+.derriere5 {
+  position: relative;
+}
+.derriere5::before {
+  content: "";
+  background-image: url(../../public/images/gif_rendu_final.gif);
+  background-size: cover;
+  opacity: 0.4;
+  position: absolute;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
 .buttoned {
   z-index: 500;

@@ -423,6 +423,54 @@
 
             <!-- Cinquième partie -->
 
+            <div class="row">
+                
+                <div class="heading-content text-black">
+                    <h4 class="bg-white text-center font-unbounded font-[500]
+              lg:text-[35px]
+              md:text-[35px]
+              sm:text-[30px]
+              xs:text-[25px]
+              xxs:text-[20px]
+              xxxs:text-[16px]
+              mb-3">Animation 3D</h4>
+    
+                    <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                        <p class="mb-5">
+                            Pour faire la promotion du site e-morphoz j’ai réalisé une animation 3D montrant le fonctionnement du générateur en s’appuyant sur les possibilités presque infinies.
+                            J’ai également animé le logo au début pour ajouter des effets visuels.
+                        </p>
+
+                        <p>
+                            L’animation a été réalisée sur Blender avec le moteur de rendu cycle. Vous pouvez voir le résultat à droite.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="pictures-container">
+                    <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <p class="mb-5">
+                            Pour faire la promotion du site e-morphoz j’ai réalisé une animation 3D montrant le fonctionnement du générateur en s’appuyant sur les possibilités presque infinies.
+                            J’ai également animé le logo au début pour ajouter des effets visuels.
+                        </p>
+
+                        <p>
+                            L’animation a été réalisée sur Blender avec le moteur de rendu cycle. Vous pouvez voir le résultat en bas.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-10 justify-center items-center my-10">
+                        <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/gif_rendu_final.gif" alt="Harmonie colorée de mon projet E-morphoz">
+                    </div>
+    
+    
+                </div>
+    
+            </div>
+
+
+            <!-- Sixième partie -->
+
 
             <div class="row">
                 
