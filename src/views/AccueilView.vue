@@ -629,7 +629,7 @@ mounted() {
         { id: 3, titre: 'Logo MAX', categorie: 'personnel', img_presentation: 'images/Logo_MAX.webp', lien: '/emorphoz' },
         { id: 5, titre: 'Meat my grill', categorie: 'éducatif', img_presentation: 'images/Meat_my_grill.webp', lien: '/emorphoz' },
         { id: 6, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/max_blender' },
-        { id: 7, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/emorphoz' },
+        { id: 7, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/spread_night' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',

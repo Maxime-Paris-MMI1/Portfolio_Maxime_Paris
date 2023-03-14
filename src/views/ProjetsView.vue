@@ -148,7 +148,7 @@ mounted() {
         { id: 6, titre: 'Site cookies', categorie: 'personnel', img_presentation: 'images/Animation_cookie.webp', lien: '/emorphoz' },
         { id: 7, titre: 'Meat my grill', categorie: 'éducatif', img_presentation: 'images/Meat_my_grill.webp', lien: '/emorphoz' },
         { id: 8, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/max_blender' },
-        { id: 9, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/emorphoz' },
+        { id: 9, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/spread_night' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',
