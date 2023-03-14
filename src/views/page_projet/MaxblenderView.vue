@@ -202,7 +202,7 @@
                                     <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
                                 </a>
 
-                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3 mb-10">
+                                <a href="https://www.tiktok.com/@max_portfolio/video/7194501315743976710" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3 mb-10">
                                     <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
                                 </a>
 
@@ -218,7 +218,7 @@
                             </p>
                             <div class="flex flex-row justify-center gap-20">
                                 
-                                <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
+                                <a href="https://www.instagram.com/p/CoCwkmAK2_Z/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
                                     <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
                                 </a>
 
