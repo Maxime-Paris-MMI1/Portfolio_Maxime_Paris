@@ -14,9 +14,6 @@
                     </h1>
             </div>
         
-            <div class="flex justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3 ">
-                <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] sm:rounded-3xl xxxs:rounded-xl xxs:h-[225px] xfoo:w-[560px] xfoo:h-[315px] sm:w-[800px] sm:h-[450px]" src="https://www.youtube.com/embed/38MRUKACrD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
             <div class="border-t-4 border-white"></div>
     </div>
     
@@ -626,11 +623,11 @@
 }
 .derriere7::before {
   content: "";
-  background-image: url(../../../public/images/image_site_spread_night.webp);
+  background-image: url(../../../public/images/Spread_night_large.webp);
   background-size: cover;
   opacity: 0.6;
   position: absolute;
-  background-position: bottom;
+  background-position: center;
   top: 0;
   left: 0;
   width: 100%;
