@@ -256,10 +256,10 @@
         </div>
 
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
-                <img class="w-full h-full object-contain" src="../../../public/images/paysage_usine.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/fumée_usine.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/telephone_coté.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/usine_200.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/image_debut_max.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/image_raproche_face.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/image_de_fin_max.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/image_face_max.webp" alt="image galerie présentant mon projet sur une animation">
 
         </div>
     
