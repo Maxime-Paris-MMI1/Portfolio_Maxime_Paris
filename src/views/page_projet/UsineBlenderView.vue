@@ -140,16 +140,6 @@
                                 J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
 
                             </p>
-
-                            <p class="mb-5">
-                                Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
-                                un certain nombre de paramêtres pour que la caméra suive ce dernier.
-
-                            </p>
-
-                            <p>
-                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre une vidéo plus dynamique.
-                            </p>
                         </div>
     
                         <div class="flex flex-col gap-10">
@@ -157,10 +147,19 @@
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender-baggapie.webp" alt="vidéo de présentation de mon projet">
                                 </div>
+
+                                <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
+                                    Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
+                                    un certain nombre de paramêtres pour que la caméra suive ce dernier.
+                                </p>
         
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender_courbe.webp" alt="">
                                 </div>
+
+                                <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
+                                    Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre une vidéo plus dynamique.
+                                </p>
 
                                 <div class="sm:hidden flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/textures_blender.webp" alt="">
