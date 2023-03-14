@@ -74,7 +74,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/usine_eavy.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/commencement_animation_max.webp" alt="vidéo de présentation de mon projet">
                                 </div>
                             </div>
     
@@ -114,7 +114,7 @@
                             </p>
 
                             <div class="flex justify-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/textures_blender.webp" alt="">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/capture_travail.webp" alt="">
                             </div>
 
                             <p class="mb-5">
@@ -146,7 +146,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender-baggapie.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/capture_geometry_nodes.webp" alt="vidéo de présentation de mon projet">
                                 </div>
 
                                 <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
@@ -155,7 +155,7 @@
                                 </p>
         
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender_courbe.webp" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/animation_capture.webp" alt="">
                                 </div>
 
                                 <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
@@ -163,7 +163,7 @@
                                 </p>
 
                                 <div class="sm:hidden flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/textures_blender.webp" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_travail.webp" alt="">
                                 </div>
                             </div>
     
@@ -198,7 +198,7 @@
                             </p>
                             <div class="flex flex-row justify-center gap-20 mt-8">
                                 
-                                <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
+                                <a href="https://www.instagram.com/p/CoCwkmAK2_Z/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
                                     <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
                                 </a>
 
@@ -222,7 +222,7 @@
                                     <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
                                 </a>
 
-                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3">
+                                <a href="https://www.tiktok.com/@max_portfolio/video/7194501315743976710" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3">
                                     <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
                                 </a>
 
@@ -230,7 +230,7 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/telephone_face.webp" alt="vidéo de présentation de mon projet">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/image_de_fin_max.webp" alt="vidéo de présentation de mon projet">
                         </div>
         
         
@@ -243,7 +243,7 @@
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect2 flex justify-center items-center">
+            <div class="parallax-effect3 flex justify-center items-center">
                 <h5 class="text-center xxxs:w-2/4 sm:w-1/4 xxxs:my-10 sm:my-0 xxxs:bg-white xxxs:text-black sm:text-white sm:bg-black font-unbounded font-[500]
                   lg:text-[35px]
                   md:text-[35px]
@@ -329,8 +329,8 @@
 
 
 
-.parallax-effect2 {
-        background-image: url("../../../public/images/Usine_large.webp");
+.parallax-effect3 {
+        background-image: url("../../../public/images/Max_Blender_large.webp");
         min-height: 500px;
         background-attachment: fixed;
         background-position: center;
@@ -338,7 +338,7 @@
         background-size: cover;
       }
 
-      .parallax-effect2 + div {
+      .parallax-effect3 + div {
         height: 600px;
         background-image: #000;
         font-size: 36px;
