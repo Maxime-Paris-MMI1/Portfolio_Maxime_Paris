@@ -124,7 +124,7 @@
                             </p>
 
                             <p>
-                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre une vidéo plus dynamique.
+                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre la vidéo plus dynamique.
                             </p>
                             
                         </div>
@@ -159,7 +159,7 @@
                                 </div>
 
                                 <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                                    Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre une vidéo plus dynamique.
+                                    Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre la vidéo plus dynamique.
                                 </p>
 
                                 <div class="sm:hidden flex justify-center">
