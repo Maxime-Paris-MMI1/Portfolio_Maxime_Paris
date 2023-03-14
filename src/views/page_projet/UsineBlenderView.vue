@@ -51,7 +51,7 @@
                   xxxs:text-[16px]
                   mb-3">Présentation</h4>
         
-                        <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                        <div class=" mt-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p>
                                 Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
@@ -73,13 +73,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-presentation.webp" alt="vidéo de présentation de mon projet">
-                                </div>
-        
-                                <div class=" justify-center gap-3 hidden sm:flex mb-10">
-                                    <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation2.webp" alt="">
-                                    <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_présentation3.webp" alt="">
-                                    <img class="lg:h-[300px] md:h-[250px] sm:h-[200px] object-contain" src="../../../public/images/E_morphoz_presentation4.webp" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/usine_eavy.webp" alt="vidéo de présentation de mon projet">
                                 </div>
                             </div>
     
@@ -118,6 +112,10 @@
 
                             </p>
 
+                            <div class="flex justify-center">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/textures_blender.webp" alt="">
+                            </div>
+
                             <p class="mb-5">
                                 Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
                                 un certain nombre de paramêtres pour que la caméra suive ce dernier.
@@ -129,6 +127,7 @@
                             </p>
                             
                         </div>
+                                
                     </div>
         
                     <div class="pictures-container">
@@ -156,11 +155,15 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/Presentation_fonctionnement.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender-baggapie.webp" alt="vidéo de présentation de mon projet">
                                 </div>
         
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain xxxs:mb-10" src="../../../public/images/Fonctionnement_calque_final.gif" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender_courbe.webp" alt="">
+                                </div>
+
+                                <div class="sm:hidden flex justify-center">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/textures_blender.webp" alt="">
                                 </div>
                             </div>
     
@@ -189,17 +192,17 @@
                   mb-3">Résultat</h4>
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-                            <p class="mb-5">
+                            <p class="mb-5 mt-10">
                                 Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
                                 sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
                             </p>
-                            <div class="flex flex-row justify-center gap-10">
+                            <div class="flex flex-row justify-center gap-20 mt-8">
                                 
                                 <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
                                     <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
                                 </a>
 
-                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3">
+                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3 mb-10">
                                     <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
                                 </a>
 
@@ -213,7 +216,7 @@
                                 Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
                                 sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
                             </p>
-                            <div class="flex flex-row justify-center gap-10">
+                            <div class="flex flex-row justify-center gap-20">
                                 
                                 <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
                                     <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
@@ -227,9 +230,7 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
-    
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-logo2.webp" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/telephone_face.webp" alt="vidéo de présentation de mon projet">
                         </div>
         
         
@@ -242,39 +243,24 @@
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect2"></div>
-            <div class="flex justify-center items-center sm:-mt-[200px] sm:-mb-[180px] xxxs:mt-10 xxxs:mb-10">
-                <h3 class="font-unbounded font-[700] text-white sm:mx-10 xxxs:mx-3 text-center
+            <div class="parallax-effect2 flex justify-center items-center">
+                <h5 class="text-center xxxs:w-2/4 sm:w-1/4 xxxs:my-10 sm:my-0 xxxs:bg-white xxxs:text-black sm:text-white sm:bg-black font-unbounded font-[500]
                   lg:text-[35px]
                   md:text-[35px]
                   sm:text-[30px]
                   xs:text-[25px]
                   xxs:text-[20px]
-                  xxxs:text-[16px]">
-    
-                  Vous pouvez dès à présent voir le site d’E-morphoz !
-                </h3>
+                  xxxs:text-[16px]
+                  ">Galerie photo</h5>
             </div>
-            <div class="flex justify-center items-center mb-[100px]">
-                <a href="https://emorphoz.marwin-rodrigues.fr/" target="_blank">
-                  <button class="text-white font Unbounded 
-                                lg:text-[25px] 
-                                md:text-[22px]
-                                sm:text-[20px] 
-                                xs:text-[18px]
-                                xxs:text-[15px]
-                                xxxs:text-[12px] 
-                  font-bold border 
-                  lg:px-[130px]
-                  md:px-[110px]
-                  sm:px-[90px] 
-                  xs:px-[70px]
-                  xxs:px-[50px]
-                  xxxs:px-[50px] 
-                   py-3 animation_texte">Voir le site</button>
-                </a>
-            </div>
-            <div class="parallax-effect2"></div>
+        </div>
+
+        <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
+                <img class="w-full h-full object-contain" src="../../../public/images/paysage_usine.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/fumée_usine.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/telephone_coté.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/usine_200.webp" alt="image galerie présentant mon projet sur une animation">
+
         </div>
     
         <footer>
