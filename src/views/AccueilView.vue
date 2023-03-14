@@ -457,7 +457,7 @@
   content: "";
   background-image: url(../../public/images/gif_rendu_final.gif);
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0;
   position: absolute;
   background-position: bottom;
   top: 0;
