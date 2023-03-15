@@ -39,57 +39,63 @@
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
-                            <p class="mb-5">
-                                E-morphoz est un projet éducatif réalisé au sein du <span> <a href="http://mmimontbeliard.com/" target="_blank" class="underline"> MMI de Montbéliard</a></span>, qui vise à créer un générateur de NFT's.
-                                Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                                des NFT's.
+                            <p class="mb-5 mt-5">
+                                Spread-night est un projet éducatif qui s’est déroulé en trois phases principales : 
                             </p>
+
+                            <ul class="ml-3">
+                                <li class="mb-3"><span class="mr-3">·</span>La première partie est destinée à créer le festival :
+                                    son nom, l’endroit, sa cible, le genre musical du festival… Une étude complète dans le but de
+                                    créer une identité visuelle.
+                                </li>
+
+                                <li class="mb-3"><span class="mr-3">·</span>La seconde est de créer le site internet du festival
+                                    sur Figma. Il était important de rendre le site responsive (adapté à toutes les tailles d’écran).
+                                </li>
+
+                                <li class="mb-3"><span class="mr-3">·</span>La dernière partie est le développement de cette maquette Figma grâce
+                                    à VueJS, Tailwinds CSS et une base de données no SQL nommée Firebase. Nous devions également rendre
+                                    le site responsive au niveau du développement.
+                                </li>
+
+                            </ul>
+
     
                             <p class="mb-5">
-                                Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                                Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                                Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                                écologique.
+                                Spread Night est donc un travail qui touche pleins de domaines comme le design,
+                                la communication ainsi que le développement.
                             </p>
-    
-                            <p>
-                                Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                                offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                                nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                                environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                                est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                                qui y habitent.
-                            </p>
-    
-                            <p class="mt-28">
-                                Voici à droite, quelques exemples d'NFT's qui sont généré directement sur le site.
-                                Vous pouvez également voir et comprendre le fonctionnement de la génération d'Nft's <span><a href="#fonctionnement" class="underline">un peu plus bas</a></span> 
-                            </p>
+
                         </div>
                     </div>
         
                     <div class="pictures-container">
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                E-morphoz est un projet éducatif réalisé au sein du MMI de Montbéliard, qui vise à créer un générateur de NFT's.
-                                Le projet a été réalisé par des groupes de 5 étudiants, chacun chargé de trouver une idée originale pour générer
-                                des NFT's.
+                            <p class="mb-5 mt-5">
+                                Spread-night est un projet éducatif qui s’est déroulé en trois phases principales : 
                             </p>
+
+                            <ul class="ml-3">
+                                <li class="mb-3"><span class="mr-3">·</span>La première partie est destinée à créer le festival :
+                                    son nom, l’endroit, sa cible, le genre musical du festival… Une étude complète dans le but de
+                                    créer une identité visuelle.
+                                </li>
+
+                                <li class="mb-3"><span class="mr-3">·</span>La seconde est de créer le site internet du festival
+                                    sur Figma. Il était important de rendre le site responsive (adapté à toutes les tailles d’écran).
+                                </li>
+
+                                <li class="mb-3"><span class="mr-3">·</span>La dernière partie est le développement de cette maquette Figma grâce
+                                    à VueJS, Tailwinds CSS et une base de données no SQL nommée Firebase. Nous devions également rendre
+                                    le site responsive au niveau du développement.
+                                </li>
+
+                            </ul>
+
     
                             <p class="mb-5">
-                                Nous avons choisi de nous orienter vers l'écologie en utilisant une cryptomonnaie moins énergivore, Tezos.
-                                Cette approche nous a permis d'allier technologie et responsabilité environnementale.
-                                Nous avons également opté pour une collection de coccinelles en NFT's pour mettre en avant cet aspect
-                                écologique.
-                            </p>
-    
-                            <p class="">
-                                Le générateur de NFT's que nous avons développé peut être utilisé sous forme de site web ou d'application web,
-                                offrant ainsi une grande flexibilité et accessibilité aux utilisateurs. Grâce à notre projet éducatif,
-                                nous avons réussi à créer une solution innovante pour la génération de NFT's, tout en intégrant des valeurs
-                                environnementales et éthiques. La coccinelle, symbole universel de la nature et de l'écologie,
-                                est mise en avant dans notre projet pour rappeler l'importance de préserver l'environnement et les espèces
-                                qui y habitent.
+                                Spread Night est donc un travail qui touche pleins de domaines comme le design,
+                                la communication ainsi que le développement.
                             </p>
                         </div>
     
@@ -127,37 +133,39 @@
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
+                            <p class="mb-5 mt-5">
+                                Avant de créer un logo, il est important de réfléchir à la contextualisation de mon festival :  
+                            </p>
+
+                            <ul class="ml-3">
+                                <li class="mb-3"><span class="mr-3">·</span>C’est un festival de genre Drum and Bass
+                                    qui se passe dans les Alpes près de Chamonix et qui se déroule pendant environ une semaine.
+                                    Les concerts se déroulent la nuit, c'est pour cela que j’ai décidé de choisir le nom “Spread-night”
+                                    (étaler la nuit), pour rappeler la montagne et l’ambiance nocturne.
+
+                                </li>
+
+                                <li class="mb-3"><span class="mr-3">·</span>Au niveau de ma cible, j’ai décidé de choisir un public
+                                    assez jeune (entre 20 et 30 ans) car c’est en général à cet âge qu’on est plus intéressé à ce genre
+                                    de festival. 
+                                </li>
+                            </ul>
+
+
                             <p class="mb-5">
-                                Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
-                                au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
-                                et Photoshop pour enlever le fond et exporter au format PDF. Nous avions imaginé 30 thèmes par exemple :
-                                La neige, la lave, médiéval, désert... Mais compte tenu du temps assez restreint pour rendre le projet, nous
-                                avions pu en faire 5.
+                                Nous pouvons ainsi passer à la recherche de logo. Tout d’abord, nous avions la contrainte de commencer
+                                à imaginer sur un papier avec un crayon. Cette étape m’a beaucoup aidé à créer l’identité.
                             </p>
     
                             <p class="mb-5">
-                                De plus, ce qui fait notre générateur innovant, le NFT change de couleur en fonction de la température
-                                où la génération sera faite. En effet, une A.P.I va prendre la température extérieure, et si par exemple
-                                la température se trouve en dessous de 5°C, l’arrière-plan du NFT aura un aspect froid et au contraire,
-                                si le NFT est générée à une température supérieure à 25°C, l’arrière-plan aura quant à lui un aspect chaud.
+                                Ensuite, je suis passé directement à Illustrator et je suis passé par pleins d’étapes de créations
+                                avec différents types de logo : des logos avec juste les initiales “SP”, des logos avec le nom en entier,
+                                des logos abstrait… Et j’en suis finalement arrivé à cette planche de résultat qui me convenait assez bien.
+
                             </p>
     
                             <p class="mb-5">
-                                Pour le fonctionnement des systèmes de calques, pour rendre la génération aléatoire, il a fallu "couper"
-                                la coccinelle en 4 calques distincts. La tête, la carapace (qui est personnalisable), le corps avec le support
-                                et l’arrière-plan qui peut prendre plusieurs aspects en fonction de la température. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Enfin après ceci, le générateur va prendre au hasard dans chaque groupe de calque
-                                c'est-à-dire que par exemple le générateur va choisir la tête dans le thème médiéval,
-                                le corps dans le thème du désert, la carapace dans le thème de la forêt et l’arrière-plan en lave et vu que
-                                la température est supérieure à 25°C, l’arrière-plan lave aura un aspect encore plus chaud. Vous pouvez voir un exemple de génération à droite.
-                            </p>
-    
-                            <p>
-                                Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
-                                Wallet pour créer l’NFT et la publier sur le web.
+                                Et finalement, j'ai décidé de choisir le logo avec la montagne et la lune pour avoir plus de signification.
                             </p>
                             
                         </div>
@@ -165,37 +173,40 @@
         
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+    
+                            <p class="mb-5 mt-5">
+                                Avant de créer un logo, il est important de réfléchir à la contextualisation de mon festival :  
+                            </p>
+
+                            <ul class="ml-3">
+                                <li class="mb-3"><span class="mr-3">·</span>C’est un festival de genre Drum and Bass
+                                    qui se passe dans les Alpes près de Chamonix et qui se déroule pendant environ une semaine.
+                                    Les concerts se déroulent la nuit, c'est pour cela que j’ai décidé de choisir le nom “Spread-night”
+                                    (étaler la nuit), pour rappeler la montagne et l’ambiance nocturne.
+
+                                </li>
+
+                                <li class="mb-3"><span class="mr-3">·</span>Au niveau de ma cible, j’ai décidé de choisir un public
+                                    assez jeune (entre 20 et 30 ans) car c’est en général à cet âge qu’on est plus intéressé à ce genre
+                                    de festival. 
+                                </li>
+                            </ul>
+
+
                             <p class="mb-5">
-                                Le fonctionnement de notre générateur est assez simple. Nous devions créer de nous-mêmes tous les thèmes de NFT
-                                au préalable avec Substance 3D pour les textures, Blender pour la prise de vue et l'export des images,
-                                et Photoshop pour enlever le fond et exporter au format PDF. Nous avions imaginé 30 thèmes par exemple :
-                                La neige, la lave, médiéval, désert... Mais compte tenu du temps assez restreint pour rendre le projet, nous
-                                avions pu en faire 5.
+                                Nous pouvons ainsi passer à la recherche de logo. Tout d’abord, nous avions la contrainte de commencer
+                                à imaginer sur un papier avec un crayon. Cette étape m’a beaucoup aidé à créer l’identité.
                             </p>
     
                             <p class="mb-5">
-                                De plus, ce qui fait notre générateur innovant, le NFT change de couleur en fonction de la température
-                                où la génération sera faite. En effet, une A.P.I va prendre la température extérieure, et si par exemple
-                                la température se trouve en dessous de 5°C, l’arrière-plan du NFT aura un aspect froid et au contraire,
-                                si le NFT est générée à une température supérieure à 25°C, l’arrière-plan aura quant à lui un aspect chaud.
+                                Ensuite, je suis passé directement à Illustrator et je suis passé par pleins d’étapes de créations
+                                avec différents types de logo : des logos avec juste les initiales “SP”, des logos avec le nom en entier,
+                                des logos abstrait… Et j’en suis finalement arrivé à cette planche de résultat qui me convenait assez bien.
+
                             </p>
     
                             <p class="mb-5">
-                                Pour le fonctionnement des systèmes de calques, pour rendre la génération aléatoire, il a fallu "couper"
-                                la coccinelle en 4 calques distincts. La tête, la carapace (qui est personnalisable), le corps avec le support
-                                et l’arrière-plan qui peut prendre plusieurs aspects en fonction de la température. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Enfin après ceci, le générateur va prendre au hasard dans chaque groupe de calque
-                                c'est-à-dire que par exemple le générateur va choisir la tête dans le thème médiéval,
-                                le corps dans le thème du désert, la carapace dans le thème de la forêt et l’arrière-plan en lave et vu que
-                                la température est supérieure à 25°C, l’arrière-plan lave aura un aspect encore plus chaud.
-                            </p>
-    
-                            <p>
-                                Et après que la génération sera faite, vous pouvez télécharger l’image et la mettre directement dans votre
-                                Wallet pour créer l’NFT et la publier sur le web.
+                                Et finalement, j'ai décidé de choisir le logo avec la montagne et la lune pour avoir plus de signification.
                             </p>
                         </div>
     
@@ -204,10 +215,6 @@
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/recherche_logo.webp" alt="vidéo de présentation de mon projet">
                                 </div>
-    
-                                <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                    Voici en dessous, Un exemple de génération d'NFT avec la carapace qui est totalement personnalisable.
-                                </p>
         
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/recherche-identite_fin.webp" alt="">
@@ -239,53 +246,37 @@
                   mb-3">Logo</h4>
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                            <p class="mb-5 mt-5">
+                                J’ai donc décidé de choisir cette identité car le logo est reconnaissable tout d’abord sur toutes
+                                ses tailles.
+                            </p>
+
                             <p class="mb-5">
-                                Au niveau de la recherche de logo, nous nous sommes orientés sur un logo typographique avec la police d’écriture Audiowide. Puis, nous avons pu modifier la lettre “o” pour montrer cet aspect de métamorphose que l’on propose pour créer les NFT’s. 
-                            </p>
-    
-                            <p class="mb-5">
-                                De plus, pour le deuxième “o”, nous avons représenté un cube en 3d avec des courbes qui tournent autour.
-                                Cet élément graphique montre une représentation de la “blockchain” qui est l’élément qui va certifier l’NFT.
-                            </p>
-    
-                            <p>
-                                Dans un second temps, nous avons designer un logo minimaliste en s’inspirant du premier pour qu’il s’adapte pour tous types de support comme le téléphone ou encore la tablette.
-                                Le logo minimaliste reprend cette idée de blockchain, mais avec la lettre “e” (en référence à E-morphoz) inscrite sur le bloc. On peut voir que les deux propositions de logos
-                                en fonctions des supports fonctionnent assez bien puisqu’ils sont reconnaissables en petite taille.
-                            </p>
-    
-                            <p class="mt-10">
-                                Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
+                                De plus il est assez design et bien équilibré puisqu’il n’y a pas de partie vide dans
+                                le logo ce qui fait son efficacité. Puis, le logo représente bien les spécificités et valeurs de mon
+                                festival: la nuit et la montagne. Enfin la typographie est assez futuriste et peut faire penser
+                                à un festival.
                             </p>
                         </div>
                     </div>
         
                     <div class="pictures-container">
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                Au niveau de la recherche de logo, nous nous sommes orientés sur un logo typographique avec la police d’écriture Audiowide. Puis, nous avons pu modifier la lettre “o” pour montrer cet aspect de métamorphose que l’on propose pour créer les NFT’s. 
+                            <p class="mb-5 mt-5">
+                                J’ai donc décidé de choisir cette identité car le logo est reconnaissable tout d’abord sur toutes
+                                ses tailles.
                             </p>
-    
+
                             <p class="mb-5">
-                                De plus, pour le deuxième “o”, nous avons représenté un cube en 3d avec des courbes qui tournent autour.
-                                Cet élément graphique montre une représentation de la “blockchain” qui est l’élément qui va certifier l’NFT.
-                            </p>
-    
-                            <p>
-                                Dans un second temps, nous avons designer un logo minimaliste en s’inspirant du premier pour qu’il s’adapte pour tous types de support comme le téléphone ou encore la tablette.
-                                Le logo minimaliste reprend cette idée de blockchain, mais avec la lettre “e” (en référence à E-morphoz) inscrite sur le bloc. On peut voir que les deux propositions de logos
-                                en fonctions des supports fonctionnent assez bien puisqu’ils sont reconnaissables en petite taille.
+                                De plus il est assez design et bien équilibré puisqu’il n’y a pas de partie vide dans
+                                le logo ce qui fait son efficacité. Puis, le logo représente bien les spécificités et valeurs de mon
+                                festival: la nuit et la montagne. Enfin la typographie est assez futuriste et peut faire penser
+                                à un festival.
                             </p>
                         </div>
     
-                        <div class="flex flex-col gap-10 justify-center items-center">
+                        <div class="flex flex-col gap-10 justify-center items-center mb-10">
                             <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images//identite_finale.webp" alt="vidéo de présentation de mon projet">
-    
-                            <p class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                                Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
-                            </p>
-    
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/Spread_night_large.webp" alt="">
                         </div>
         
         
@@ -310,75 +301,67 @@
                   mb-3">Harmonie colorée</h4>
         
                         <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-                            <p class="mb-5">
-                                Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
-                                En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
+                            <p class="mb-5 mt-5">
+                                Pour le choix de l’harmonie coloré, j’ai décidé d’utiliser 3 palettes de couleurs dans la librairie
+                                Tailwinds CSS. les palettes de couleur que j’ai décidé de choisir sont: default purple / Extended blue gray
+                                et extended light blue. Ces trois palettes forment une bonne harmonie colorée et ils ont chacune
+                                une fonction différente. 
                             </p>
     
                             <p class="mb-5">
-                                L’harmonie se décompose en 5 couleurs :
+                                La palette de couleurs de “default purple” sert comme couleur qui incite à l’action
+                                et qui va donner de l’originalité à mon site. En effet cette couleur en teinte 900,
+                                contraste bien avec le fond de mon site (blanc en général). Elle est donc utilisésur des boutons
+                                d’actions ou encore sur les entêtes de mon site.
                             </p>
-    
-                            <ul class="mb-5 ml-3">
-                                <li><span class="mr-3">·</span>couleur blanche</li>
-                                <li><span class="mr-3">·</span>couleurs de fond violet</li>
-                                <li><span class="mr-3">·</span>couleurs toniques :  rose et bleu turquoise.</li>
-                            </ul>
-    
-                            <p class="mb-5">   
-                                Pour la couleur blanche, elle est utilisée principalement pour la typographie. En effet,
-                                c'est une couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncé sur notre site.
-                                Ceci respecte donc les normes de contraste pour la lisibilité.
+
+                            <p class="mb-5">                                                              
+                                Puis la palette de couleurs extended blue gray est quant à elle plus utilisé pour donner de l’espace
+                                à mon site tout en restant dans les tons de couleurs. Elle est principalement utilisé
+                                pour le fond d’une zone de texte ce qui va donner un bon contraste et
+                                indirectement une bonne lisibilité. 
                             </p>
-    
+
                             <p class="mb-5">
-                                Pour les couleurs violettes, elles sont utilisées pour créer le fond de notre site :
+                                Par la suite, la palette de couleurs extended light blue est plus utilisé comme couleur combinatoire
+                                avec la palette de couleur défault purple. En effet ces deux couleurs associés représentent
+                                la nuit et l’esprit de la montagne. J’ai donc utilisé cette palette de couleurs dans le footer
+                                ou encore sur quelques éléments distinctifs comme les jours du concert sur la page programmation.
                             </p>
+
     
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>En utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de blur. </li>
-                                <li><span class="mr-3">·</span>Au niveau des 2 dernières couleurs, elles sont appliquées comme couleur tonique pour inciter l’utilisateur de notre site à l’action.
-                                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
-                                </li>
-                            </ul>
                         </div>
                     </div>
         
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                Pour le choix de l’harmonie colorée Nous avons décidé de partir sur une harmonie basée sur le violet.
-                                En général, sur les différents sites internets, le violet est utilisé pour donner un aspect futuriste.
+                            <p class="mb-5 mt-5">
+                                Pour le choix de l’harmonie coloré, j’ai décidé d’utiliser 3 palettes de couleurs dans la librairie
+                                Tailwinds CSS. les palettes de couleur que j’ai décidé de choisir sont: default purple / Extended blue gray
+                                et extended light blue. Ces trois palettes forment une bonne harmonie colorée et ils ont chacune
+                                une fonction différente. 
                             </p>
     
                             <p class="mb-5">
-                                L’harmonie se décompose en 5 couleurs :
+                                La palette de couleurs de “default purple” sert comme couleur qui incite à l’action
+                                et qui va donner de l’originalité à mon site. En effet cette couleur en teinte 900,
+                                contraste bien avec le fond de mon site (blanc en général). Elle est donc utilisésur des boutons
+                                d’actions ou encore sur les entêtes de mon site.
                             </p>
-    
-                            <ul class="mb-5 ml-3">
-                                <li><span class="mr-3">·</span>couleur blanche</li>
-                                <li><span class="mr-3">·</span>couleurs de fond violet</li>
-                                <li><span class="mr-3">·</span>couleurs toniques :  rose et bleu turquoise.</li>
-                            </ul>
-    
-                            <p class="mb-5">   
-                                Pour la couleur blanche, elle est utilisée principalement pour la typographie. En effet,
-                                c'est une couleur qui contraste très bien avec les couleurs sombres en fond comme le violet foncé sur notre site.
-                                Ceci respecte donc les normes de contraste pour la lisibilité.
+
+                            <p class="mb-5">                                                              
+                                Puis la palette de couleurs extended blue gray est quant à elle plus utilisé pour donner de l’espace
+                                à mon site tout en restant dans les tons de couleurs. Elle est principalement utilisé
+                                pour le fond d’une zone de texte ce qui va donner un bon contraste et
+                                indirectement une bonne lisibilité. 
                             </p>
-    
+
                             <p class="mb-5">
-                                Pour les couleurs violettes, elles sont utilisées pour créer le fond de notre site :
+                                Par la suite, la palette de couleurs extended light blue est plus utilisé comme couleur combinatoire
+                                avec la palette de couleur défault purple. En effet ces deux couleurs associés représentent
+                                la nuit et l’esprit de la montagne. J’ai donc utilisé cette palette de couleurs dans le footer
+                                ou encore sur quelques éléments distinctifs comme les jours du concert sur la page programmation.
                             </p>
-    
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>En utilisant le violet le plus foncé comme couleur de fond et l’autre pour faire un effet de blur. </li>
-                                <li><span class="mr-3">·</span>Au niveau des 2 dernières couleurs, elles sont appliquées comme couleur tonique pour inciter l’utilisateur de notre site à l’action.
-                                    Par exemple, pour les boutons du site, une couleur tonique sera parfaite pour attirer l'œil
-                                </li>
-                            </ul>
-    
-    
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center my-10">
@@ -406,13 +389,11 @@
                   mb-3">Construction site</h4>
         
                         <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-                            <p class="mb-5">
-                                Pour faire la promotion du site e-morphoz j’ai réalisé une animation 3D montrant le fonctionnement du générateur en s’appuyant sur les possibilités presque infinies.
-                                J’ai également animé le logo au début pour ajouter des effets visuels.
-                            </p>
-    
-                            <p>
-                                L’animation a été réalisée sur Blender avec le moteur de rendu cycle. Vous pouvez voir le résultat à droite.
+                            <p class="mt-10">
+                                pour la construction de mon site, j’ai effectué 3 pages modèles et 5 pages statiques.
+                                J’ai dû reproduire ces pages sous différents formats comme le format mobile, ipad mini,
+                                ipad pro et format bureau. Voici un aperçu de 2 pages de mon site sur Figma (voir les captures)
+
                             </p>
                         </div>
                     </div>
@@ -458,28 +439,24 @@
                   xxxs:text-[16px]
                   mb-3">Développement</h4>
         
-                        <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                        <div class="mt-5 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p class="mb-5">
-                                Au niveau de la communication, nous avons fait des posts sur différents réseaux sociaux comme Discord,
-                                TikTok ou encore Instagram. Nous nous sommes concentrés sur une cible jeune, c'est pour cela que nous avons choisis ces réseaux sociaux. 
+                                Pour le développement du site de Spread-Night, j’ai pu réaliser grâce à la base de données un back office
+                                permettant de créer, modifier et supprimer des artistes sur ma liste des artistes directement
+                                dans le site (voir les captures).
+                            </p>
+                            <p class="mb-5">
+                                Puis, grâce à Tailwinds css j’ai pu complètement rendre responsive le site. De la taille
+                                d’un téléphone portable à un grand écran d’ordinateur, le contenu de mon site s’adapte
+                                automatiquement à l’écran. 
                             </p>
     
                             <p class="mb-5">
-                                Vous pouvez voir ci-dessous les liens vers les différents réseaux sociaux d’E-morphoz
+                                Enfin, j’ai pu créer un espace d’inscription et de connexion fonctionnel, notamment pour accéder
+                                aux pages admin qui sont les pages ou nous pouvons gérer les artistes dans le back office.
                             </p>
-    
-                            <div class="flex justify-center gap-10 my-10">
-                                <a href="https://www.instagram.com/emorphoz5/" target="_blank">
-                                    <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
-                                </a>
-                                <a href="https://www.tiktok.com/@emorphoz" target="_blank">
-                                    <img class="object-contain -mt-4" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
-                                </a>
-                                <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
-                                    <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
-                                </a>
-                            </div>
+
 
                             <div class="flex flex-col gap-10 justify-center items-center my-10">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/suppression_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
@@ -491,42 +468,24 @@
         
                     <div class="pictures-container">
     
-                        <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                        <div class="mt-5 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+    
     
                             <p class="mb-5">
-                                Au niveau de la communication, nous avons fait des posts sur différents réseaux sociaux comme Discord,
-                                TikTok ou encore Instagram. Nous nous sommes concentrés sur une cible jeune, c'est pour cela que nous avons choisis ces réseaux sociaux. 
+                                Pour le développement du site de Spread-Night, j’ai pu réaliser grâce à la base de données un back office
+                                permettant de créer, modifier et supprimer des artistes sur ma liste des artistes directement
+                                dans le site (voir les captures).
+                            </p>
+                            <p class="mb-5">
+                                Puis, grâce à Tailwinds css j’ai pu complètement rendre responsive le site. De la taille
+                                d’un téléphone portable à un grand écran d’ordinateur, le contenu de mon site s’adapte
+                                automatiquement à l’écran. 
                             </p>
     
                             <p class="mb-5">
-                                Vous pouvez voir ci-dessous les liens vers les différents réseaux sociaux d’E-morphoz
+                                Enfin, j’ai pu créer un espace d’inscription et de connexion fonctionnel, notamment pour accéder
+                                aux pages admin qui sont les pages ou nous pouvons gérer les artistes dans le back office.
                             </p>
-    
-                            <div class="xxs:flex xxxs:hidden flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px] my-10">
-                                <a href="https://www.instagram.com/emorphoz5/" target="_blank">
-                                    <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
-                                </a>
-    
-                                <a href="https://www.tiktok.com/@emorphoz" target="_blank">
-                                    <img class="object-contain w-[80px] -mt-2" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
-                                </a>
-    
-                                <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
-                                    <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
-                                </a>
-                            </div>
-    
-                            <div class="flex xxs:hidden flex-col justify-center items-center gap-10 my-10">
-                                <a href="https://www.instagram.com/emorphoz5/" target="_blank">
-                                    <img class="object-contain w-[50px]" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
-                                </a>
-                                <a href="https://www.tiktok.com/@emorphoz" target="_blank">
-                                    <img class="object-contain w-[70px]" src="../../../public/images/tiktok_logo.webp" alt="Lien Tiktok">
-                                </a>
-                                <a href="https://discord.com/invite/H9cDx4h3s3" target="_blank">
-                                    <img class="w-[50px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
-                                </a>
-                            </div>
     
                         </div>
     
@@ -534,11 +493,11 @@
                             <div class="flex flex-col gap-10 justify-center items-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_admin_ajout_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
-                            <div class="flex flex-col gap-10 justify-center items-center my-10">
+                            <div class="flex flex-col gap-10 justify-center items-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_gestion_artistes.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
 
-                            <div class="flex sm:hidden flex-col gap-10 justify-center items-center my-10">
+                            <div class="flex sm:hidden flex-col gap-10 justify-center items-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/suppression_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
 
