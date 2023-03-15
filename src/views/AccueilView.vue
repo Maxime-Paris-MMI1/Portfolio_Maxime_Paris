@@ -375,15 +375,15 @@
     </div>
     <div class="flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px]"> 
 
-      <a href="https://www.instagram.com/max_portfolio_/" target="_blank" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]">
+      <a href="https://www.instagram.com/max_portfolio_/" target="_blank" class="hover:scale-110 ease-in-out duration-300 sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]">
         <img class="object-contain" src="../../public/images/Instagram_Glyph_White-1.webp" alt="logo instagram">
       </a>
 
-      <a href="https://www.tiktok.com/@max_portfolio" target="_blank" class="xxxs:-mt-[10px] xxs:-mt-[7px] xs:-mt-[15px] md:-mt-4 sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]">
+      <a href="https://www.tiktok.com/@max_portfolio" target="_blank" class="hover:scale-110 ease-in-out duration-300 xxxs:-mt-[10px] xxs:-mt-[7px] xs:-mt-[15px] md:-mt-4 sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]">
         <img class="object-contain" src="../../public/images/tiktok_logo.webp" alt="logo tiktok">
       </a>
 
-      <a href="https://www.behance.net/maximeparis5" target="_blank" class="sm:w-[76px] xs:w-[60px] xxs:w-[50px] xxxs:w-[40px]">
+      <a href="https://www.behance.net/maximeparis5" target="_blank" class="hover:scale-110 ease-in-out duration-300 sm:w-[76px] xs:w-[60px] xxs:w-[50px] xxxs:w-[40px]">
         <img class="object-contain" src="../../public/images/behance_logo.webp" alt="Behance Logo Black And White@pngkey.com">
       </a>
 
