@@ -73,7 +73,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/usine_eavy.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/cookie_cover.webp" alt="vidéo de présentation de mon projet">
                                 </div>
                             </div>
     
@@ -113,7 +113,7 @@
                             </p>
 
                             <div class="flex justify-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/textures_blender.webp" alt="">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/avant_après_cookies.webp" alt="">
                             </div>
 
                             <p class="mb-5">
@@ -145,7 +145,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender-baggapie.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/travail_Blender_cookies_animation.webp" alt="vidéo de présentation de mon projet">
                                 </div>
 
                                 <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
@@ -154,7 +154,7 @@
                                 </p>
         
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/blender_courbe.webp" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/premiere_pro_rush.webp" alt="">
                                 </div>
 
                                 <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
@@ -195,16 +195,11 @@
                                 Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
                                 sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
                             </p>
-                            <div class="flex flex-row justify-center gap-20 mt-8">
+                            <div class="flex flex-row justify-center gap-20">
                                 
-                                <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
-                                    <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
+                                <a href="https://www.behance.net/gallery/161256495/Website-Animation-in-blender" target="__blank" class="hover:scale-110 ease-in-out duration-300">
+                                    <img src="../../../public/images/behance_logo.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="Behance Logo Black And White@pngkey.com">
                                 </a>
-
-                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3 mb-10">
-                                    <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
-                                </a>
-
                             </div>  
                         </div>
                     </div>
@@ -217,19 +212,14 @@
                             </p>
                             <div class="flex flex-row justify-center gap-20">
                                 
-                                <a href="https://www.instagram.com/p/ComgvGvq40x/" target="__blank" class="hover:scale-110 ease-in-out duration-300">
-                                    <img src="../../../public/images/Instagram_Glyph_White-1.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="logo Instagram">
+                                <a href="https://www.behance.net/gallery/161256495/Website-Animation-in-blender" target="__blank" class="hover:scale-110 ease-in-out duration-300">
+                                    <img src="../../../public/images/behance_logo.webp" class="sm:w-[51px] xs:w-[40px] xxs:w-[35px] xxxs:w-[30px]" alt="Behance Logo Black And White@pngkey.com">
                                 </a>
-
-                                <a href="https://www.tiktok.com/@max_portfolio/video/7199672198695488773" target="__blank" class="hover:scale-110 ease-in-out duration-300 -mt-3">
-                                    <img src="../../../public/images/tiktok_logo.webp" class="sm:w-[80px] xs:w-[70px] xxs:w-[50px] xxxs:w-[50px]" alt="Logo Tiktok">
-                                </a>
-
                             </div>  
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/telephone_face.webp" alt="vidéo de présentation de mon projet">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/animation_rendu_après.webp" alt="vidéo de présentation de mon projet">
                         </div>
         
         
@@ -242,7 +232,7 @@
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect2 flex justify-center items-center">
+            <div class="parallax-effect4 flex justify-center items-center">
                 <h5 class="text-center xxxs:w-2/4 sm:w-1/4 xxxs:my-10 sm:my-0 xxxs:bg-white xxxs:text-black sm:text-white sm:bg-black font-unbounded font-[500]
                   lg:text-[35px]
                   md:text-[35px]
@@ -254,13 +244,13 @@
             </div>
         </div>
 
-        <div class="border-t-4 border-white"></div>
+        <div class="border-t-4 border-white sm:flex hidden"></div>
 
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
-                <img class="w-full h-full object-contain" src="../../../public/images/paysage_usine.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/fumée_usine.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/telephone_coté.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/usine_200.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/capture_4_galerie.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/curseur_raproché_cookie.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/capture_galerie_2.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/capture_galerie_3.webp" alt="image galerie présentant mon projet sur une animation">
 
         </div>
     
@@ -395,8 +385,8 @@
 
 
 
-.parallax-effect2 {
-        background-image: url("../../../public/images/Usine_large.webp");
+.parallax-effect4 {
+        background-image: url("../../../public/images/animation_cookies_sélection.webp");
         min-height: 500px;
         background-attachment: fixed;
         background-position: center;
@@ -404,7 +394,7 @@
         background-size: cover;
       }
 
-      .parallax-effect2 + div {
+      .parallax-effect4 + div {
         height: 600px;
         background-image: #000;
         font-size: 36px;

@@ -254,7 +254,7 @@
             </div>
         </div>
 
-        <div class="border-t-4 border-white"></div>
+        <div class="border-t-4 border-white sm:flex hidden"></div>
 
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
                 <img class="w-full h-full object-contain" src="../../../public/images/image_debut_max.webp" alt="image galerie présentant mon projet sur une animation">
