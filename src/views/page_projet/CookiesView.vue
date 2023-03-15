@@ -54,9 +54,9 @@
                         <div class=" mt-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p>
-                                Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
-                                la présentation et la promotion de mon portfolio qui est affiché sur le téléphone entièrement
-                                modélisé en 3d. Le but était d’approfondir mes connaissances sur le logiciel en me donnant des objectifs.
+                                Dans un cadre personnel, j'ai décidé de me lancer sur une animation Blender qui présente un site
+                                internet avec la page des cookies qui s’affiche lors du chargement de la page.
+                                Ce projet avait pour but également de m’initier au sound design.
                             </p>
                         </div>
                     </div>
@@ -64,9 +64,9 @@
                     <div class="pictures-container">
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p>
-                                Dans un cadre personnel, j’ai décidé de créer une animation sur Blender présentant
-                                la présentation et la promotion de mon portfolio qui est affiché sur le téléphone entièrement
-                                modélisé en 3d. Le but était d’approfondir mes connaissances sur le logiciel en me donnant des objectifs.
+                                Dans un cadre personnel, j'ai décidé de me lancer sur une animation Blender qui présente un site
+                                internet avec la page des cookies qui s’affiche lors du chargement de la page.
+                                Ce projet avait pour but également de m’initier au sound design.
                             </p>
                         </div>
     
@@ -102,28 +102,29 @@
                   mb-3" id="fonctionnement">Travail effectué</h4>
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-    
-                            <p class="mb-5">
-                                Après avoir acquis un peu d’expérience sur Blender, je me suis lancé pour créer une animation
-                                de A à Z avec un environnement complet. Je me suis aidé d’un plug-in qui se nomme <span class="underline"><a target="_blank" href="https://abaga.gumroad.com/l/BbGVh">Baga-Pie</a></span>,
-                                qui m’a permis de créer les tuyaux d’aération qui forment l’usine, mais aussi les poteaux électriques.
-                                J’ai ensuite modéliser une porte qui se trouve au sol ainsi que le téléphone en entier.
-                                J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
-
-                            </p>
 
                             <div class="flex justify-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 hidden sm:flex" src="../../../public/images/avant_après_cookies.webp" alt="">
                             </div>
 
                             <p class="mb-5">
-                                Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
-                                un certain nombre de paramêtres pour que la caméra suive ce dernier.
+                                j’ai commencé par modéliser tous les objets de la scène. La partie la plus importante
+                                était de mettre en place les animations, car il y en avait beaucoup. Il ne fallait
+                                pas se perdre parce qu'il y avait également beaucoup d’objets différents.
+                            </p>
 
+                            <p class="mb-5">
+                                Ensuite, il a fallu donner de la texture aux objets. Cette partie était assez simple car
+                                ce sont des textures de base.
+                            </p>
+
+                            <p class="mb-5">
+                                L’animation de la caméra m’a pris un bout de temps également, car elle passe par différentes
+                                étapes de focus sur des objets.
                             </p>
 
                             <p>
-                                Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre la vidéo plus dynamique.
+                                Enfin, j’ai effectué un montage sur Première pro pour ajouter du son à l’animation.
                             </p>
                             
                         </div>
@@ -133,12 +134,23 @@
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5">
-                                Après avoir acquis un peu d’expérience sur Blender, je me suis lancé pour créer une animation
-                                de A à Z avec un environnement complet. Je me suis aidé d’un plug-in qui se nomme <span class="underline"><a target="_blank" href="https://abaga.gumroad.com/l/BbGVh">Baga-Pie</a></span>,
-                                qui m’a permis de créer les tuyaux d’aération qui forment l’usine, mais aussi les poteaux électriques.
-                                J’ai ensuite modéliser une porte qui se trouve au sol ainsi que le téléphone en entier.
-                                J’ai enfin texturé les objets, c’est l’étape qui m’a pris le plus de temps.
+                                j’ai commencé par modéliser tous les objets de la scène. La partie la plus importante
+                                était de mettre en place les animations, car il y en avait beaucoup. Il ne fallait
+                                pas se perdre parce qu'il y avait également beaucoup d’objets différents.
+                            </p>
 
+                            <div class="flex justify-center">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] my-5 sm:hidden flex" src="../../../public/images/avant_après_cookies.webp" alt="">
+                            </div>
+
+                            <p class="mb-5">
+                                Ensuite, il a fallu donner de la texture aux objets. Cette partie était assez simple musique
+                                ce sont des textures de base.
+                            </p>
+
+                            <p>
+                                L’animation de la caméra m’a pris un bout de temps également, car elle passe par différentes
+                                étapes de focus sur des objets.
                             </p>
                         </div>
     
@@ -149,20 +161,11 @@
                                 </div>
 
                                 <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                                    Ensuite, il y a ce qui concerne l’animation. J’ai du tracé un chemin dans ma scène et j’ai ajouté
-                                    un certain nombre de paramêtres pour que la caméra suive ce dernier.
+                                    Enfin, j’ai effectué un montage sur Première pro pour ajouter du son à l’animation.
                                 </p>
         
-                                <div class="flex justify-center">
+                                <div class="flex justify-center mb-10">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/premiere_pro_rush.webp" alt="">
-                                </div>
-
-                                <p class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden">
-                                    Enfin j’ai effectué mon montage sur première pro pour ajouter du son et rendre la vidéo plus dynamique.
-                                </p>
-
-                                <div class="sm:hidden flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/textures_blender.webp" alt="">
                                 </div>
                             </div>
     
@@ -192,8 +195,7 @@
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mb-5 mt-10">
-                                Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
-                                sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
+                                Vous pouvez voir le résultat final sur behance pour avoir plus d'informations.
                             </p>
                             <div class="flex flex-row justify-center gap-20">
                                 
@@ -207,8 +209,7 @@
                     <div class="pictures-container">
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5">
-                                Voici à droite quelques images du résultat. Vous pouvez voir également le résultat final
-                                sur mes réseaux sociaux en format vertical en cliquant sur les logos ci-dessous:
+                                Vous pouvez voir le résultat final sur behance pour avoir plus d'informations.
                             </p>
                             <div class="flex flex-row justify-center gap-20">
                                 
