@@ -32,7 +32,7 @@
 <style>
 
 .back{
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .back:hover{
@@ -57,8 +57,8 @@
   }
   
   .image:hover{
-    -ms-transform: scale(1.3); /* IE 9 */
-    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
     transform: scale(1.15);
   }
 }
@@ -73,7 +73,7 @@
 }
 
 #cursor{
-  cursor: url('../../public/images/curseur_projet.png')  54 57, auto;
+  cursor: url('../../public/images/curseur_projet__.webp')  54 57, auto;
 }
 
 </style>
