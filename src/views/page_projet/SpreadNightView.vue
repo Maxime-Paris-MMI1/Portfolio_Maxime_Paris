@@ -202,7 +202,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/Presentation_fonctionnement.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/recherche_logo.webp" alt="vidéo de présentation de mon projet">
                                 </div>
     
                                 <p class="mt-10 xs:mx-10  sm:mb-0 sm:mx-10 xxxs:mx-3 xxxs:-mt-2 xs:mt-0 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
@@ -210,7 +210,7 @@
                                 </p>
         
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain xxxs:mb-10" src="../../../public/images/Fonctionnement_calque_final.gif" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/recherche-identite_fin.webp" alt="">
                                 </div>
                             </div>
     
@@ -279,13 +279,13 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/e-morphoz-logo.webp" alt="vidéo de présentation de mon projet">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images//identite_finale.webp" alt="vidéo de présentation de mon projet">
     
                             <p class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                                 Enfin, pour utiliser le logo dans mes animations 3D du projet, j'ai dû le modéliser en 3D sur Blender.
                             </p>
     
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-logo2.webp" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/Spread_night_large.webp" alt="">
                         </div>
         
         
@@ -382,7 +382,7 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/e-morphoz-harmonie.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/harmonie_colore.webp" alt="Harmonie colorée de mon projet E-morphoz">
                         </div>
         
         
@@ -430,7 +430,11 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/gif_rendu_final.gif" alt="Harmonie colorée de mon projet E-morphoz">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/maquette_bureau.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                        </div>
+
+                        <div class="flex flex-col gap-10 justify-center items-center my-10">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/maquette_mobile.webp" alt="Harmonie colorée de mon projet E-morphoz">
                         </div>
         
         
@@ -476,6 +480,12 @@
                                     <img class="w-[60px]" src="../../../public/images/discord-mark-white.svg" alt="Lien Discord">
                                 </a>
                             </div>
+
+                            <div class="flex flex-col gap-10 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/suppression_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            </div>
+
+
                         </div>
                     </div>
         
@@ -520,22 +530,19 @@
     
                         </div>
     
-                        <div class="w-full flex xxxs:gap-5  snap-x overflow-x-auto xxxs:justify-start xxs:justify-between xxs:max-w-[650px] mt-10 xxs:mx-auto mb-10">
-    
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/tiktok_emorphoz.webp" alt="">
+                        
+                            <div class="flex flex-col gap-10 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_admin_ajout_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
-    
-                            
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] shrink-0 object-contain" src="../../../public/images/emorphoz_tiktok_cocc.gif" alt="">
+                            <div class="flex flex-col gap-10 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_gestion_artistes.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
-    
-                            <div class="snap-center shrink-0 first:pl-5 last:pr-5">
-                                <img class="h-[300px] object-contain" src="../../../public/images/instagram_emorphoz.webp" alt="">
+
+                            <div class="flex sm:hidden flex-col gap-10 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/suppression_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
+
     
-                        </div>
         
         
                     </div>
