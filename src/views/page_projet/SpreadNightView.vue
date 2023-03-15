@@ -548,7 +548,7 @@
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect"></div>
+            <div class="parallax-effect10"></div>
             <div class="flex justify-center items-center sm:-mt-[200px] sm:-mb-[180px] xxxs:mt-10 xxxs:mb-10">
                 <h3 class="font-unbounded font-[700] text-white sm:mx-10 xxxs:mx-3 text-center
                   lg:text-[35px]
@@ -580,7 +580,7 @@
                    py-3 animation_texte">Voir le site</button>
                 </a>
             </div>
-            <div class="parallax-effect"></div>
+            <div class="parallax-effect10"></div>
         </div>
     
         <footer>
@@ -628,7 +628,7 @@
     
     
     @media (min-width: 1000px) {
-        .parallax-effect {
+        .parallax-effect10 {
             background-image: url("../../../public/images/image_site_spread_night.webp");
             min-height: 500px;
             background-attachment: fixed;
@@ -637,7 +637,7 @@
             background-size: cover;
           }
     
-          .parallax-effect + div {
+          .parallax-effect10 + div {
             height: 600px;
             background-image: #000;
             font-size: 36px;
