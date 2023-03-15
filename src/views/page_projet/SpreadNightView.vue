@@ -94,7 +94,7 @@
                         </div>
     
                         <div class="flex flex-col gap-10">
-                            <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
+                            <div class="flex flex-col items-center gap-10 mt-10 md:mt-0 mb-10">
                                 <div class="flex justify-center">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/image_site_spread_night.webp" alt="vidéo de présentation de mon projet">
                                 </div>
@@ -210,7 +210,7 @@
                                 </p>
         
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/recherche-identite_fin.webp" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/recherche-identite_fin.webp" alt="">
                                 </div>
                             </div>
     
@@ -382,7 +382,7 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/harmonie_colore.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/harmonie_colore.webp" alt="Harmonie colorée de mon projet E-morphoz">
                         </div>
         
         
@@ -531,7 +531,7 @@
                         </div>
     
                         
-                            <div class="flex flex-col gap-10 justify-center items-center my-10">
+                            <div class="flex flex-col gap-10 justify-center items-center">
                                 <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_admin_ajout_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
                             <div class="flex flex-col gap-10 justify-center items-center my-10">
