@@ -12,6 +12,7 @@ import MeatmygrillView from '../views/page_projet/MeatmygrillView.vue'
 import SpreadNightView from '../views/page_projet/SpreadNightView.vue'
 import UsineBlenderView from '../views/page_projet/UsineBlenderView.vue'
 import Alpha1View from '../views/page_projet/Alpha1View.vue'
+import View404   from      '../views/View404.vue'
 
 
 const router = createRouter({
@@ -30,6 +31,7 @@ const router = createRouter({
     { path: '/meat_my_grill', name: 'MeatmygrillView', component: MeatmygrillView, },
     { path: '/spread_night', name: 'SpreadNightView', component: SpreadNightView, },
     { path: '/usine_blender', name: 'UsineBlenderView', component: UsineBlenderView, },
+    { path: '/:pathMatch(.*)*', name: 'View404', component: View404 },
     // ici les autre routes
   ]
 })
