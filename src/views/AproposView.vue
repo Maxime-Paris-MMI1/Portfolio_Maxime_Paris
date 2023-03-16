@@ -18,6 +18,29 @@
         <img class="w-[500px] -mt-10" src="../../public/images/card-apropos.webp" alt="image de présentation">
       </div>
 
+
+      <div class="flex justify-center mb-[50px] mt-[120px]">
+        <a href="../../public/images/cv_Maxime_Paris.jpg" target="blank_" download>
+          <button class="text-white font Unbounded 
+                        lg:text-[25px] 
+                        md:text-[22px]
+                        sm:text-[20px] 
+                        xs:text-[18px]
+                        xxs:text-[15px]
+                        xxxs:text-[12px] 
+          font-bold border 
+          lg:px-[130px]
+          md:px-[110px]
+          sm:px-[90px] 
+          xs:px-[70px]
+          xxs:px-[50px]
+          xxxs:px-[50px] 
+           py-3 animation_texte">Télécharger mon C.V</button>
+
+
+        </a>
+      </div>
+
       <div class="flex justify-center mt-[90px]">
         <p class="font-unbounded font-[700] text-white mx-10
               lg:text-[35px]
