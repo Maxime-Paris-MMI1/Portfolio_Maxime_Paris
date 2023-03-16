@@ -60,30 +60,28 @@
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p class="mb-5 mt-5">
-                                Spread-night est un projet éducatif qui s’est déroulé en trois phases principales : 
+                                Toget’hearth est un projet collectif réalisé pour le semestre 2 de mes études au MMI de montbéliard.
+                                Nous devions choisir un projet parmi une liste qui a été retenu en fonctions des idées innovantes de
+                                site web des étudiants. Moi et mon groupe avons décidé de choisir le site de ramassage écologique :
+                                Toget’hearth. 
                             </p>
-
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>La première partie est destinée à créer le festival :
-                                    son nom, l’endroit, sa cible, le genre musical du festival… Une étude complète dans le but de
-                                    créer une identité visuelle.
-                                </li>
-
-                                <li class="mb-3"><span class="mr-3">·</span>La seconde est de créer le site internet du festival
-                                    sur Figma. Il était important de rendre le site responsive (adapté à toutes les tailles d’écran).
-                                </li>
-
-                                <li class="mb-3"><span class="mr-3">·</span>La dernière partie est le développement de cette maquette Figma grâce
-                                    à VueJS, Tailwinds CSS et une base de données no SQL nommée Firebase. Nous devions également rendre
-                                    le site responsive au niveau du développement.
-                                </li>
-
-                            </ul>
 
     
                             <p class="mb-5">
-                                Spread Night est donc un travail qui touche pleins de domaines comme le design,
-                                la communication ainsi que le développement.
+                                Toget’hearth est un site web innovant proposant à chaque utilisateur de créer des rencontres
+                                de ramassage de déchets, de s’informer sur les rendez-vous, s’instruire en lisant des conseils
+                                écologiques par le biais d’article spécialement conçu. Il y a un espace de connexion ainsi qu’un
+                                back-office pour les organisateurs de rendez-vous.
+                            </p>
+
+                            <p class="mb-5">
+                                Mais avant de passer au site principal, nous devions, au préalable, coder un site promotionnel
+                                de Toget’hearth qui se résume en 1 seule page pour pouvoir faire une campagne de communication.
+                                À savoir que le site est adapté que pour une taille d’écran d’ordinateur.
+                            </p>
+
+                            <p class="mb-5">
+                                Le vrai site de Toget’hearth est quant à lui adapté uniquement pour le format mobile.
                             </p>
 
                         </div>
@@ -92,30 +90,28 @@
                     <div class="pictures-container">
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5 mt-5">
-                                Spread-night est un projet éducatif qui s’est déroulé en trois phases principales : 
+                                Toget’hearth est un projet collectif réalisé pour le semestre 2 de mes études au MMI de montbéliard.
+                                Nous devions choisir un projet parmi une liste qui a été retenu en fonctions des idées innovantes de
+                                site web des étudiants. Moi et mon groupe avons décidé de choisir le site de ramassage écologique :
+                                Toget’hearth. 
                             </p>
-
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>La première partie est destinée à créer le festival :
-                                    son nom, l’endroit, sa cible, le genre musical du festival… Une étude complète dans le but de
-                                    créer une identité visuelle.
-                                </li>
-
-                                <li class="mb-3"><span class="mr-3">·</span>La seconde est de créer le site internet du festival
-                                    sur Figma. Il était important de rendre le site responsive (adapté à toutes les tailles d’écran).
-                                </li>
-
-                                <li class="mb-3"><span class="mr-3">·</span>La dernière partie est le développement de cette maquette Figma grâce
-                                    à VueJS, Tailwinds CSS et une base de données no SQL nommée Firebase. Nous devions également rendre
-                                    le site responsive au niveau du développement.
-                                </li>
-
-                            </ul>
 
     
                             <p class="mb-5">
-                                Spread Night est donc un travail qui touche pleins de domaines comme le design,
-                                la communication ainsi que le développement.
+                                Toget’hearth est un site web innovant proposant à chaque utilisateur de créer des rencontres
+                                de ramassage de déchets, de s’informer sur les rendez-vous, s’instruire en lisant des conseils
+                                écologiques par le biais d’article spécialement conçu. Il y a un espace de connexion ainsi qu’un
+                                back-office pour les organisateurs de rendez-vous.
+                            </p>
+
+                            <p class="mb-5">
+                                Mais avant de passer au site principal, nous devions, au préalable, coder un site promotionnel
+                                de Toget’hearth qui se résume en 1 seule page pour pouvoir faire une campagne de communication.
+                                À savoir que le site est adapté que pour une taille d’écran d’ordinateur.
+                            </p>
+
+                            <p>
+                                Le vrai site de Toget’hearth est quant à lui adapté uniquement pour le format mobile.
                             </p>
                         </div>
     
@@ -153,80 +149,34 @@
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
-                            <p class="mb-5 mt-5">
-                                Avant de créer un logo, il est important de réfléchir à la contextualisation de mon festival :  
+                            <p class="mb-5 mt-5">   
+                                Voici mes recherches de logos que j’ai pu réaliser (voir les captures), je suis directement parti
+                                sur un logo avec le nom du projet en entier pour que les utilisateurs puissent se mémoriser du nom
+                                et de l’identité. Étant donné que le site web porte sur des valeurs écologique et responsable,
+                                il faut utiliser des couleurs vertes 
                             </p>
-
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>C’est un festival de genre Drum and Bass
-                                    qui se passe dans les Alpes près de Chamonix et qui se déroule pendant environ une semaine.
-                                    Les concerts se déroulent la nuit, c'est pour cela que j’ai décidé de choisir le nom “Spread-night”
-                                    (étaler la nuit), pour rappeler la montagne et l’ambiance nocturne.
-
-                                </li>
-
-                                <li class="mb-3"><span class="mr-3">·</span>Au niveau de ma cible, j’ai décidé de choisir un public
-                                    assez jeune (entre 20 et 30 ans) car c’est en général à cet âge qu’on est plus intéressé à ce genre
-                                    de festival. 
-                                </li>
-                            </ul>
-
 
                             <p class="mb-5">
-                                Nous pouvons ainsi passer à la recherche de logo. Tout d’abord, nous avions la contrainte de commencer
-                                à imaginer sur un papier avec un crayon. Cette étape m’a beaucoup aidé à créer l’identité.
+                                Après plusieurs tests et vérifications, je suis arrivé à ce logo final (voir capture).
+                                Il est composé d’une couleur verte ainsi qu’un dégradé au blanc. Il est également très reconnaissable
+                                de loin, car il ne possède pas beaucoup de détails. 
                             </p>
-    
-                            <p class="mb-5">
-                                Ensuite, je suis passé directement à Illustrator et je suis passé par pleins d’étapes de créations
-                                avec différents types de logo : des logos avec juste les initiales “SP”, des logos avec le nom en entier,
-                                des logos abstrait… Et j’en suis finalement arrivé à cette planche de résultat qui me convenait assez bien.
 
-                            </p>
-    
-                            <p class="mb-5">
-                                Et finalement, j'ai décidé de choisir le logo avec la montagne et la lune pour avoir plus de signification.
-                            </p>
-                            
+                            <div class="justify-center sm:flex hidden">
+                                    <img class="w-1/2 h-1/2 object-contain max-w-[690px] mb-10" src="../../../public/images/logo_final_togethearth.webp" alt="">
+                            </div>
+
+                           
                         </div>
                     </div>
         
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-    
-                            <p class="mb-5 mt-5">
-                                Avant de créer un logo, il est important de réfléchir à la contextualisation de mon festival :  
-                            </p>
-
-                            <ul class="ml-3">
-                                <li class="mb-3"><span class="mr-3">·</span>C’est un festival de genre Drum and Bass
-                                    qui se passe dans les Alpes près de Chamonix et qui se déroule pendant environ une semaine.
-                                    Les concerts se déroulent la nuit, c'est pour cela que j’ai décidé de choisir le nom “Spread-night”
-                                    (étaler la nuit), pour rappeler la montagne et l’ambiance nocturne.
-
-                                </li>
-
-                                <li class="mb-3"><span class="mr-3">·</span>Au niveau de ma cible, j’ai décidé de choisir un public
-                                    assez jeune (entre 20 et 30 ans) car c’est en général à cet âge qu’on est plus intéressé à ce genre
-                                    de festival. 
-                                </li>
-                            </ul>
-
-
-                            <p class="mb-5">
-                                Nous pouvons ainsi passer à la recherche de logo. Tout d’abord, nous avions la contrainte de commencer
-                                à imaginer sur un papier avec un crayon. Cette étape m’a beaucoup aidé à créer l’identité.
-                            </p>
-    
-                            <p class="mb-5">
-                                Ensuite, je suis passé directement à Illustrator et je suis passé par pleins d’étapes de créations
-                                avec différents types de logo : des logos avec juste les initiales “SP”, des logos avec le nom en entier,
-                                des logos abstrait… Et j’en suis finalement arrivé à cette planche de résultat qui me convenait assez bien.
-
-                            </p>
-    
-                            <p class="mb-5">
-                                Et finalement, j'ai décidé de choisir le logo avec la montagne et la lune pour avoir plus de signification.
+                            <p class="mb-5 mt-5">   
+                                Voici mes recherches de logos que j’ai pu réaliser (voir les captures), je suis directement parti
+                                sur un logo avec le nom du projet en entier pour que les utilisateurs puissent se mémoriser du nom
+                                et de l’identité. Étant donné que le site web porte sur des valeurs écologique et responsable,
+                                il faut utiliser des couleurs vertes 
                             </p>
                         </div>
     
@@ -235,8 +185,15 @@
                                 <div class="flex justify-center">
                                     <img class="h-1/2 sm:w-[345px] xxxs:w-1/2 object-contain max-w-[690px]" src="../../../public/images/recherche_de_logo_toget.webp" alt="vidéo de présentation de mon projet">
                                 </div>
+
+                                
+                                <p class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] sm:hidden flex">
+                                    Après plusieurs tests et vérifications, je suis arrivé à ce logo final (voir capture).
+                                    Il est composé d’une couleur verte ainsi qu’un dégradé au blanc. Il est également très reconnaissable
+                                    de loin, car il ne possède pas beaucoup de détails. 
+                                </p>
         
-                                <div class="flex justify-center">
+                                <div class="justify-center flex sm:hidden">
                                     <img class="w-1/2 h-1/2 object-contain max-w-[690px] mb-10" src="../../../public/images/logo_final_togethearth.webp" alt="">
                                 </div>
                             </div>
@@ -267,15 +224,33 @@
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mb-5 mt-5">
-                                J’ai donc décidé de choisir cette identité car le logo est reconnaissable tout d’abord sur toutes
-                                ses tailles.
+                                Pour le choix des couleurs, nous avons décidé de partir sur une harmonie de vert.
+                                Le vert en psychologie des couleurs représente bien l’aspect écologique, mais aussi l’aspect nature
+                                et respect de l’environnement. Ce sont ces valeurs que nous voulons partager au sein de notre site.
                             </p>
 
-                            <p class="mb-5">
-                                De plus il est assez design et bien équilibré puisqu’il n’y a pas de partie vide dans
-                                le logo ce qui fait son efficacité. Puis, le logo représente bien les spécificités et valeurs de mon
-                                festival: la nuit et la montagne. Enfin la typographie est assez futuriste et peut faire penser
-                                à un festival.
+                            <p>
+                                Les deux principales couleurs vertes qui sont les plus utilisées sont le vert kaki ainsi que le vert
+                                un peu plus flashi. Pour le vert kaki, c'est pour les contenus comme le footer par exemple. Tandis que
+                                pour le vert flashi, il est principalement utilisé pour des composants, c'est-à-dire des boutons pour
+                                inciter l’utilisateur de notre site à l’action.
+                            </p>
+
+                            
+                            <p class="mt-5 mb-5">
+                                Puis nous utilisons un vert qui se rapproche du marron car il contraste très bien avec les deux couleurs
+                                précédentes. Cette couleur est utilisée pour illustrer des choses un peu plus basiques sur notre site.
+                            </p>
+
+                            <p>
+                                Ensuite pour la couleur d’arrière-plan, nous avons décidé de choisir un blanc qui se rapproche du vert pour d’une
+                                part donner un côté avec un peu de texture, mais aussi pour donner aussi un peu d’originalité sur notre site et ne pas
+                                utiliser directement du blanc. L’avantage de cette couleur, c'est que nous gardons quand même un excellent contraste.
+                            </p>
+
+                            <p class="mb-5 mt-5">
+                                Enfin, comme couleur typographique, nous avons décidé de choisir une couleur vert foncé pour une raison
+                                principale; cette couleur a un bon contraste par rapport au fond blanc et donc le site sera lisible.
                             </p>
                         </div>
                     </div>
@@ -283,15 +258,33 @@
                     <div class="pictures-container">
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
                             <p class="mb-5 mt-5">
-                                J’ai donc décidé de choisir cette identité car le logo est reconnaissable tout d’abord sur toutes
-                                ses tailles.
+                                Pour le choix des couleurs, nous avons décidé de partir sur une harmonie de vert.
+                                Le vert en psychologie des couleurs représente bien l’aspect écologique, mais aussi l’aspect nature
+                                et respect de l’environnement. Ce sont ces valeurs que nous voulons partager au sein de notre site.
                             </p>
 
-                            <p class="mb-5">
-                                De plus il est assez design et bien équilibré puisqu’il n’y a pas de partie vide dans
-                                le logo ce qui fait son efficacité. Puis, le logo représente bien les spécificités et valeurs de mon
-                                festival: la nuit et la montagne. Enfin la typographie est assez futuriste et peut faire penser
-                                à un festival.
+                            <p>
+                                Les deux principales couleurs vertes qui sont les plus utilisées sont le vert kaki ainsi que le vert
+                                un peu plus flashi. Pour le vert kaki, c'est pour les contenus comme le footer par exemple. Tandis que
+                                pour le vert flashi, il est principalement utilisé pour des composants, c'est-à-dire des boutons pour
+                                inciter l’utilisateur de notre site à l’action.
+                            </p>
+
+                            
+                            <p class="mt-5 mb-5">
+                                Puis nous utilisons un vert qui se rapproche du marron car il contraste très bien avec les deux couleurs
+                                précédentes. Cette couleur est utilisée pour illustrer des choses un peu plus basiques sur notre site.
+                            </p>
+
+                            <p>
+                                Ensuite pour la couleur d’arrière-plan, nous avons décidé de choisir un blanc qui se rapproche du vert pour d’une
+                                part donner un côté avec un peu de texture, mais aussi pour donner aussi un peu d’originalité sur notre site et ne pas
+                                utiliser directement du blanc. L’avantage de cette couleur, c'est que nous gardons quand même un excellent contraste.
+                            </p>
+
+                            <p class="mb-5 mt-5">
+                                Enfin, comme couleur typographique, nous avons décidé de choisir une couleur vert foncé pour une raison
+                                principale; cette couleur a un bon contraste par rapport au fond blanc et donc le site sera lisible.
                             </p>
                         </div>
     
@@ -323,21 +316,15 @@
                         <div class="mt-5 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
                             <p class="mb-5">
-                                Pour le développement du site de Spread-Night, j’ai pu réaliser grâce à la base de données un back office
-                                permettant de créer, modifier et supprimer des artistes sur ma liste des artistes directement
-                                dans le site (voir les captures).
+                                Au niveau du développement, nous avions utilisé VueJS avec Tailwinds css et comme base de données
+                                Firebase. Je me suis occupé personnelement d’une partie du développement front-end
+                                (développement du visuel du site) et l’intégralité du back-end (base de données).
                             </p>
                             <p class="mb-5">
-                                Puis, grâce à Tailwinds css j’ai pu complètement rendre responsive le site. De la taille
-                                d’un téléphone portable à un grand écran d’ordinateur, le contenu de mon site s’adapte
-                                automatiquement à l’écran. 
+                                Le back office est accessible uniquement pour les personnes connectées et qui
+                                possèdent un statut (admin). À l’intérieur de ce dernier, nous pouvions créer,
+                                modifier et supprimer des évênement de ramassage de déchets dans le site (voir les captures).
                             </p>
-    
-                            <p class="mb-5">
-                                Enfin, j’ai pu créer un espace d’inscription et de connexion fonctionnel, notamment pour accéder
-                                aux pages admin qui sont les pages ou nous pouvons gérer les artistes dans le back office.
-                            </p>
-
 
                         </div>
                     </div>
@@ -346,21 +333,15 @@
     
                         <div class="mt-5 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
     
-    
                             <p class="mb-5">
-                                Pour le développement du site de Spread-Night, j’ai pu réaliser grâce à la base de données un back office
-                                permettant de créer, modifier et supprimer des artistes sur ma liste des artistes directement
-                                dans le site (voir les captures).
+                                Au niveau du développement, nous avions utilisé VueJS avec Tailwinds css et comme base de données
+                                Firebase. Je me suis occupé personnelement d’une partie du développement front-end
+                                (développement du visuel du site) et l’intégralité du back-end (base de données).
                             </p>
                             <p class="mb-5">
-                                Puis, grâce à Tailwinds css j’ai pu complètement rendre responsive le site. De la taille
-                                d’un téléphone portable à un grand écran d’ordinateur, le contenu de mon site s’adapte
-                                automatiquement à l’écran. 
-                            </p>
-    
-                            <p class="mb-5">
-                                Enfin, j’ai pu créer un espace d’inscription et de connexion fonctionnel, notamment pour accéder
-                                aux pages admin qui sont les pages ou nous pouvons gérer les artistes dans le back office.
+                                Le back office est accessible uniquement pour les personnes connectées et qui
+                                possèdent un statut (admin). À l’intérieur de ce dernier, nous pouvions créer,
+                                modifier et supprimer des évênement de ramassage de déchets dans le site (voir les captures).
                             </p>
     
                         </div>
@@ -402,10 +383,8 @@
         
                         <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mt-10">
-                                pour la construction de mon site, j’ai effectué 3 pages modèles et 5 pages statiques.
-                                J’ai dû reproduire ces pages sous différents formats comme le format mobile, ipad mini,
-                                ipad pro et format bureau. Voici un aperçu de 2 pages de mon site sur Figma (voir les captures)
-
+                                Dans le cadre du projet, nous avions créé plusieurs réseaux sociaux, notamment sur Instagram,
+                                Twitter et Facebook. Vous pouvez cliquer sur les logos pour accéder aux différentes pages des réseaux.
                             </p>
 
                             <div class="flex justify-center gap-10 my-10">
@@ -426,13 +405,9 @@
         
                     <div class="pictures-container">
                         <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                Pour faire la promotion du site e-morphoz j’ai réalisé une animation 3D montrant le fonctionnement du générateur en s’appuyant sur les possibilités presque infinies.
-                                J’ai également animé le logo au début pour ajouter des effets visuels.
-                            </p>
-    
-                            <p>
-                                L’animation a été réalisée sur Blender avec le moteur de rendu cycle. Vous pouvez voir le résultat en bas.
+                            <p class="mt-10">
+                                Dans le cadre du projet, nous avions créé plusieurs réseaux sociaux, notamment sur Instagram,
+                                Twitter et Facebook. Vous pouvez cliquer sur les logos pour accéder aux différentes pages des réseaux.
                             </p>
 
                             <div class="xxs:flex xxxs:hidden flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px] my-10">
@@ -489,7 +464,7 @@
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect10"></div>
+            <div class="parallax-effect11"></div>
             <div class="flex justify-center items-center sm:-mt-[200px] sm:-mb-[180px] xxxs:mt-10 xxxs:mb-10">
                 <h3 class="font-unbounded font-[700] text-white sm:mx-10 xxxs:mx-3 text-center
                   lg:text-[35px]
@@ -521,7 +496,7 @@
                       xxxs:text-[12px]
                        font-bold border px-5 py-2 animation_texte"><a target="_blank" href="https://togethearth.max-prs.fr/">Site final</a></button>
             </div>
-            <div class="parallax-effect10"></div>
+            <div class="parallax-effect11"></div>
         </div>
     
         <footer>
@@ -569,8 +544,8 @@
     
     
     @media (min-width: 1000px) {
-        .parallax-effect10 {
-            background-image: url("../../../public/images/image_site_spread_night.webp");
+        .parallax-effect11 {
+            background-image: url("../../../public/images/Togethearth_large.webp");
             min-height: 500px;
             background-attachment: fixed;
             background-position: center;
@@ -578,7 +553,7 @@
             background-size: cover;
           }
     
-          .parallax-effect10 + div {
+          .parallax-effect11 + div {
             height: 600px;
             background-image: #000;
             font-size: 36px;
