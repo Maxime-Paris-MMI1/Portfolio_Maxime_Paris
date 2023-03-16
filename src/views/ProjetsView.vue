@@ -80,13 +80,13 @@
 
                 <Card_projet_futur
                 titre="Affiche alpha 1"
-                img_presentation="../../public/images/Alpha1.webp"/>
+                img_presentation="/images/Alpha1.webp"/>
                 <Card_projet_futur
                 titre="Meat my grill"
-                img_presentation="../../public/images/Meat_my_grill.webp"/>
+                img_presentation="/images/Meat_my_grill.webp"/>
                 <Card_projet_futur
                 titre="Animation MAX"
-                img_presentation="../../public/images/Logo_MAX.webp"/>
+                img_presentation="/images/Logo_MAX.webp"/>
                 
               </div>
 
