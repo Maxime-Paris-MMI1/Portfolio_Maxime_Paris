@@ -17,7 +17,6 @@
               xs:text-[30px]
               xxs:text-[25px]
               xxxs:text-[23px]">
-              
               Page non trouvée
         </p>
 
