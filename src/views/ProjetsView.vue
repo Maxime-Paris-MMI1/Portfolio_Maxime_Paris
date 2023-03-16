@@ -73,6 +73,20 @@
   
   
               </div>
+
+              <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
+
+                <Card_projet_futur
+                titre="Affiche alpha 1"
+                img_presentation="../../public/images/Alpha1.webp"/>
+                <Card_projet_futur
+                titre="Meat my grill"
+                img_presentation="../../public/images/Meat_my_grill.webp"/>
+                <Card_projet_futur
+                titre="Animation MAX"
+                img_presentation="../../public/images/Logo_MAX.webp"/>
+                
+              </div>
           </div>
         </section>
 
@@ -108,9 +122,10 @@
 import Header_total from '../components/Header_total.vue'
 import Footer_total from '../components/Footer_total.vue'
 import Card_projet from '../components/Card_projet.vue';
+import Card_projet_futur from '../components/Card_projet_futur.vue';
 
 export default {
-  components: { Header_total, Footer_total, Card_projet},
+  components: { Header_total, Footer_total, Card_projet, Card_projet_futur},
 
   beforeMount() {
   this.$router.afterEach(() => (this.menuOuvert = false));
@@ -143,12 +158,12 @@ mounted() {
         { id: 1, titre: 'E-morphoz', categorie: 'éducatif', img_presentation: 'images/e-morphoz_presentation.webp', lien: '/emorphoz' },
         { id: 2, titre: 'Usine Blender', categorie: 'personnel', img_presentation: 'images/Usine_blender.webp', lien: '/usine_blender' },
         { id: 3, titre: 'Togethearth', categorie: 'éducatif', img_presentation: 'images/Togethearth_presentation.jpg', lien: '/togethearth' },
-        { id: 4, titre: 'Logo MAX', categorie: 'personnel', img_presentation: 'images/Logo_MAX.webp', lien: '/emorphoz' },
-        { id: 5, titre: 'Affiche Alpha1', categorie: 'éducatif', img_presentation: 'images/Alpha1.webp', lien: '/emorphoz' },
-        { id: 6, titre: 'Site cookies', categorie: 'personnel', img_presentation: 'images/Animation_cookie.webp', lien: '/cookies_site' },
-        { id: 7, titre: 'Meat my grill', categorie: 'éducatif', img_presentation: 'images/Meat_my_grill.webp', lien: '/emorphoz' },
-        { id: 8, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/max_blender' },
-        { id: 9, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/spread_night' },
+        { id: 4, titre: 'Site cookies', categorie: 'personnel', img_presentation: 'images/Animation_cookie.webp', lien: '/cookies_site' },
+        { id: 5, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/max_blender' },
+        { id: 6, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/spread_night' },
+        // { id: 7, titre: 'Meat my grill', categorie: 'éducatif', img_presentation: 'images/Meat_my_grill.webp', lien: '/emorphoz' },
+        // { id: 8, titre: 'Logo MAX', categorie: 'personnel', img_presentation: 'images/Logo_MAX.webp', lien: '/emorphoz' },
+        // { id: 9, titre: 'Affiche Alpha1', categorie: 'éducatif', img_presentation: 'images/Alpha1.webp', lien: '/emorphoz' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',
