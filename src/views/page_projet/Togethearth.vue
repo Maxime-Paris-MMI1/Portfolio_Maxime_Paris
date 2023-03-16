@@ -122,7 +122,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0 mb-10">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/image_site_spread_night.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/Togethearth_large.webp" alt="vidéo de présentation de mon projet">
                                 </div>
         
                             </div>
@@ -149,7 +149,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3" id="fonctionnement">Recherche de logo</h4>
+                  mb-3" id="fonctionnement">Logo</h4>
         
                         <div class=" sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
     
@@ -233,11 +233,11 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/recherche_logo.webp" alt="vidéo de présentation de mon projet">
+                                    <img class="h-1/2 sm:w-[345px] xxxs:w-1/2 object-contain max-w-[690px]" src="../../../public/images/recherche_de_logo_toget.webp" alt="vidéo de présentation de mon projet">
                                 </div>
         
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/recherche-identite_fin.webp" alt="">
+                                    <img class="w-1/2 h-1/2 object-contain max-w-[690px] mb-10" src="../../../public/images/logo_final_togethearth.webp" alt="">
                                 </div>
                             </div>
     
@@ -263,7 +263,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3">Logo</h4>
+                  mb-3">Harmonie colorée</h4>
         
                         <div class="mb-10 sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mb-5 mt-5">
@@ -296,7 +296,7 @@
                         </div>
     
                         <div class="flex flex-col gap-10 justify-center items-center mb-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images//identite_finale.webp" alt="vidéo de présentation de mon projet">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[500px]" src="../../../public/images/harmonie_coloree_toget.webp" alt="vidéo de présentation de mon projet">
                         </div>
         
         
@@ -307,145 +307,6 @@
     
     
                 <!-- Quatrième partie -->
-    
-                <div class="row">
-                    
-                    <div class="heading-content text-black">
-                        <h4 class="bg-white text-center font-unbounded font-[500]
-                  lg:text-[35px]
-                  md:text-[35px]
-                  sm:text-[30px]
-                  xs:text-[25px]
-                  xxs:text-[20px]
-                  xxxs:text-[16px]
-                  mb-3">Harmonie colorée</h4>
-        
-                        <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-                            <p class="mb-5 mt-5">
-                                Pour le choix de l’harmonie coloré, j’ai décidé d’utiliser 3 palettes de couleurs dans la librairie
-                                Tailwinds CSS. les palettes de couleur que j’ai décidé de choisir sont: default purple / Extended blue gray
-                                et extended light blue. Ces trois palettes forment une bonne harmonie colorée et ils ont chacune
-                                une fonction différente. 
-                            </p>
-    
-                            <p class="mb-5">
-                                La palette de couleurs de “default purple” sert comme couleur qui incite à l’action
-                                et qui va donner de l’originalité à mon site. En effet cette couleur en teinte 900,
-                                contraste bien avec le fond de mon site (blanc en général). Elle est donc utilisésur des boutons
-                                d’actions ou encore sur les entêtes de mon site.
-                            </p>
-
-                            <p class="mb-5">                                                              
-                                Puis la palette de couleurs extended blue gray est quant à elle plus utilisé pour donner de l’espace
-                                à mon site tout en restant dans les tons de couleurs. Elle est principalement utilisé
-                                pour le fond d’une zone de texte ce qui va donner un bon contraste et
-                                indirectement une bonne lisibilité. 
-                            </p>
-
-                            <p class="mb-5">
-                                Par la suite, la palette de couleurs extended light blue est plus utilisé comme couleur combinatoire
-                                avec la palette de couleur défault purple. En effet ces deux couleurs associés représentent
-                                la nuit et l’esprit de la montagne. J’ai donc utilisé cette palette de couleurs dans le footer
-                                ou encore sur quelques éléments distinctifs comme les jours du concert sur la page programmation.
-                            </p>
-
-    
-                        </div>
-                    </div>
-        
-                    <div class="pictures-container">
-                        <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5 mt-5">
-                                Pour le choix de l’harmonie coloré, j’ai décidé d’utiliser 3 palettes de couleurs dans la librairie
-                                Tailwinds CSS. les palettes de couleur que j’ai décidé de choisir sont: default purple / Extended blue gray
-                                et extended light blue. Ces trois palettes forment une bonne harmonie colorée et ils ont chacune
-                                une fonction différente. 
-                            </p>
-    
-                            <p class="mb-5">
-                                La palette de couleurs de “default purple” sert comme couleur qui incite à l’action
-                                et qui va donner de l’originalité à mon site. En effet cette couleur en teinte 900,
-                                contraste bien avec le fond de mon site (blanc en général). Elle est donc utilisésur des boutons
-                                d’actions ou encore sur les entêtes de mon site.
-                            </p>
-
-                            <p class="mb-5">                                                              
-                                Puis la palette de couleurs extended blue gray est quant à elle plus utilisé pour donner de l’espace
-                                à mon site tout en restant dans les tons de couleurs. Elle est principalement utilisé
-                                pour le fond d’une zone de texte ce qui va donner un bon contraste et
-                                indirectement une bonne lisibilité. 
-                            </p>
-
-                            <p class="mb-5">
-                                Par la suite, la palette de couleurs extended light blue est plus utilisé comme couleur combinatoire
-                                avec la palette de couleur défault purple. En effet ces deux couleurs associés représentent
-                                la nuit et l’esprit de la montagne. J’ai donc utilisé cette palette de couleurs dans le footer
-                                ou encore sur quelques éléments distinctifs comme les jours du concert sur la page programmation.
-                            </p>
-                        </div>
-    
-                        <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/harmonie_colore.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                        </div>
-        
-        
-                    </div>
-        
-                </div>
-    
-    
-                <!-- Cinquième partie -->
-    
-                <div class="row">
-                    
-                    <div class="heading-content text-black">
-                        <h4 class="bg-white text-center font-unbounded font-[500]
-                  lg:text-[35px]
-                  md:text-[35px]
-                  sm:text-[30px]
-                  xs:text-[25px]
-                  xxs:text-[20px]
-                  xxxs:text-[16px]
-                  mb-3">Construction site</h4>
-        
-                        <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
-                            <p class="mt-10">
-                                pour la construction de mon site, j’ai effectué 3 pages modèles et 5 pages statiques.
-                                J’ai dû reproduire ces pages sous différents formats comme le format mobile, ipad mini,
-                                ipad pro et format bureau. Voici un aperçu de 2 pages de mon site sur Figma (voir les captures)
-
-                            </p>
-                        </div>
-                    </div>
-        
-                    <div class="pictures-container">
-                        <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
-                            <p class="mb-5">
-                                Pour faire la promotion du site e-morphoz j’ai réalisé une animation 3D montrant le fonctionnement du générateur en s’appuyant sur les possibilités presque infinies.
-                                J’ai également animé le logo au début pour ajouter des effets visuels.
-                            </p>
-    
-                            <p>
-                                L’animation a été réalisée sur Blender avec le moteur de rendu cycle. Vous pouvez voir le résultat en bas.
-                            </p>
-                        </div>
-    
-                        <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/maquette_bureau.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                        </div>
-
-                        <div class="flex flex-col gap-10 justify-center items-center my-10">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/maquette_mobile.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                        </div>
-        
-        
-                    </div>
-        
-                </div>
-    
-    
-                <!-- Sixième partie -->
-    
     
                 <div class="row">
                     
@@ -478,11 +339,6 @@
                             </p>
 
 
-                            <div class="flex flex-col gap-10 justify-center items-center my-10">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/suppression_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                            </div>
-
-
                         </div>
                     </div>
         
@@ -509,17 +365,18 @@
     
                         </div>
     
-                        
-                            <div class="flex flex-col gap-10 justify-center items-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_admin_ajout_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                            </div>
-                            <div class="flex flex-col gap-10 justify-center items-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/capture_gestion_artistes.webp" alt="Harmonie colorée de mon projet E-morphoz">
-                            </div>
+                        <div class="flex xxs:flex-row xxxs:flex-col justify-center gap-3">
 
-                            <div class="flex sm:hidden flex-col gap-10 justify-center items-center">
-                                <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/suppression_artiste.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            <div class="flex flex-col gap-10 justify-center items-center">
+                                <img class="xxxs:w-10/12 sm:w-full object-contain max-w-[200px] h-[400px] mb-10" src="../../../public/images/description_evenement.webp" alt="Harmonie colorée de mon projet E-morphoz">
                             </div>
+                            <div class="flex flex-col gap-10 justify-center items-center">
+                                <img class="xxxs:w-10/12 sm:w-full object-contain max-w-[200px] h-[400px] mb-10" src="../../../public/images/gestion_evenement.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            </div>
+                            <div class="flex-col flex gap-10 justify-center items-center">
+                                <img class="xxxs:w-10/12 sm:w-full object-contain max-w-[200px] h-[400px] mb-10" src="../../../public/images/modification_evenenement.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            </div>
+                        </div>
 
     
         
@@ -528,6 +385,104 @@
         
                 </div>
     
+    
+                <!-- Cinquième partie -->
+    
+                <div class="row">
+                    
+                    <div class="heading-content text-black">
+                        <h4 class="bg-white text-center font-unbounded font-[500]
+                  lg:text-[35px]
+                  md:text-[35px]
+                  sm:text-[30px]
+                  xs:text-[25px]
+                  xxs:text-[20px]
+                  xxxs:text-[16px]
+                  mb-3">communication</h4>
+        
+                        <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
+                            <p class="mt-10">
+                                pour la construction de mon site, j’ai effectué 3 pages modèles et 5 pages statiques.
+                                J’ai dû reproduire ces pages sous différents formats comme le format mobile, ipad mini,
+                                ipad pro et format bureau. Voici un aperçu de 2 pages de mon site sur Figma (voir les captures)
+
+                            </p>
+
+                            <div class="flex justify-center gap-10 my-10">
+                                <a href="https://www.instagram.com/toget.heart_/" target="_blank">
+                                    <img class="object-contain" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
+                                </a>
+                                <a href="https://www.facebook.com/togetheartoff" target="_blank">
+                                    <img class="object-contain w-[55px] -mt-1" src="../../../public/images/facebook_logo.webp" alt="Lien Facebook">
+                                </a>
+                                <a href="https://twitter.com/heart_toget" target="_blank">
+                                    <img class="w-[60px]" src="../../../public/images/Twitter_logo.webp" alt="Lien >Twitter">
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+        
+                    <div class="pictures-container">
+                        <div class="sm:mb-0 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] flex sm:hidden flex-col">
+                            <p class="mb-5">
+                                Pour faire la promotion du site e-morphoz j’ai réalisé une animation 3D montrant le fonctionnement du générateur en s’appuyant sur les possibilités presque infinies.
+                                J’ai également animé le logo au début pour ajouter des effets visuels.
+                            </p>
+    
+                            <p>
+                                L’animation a été réalisée sur Blender avec le moteur de rendu cycle. Vous pouvez voir le résultat en bas.
+                            </p>
+
+                            <div class="xxs:flex xxxs:hidden flex justify-center md:gap-[80px] sm:gap-[50px] xs:gap-[55px] xxs:gap-[43px] xxxs:gap-[35px] my-10">
+                                <a href="https://www.instagram.com/toget.heart_/" target="_blank">
+                                    <img class="object-contain w-[60px]" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
+                                </a>
+
+                                <a href="https://www.facebook.com/togetheartoff" target="_blank">
+                                    <img class="object-contain w-[60px]" src="../../../public/images/facebook_logo.webp" alt="Lien Facebook">
+                                </a>
+
+                                <a href="https://twitter.com/heart_toget" target="_blank">
+                                    <img class="w-[60px] mt-2" src="../../../public/images/Twitter_logo.webp" alt="Lien >Twitter">
+                                </a>
+                            </div>
+
+                            <div class="flex xxs:hidden flex-col justify-center items-center gap-10 my-10">
+                                <a href="https://www.instagram.com/toget.heart_/" target="_blank">
+                                    <img class="object-contain w-[50px]" src="../../../public/images/Instagram_Glyph_White-1.webp" alt="Lien Instagram">
+                                </a>
+                                <a href="https://www.facebook.com/togetheartoff" target="_blank">
+                                    <img class="object-contain w-[50px]" src="../../../public/images/facebook_logo.webp" alt="Lien Facebook">
+                                </a>
+                                <a href="https://twitter.com/heart_toget" target="_blank">
+                                    <img class="w-[50px]" src="../../../public/images/Twitter_logo.webp" alt="Lien >Twitter">
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="flex xxs:flex-row xxxs:flex-col justify-center gap-3">
+
+                            <div class="flex flex-col gap-2 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-[200px] object-contain max-w-[690px] mb-10" src="../../../public/images/capture_instagram_toget.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            </div>
+    
+                            <div class="hidden sm:flex flex-col gap-2 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-[200px] object-contain max-w-[690px] mb-10" src="../../../public/images/capture_facebook_toget.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            </div>
+    
+                            
+                            <div class="hidden sm:flex flex-col gap-2 justify-center items-center my-10">
+                                <img class="xxxs:w-10/12 sm:w-full h-[200px] object-contain max-w-[690px] mb-10" src="../../../public/images/twitter_toget_capture.webp" alt="Harmonie colorée de mon projet E-morphoz">
+                            </div>
+                        </div>
+        
+        
+                    </div>
+        
+                </div>
     
         </div> 
     
@@ -544,27 +499,27 @@
                   xxs:text-[20px]
                   xxxs:text-[16px]">
     
-                  Vous pouvez dès à présent voir le site de Spread Night !
+                  Vous pouvez dès à présent voir le site de Toget'hearth ou le site promotionnel !
                 </h3>
             </div>
-            <div class="flex justify-center items-center mb-[100px]">
-                <a href="https://spread-night.max-prs.fr/" target="_blank">
-                  <button class="text-white font Unbounded 
-                                lg:text-[25px] 
-                                md:text-[22px]
-                                sm:text-[20px] 
-                                xs:text-[18px]
-                                xxs:text-[15px]
-                                xxxs:text-[12px] 
-                  font-bold border 
-                  lg:px-[130px]
-                  md:px-[110px]
-                  sm:px-[90px] 
-                  xs:px-[70px]
-                  xxs:px-[50px]
-                  xxxs:px-[50px] 
-                   py-3 animation_texte">Voir le site</button>
-                </a>
+            <div class="justify-center flex gap-10 text-white">
+                <button class=" mb-10 font Unbounded                      
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]
+                       font-bold border px-5 py-2 animation_texte"><a target="_blank" href="https://togethearth.bferry.fr/">Landing page</a></button>
+
+                <button class=" mb-10 font Unbounded                      
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]
+                       font-bold border px-5 py-2 animation_texte"><a target="_blank" href="https://togethearth.max-prs.fr/">Site final</a></button>
             </div>
             <div class="parallax-effect10"></div>
         </div>
