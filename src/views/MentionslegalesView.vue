@@ -29,7 +29,7 @@
     <div class="mb-10 sm:mx-10 xxxs:mx-3 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px]">
       <p>Editeur du site : Maxime Paris</p>
       <p>Adresse : 4, place Tharradin 25 200 Montbéliard</p>
-      <p>Numéro de téléphone : +33(0)6 36 47 01 96</p>
+      <p>Numéro de téléphone : +33(0)3 81 99 47 34</p>
       <div class="flex justify-start gap-3">
         <p>Adresse email :</p>
         <a href="mailto:maximepro.contact25@gmail.com" class="underline">maximepro.contact25@gmail.com</a>
