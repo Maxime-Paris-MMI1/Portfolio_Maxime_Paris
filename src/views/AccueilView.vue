@@ -1,4 +1,7 @@
 <template>
+
+  <loader/>
+
   <div class="derriere5">
 
     <header id="haute">
@@ -576,7 +579,7 @@
 </style>
 
 <script>
-
+import loader from '../components/Loader.vue'
 import Parallax from 'parallax-js'
 import Barre_menu from '../components/icons/barre_menu.vue';
 import Card_projet from '../components/Card_projet.vue';

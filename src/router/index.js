@@ -15,6 +15,7 @@ import Alpha1View from '../views/page_projet/Alpha1View.vue'
 import View404   from      '../views/View404.vue'
 
 
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
