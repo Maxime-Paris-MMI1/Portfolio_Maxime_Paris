@@ -216,12 +216,12 @@
 
 
 
-  <section class="mt-[163px]">
+  <section class="sm:mt-[220px] xxxs:mt-[150px]">
     <div class=" sm:ml-[100px] xxxs:ml-[40px]">
       <img src="../../public/images/mes-projets-stroke.webp" alt="mes projets sans fond" class="
                lg:-ml-[0px] lg:-mt-[14px] lg:w-[445px] lg:mb-[0px]
                md:w-[355px] md:-mt-[14px] md:-ml-[0px] md:mb-[7px]
-               sm:w-[265px] sm:ml-[0px] sm:-mt-[50px] sm:mb-[13px]
+               sm:w-[355px] sm:ml-[0px] sm:-mt-[50px] sm:mb-[13px]
                xs:w-[355px] xs:ml-[0px] xs:-mt-[50px] xs:mb-[7px]
                xxs:w-[222px] xxs:-ml-[1px] xxs:-mt-[70px] xxs:mb-[17px]
                xxxs:w-[205px] xxxs:-ml-[2px] xxxs:-mt-[80px] xxxs:mb-[20px]">
@@ -229,7 +229,7 @@
       <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[34px] 
               lg:text-[50px] lg:-mt-[34px] lg:-mb-[34px]
               md:text-[40px] md:-mt-[34px] md:mb-[10px]
-              sm:text-[30px] sm:-mt-[34px] sm:mb-[15px]
+              sm:text-[40px] sm:-mt-[34px] sm:mb-[15px]
               xs:text-[40px] xs:-mt-[34px] xs:mb-[10px]
               xxs:text-[25px] xxs:-mt-[34px] xxs:mb-[20px]
               xxxs:text-[23px] xxxs:-mt-[34px] xxxs:mb-[20px]
@@ -238,27 +238,37 @@
       <h2 class="font-unbounded text-[50px] text-white font-bold -ml-[3px] -mt-[40px]
               lg:text-[50px] 
               md:text-[40px]
-              sm:text-[30px] 
+              sm:text-[40px] 
               xs:text-[40px]
               xxs:text-[25px]
               xxxs:text-[23px]">MES PROJETS</h2>
     </div>
 
-    <div class=" flex flex-row justify-around mt-[50px]">
+    <div class="xxxs:grid xxxs:grid-cols-2 xxxs:justify-items-center gap-8  xxxs:items-center xxxs:mt-[50px] md:flex md:flex-row md:mt-[150px] md:gap-[200px] md:justify-center mx-10">
 
+          <button         
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[70px] xxs:w-[120px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        lg:text-[25px] 
+                        md:text-[22px]
+                        sm:text-[20px] 
+                        xs:text-[18px]
+                        xxs:text-[15px]
+                        xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
 
-      <button         
-                       class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                      lg:text-[25px] 
-                      md:text-[22px]
-                      sm:text-[20px] 
-                      xs:text-[18px]
-                      xxs:text-[15px]
-                      xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
+        <button          
+                          class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] xxs:w-[200px] xs:mr-[100px] sm:mr-[275px] md:mr-0 justify-center flex
+                          lg:text-[25px] 
+                          md:text-[22px]
+                          sm:text-[20px] 
+                          xs:text-[18px]
+                          xxs:text-[15px]
+                          xxxs:text-[12px]" @click="filtrerCartes('professionnel')" v-bind:class="{ 'btn-selected': filtreActif === 'professionnel' }">Professionnel</button>
+
+      
 
 
         <button          
-                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[75px] xxs:w-[150px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
                         lg:text-[25px] 
                         md:text-[22px]
                         sm:text-[20px] 
@@ -270,7 +280,7 @@
 
       <button 
                       
-                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
+                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] justify-center flex xxs:w-[170px] xs:mr-[100px] sm:mr-[275px] md:mr-0
                       lg:text-[25px] 
                       md:text-[22px]
                       sm:text-[20px] 
