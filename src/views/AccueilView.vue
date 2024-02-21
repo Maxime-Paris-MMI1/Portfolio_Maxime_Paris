@@ -115,10 +115,10 @@
   
   
     <section>
-      <div class="sm:flex-row xxxs:flex-col flex">
+      <div class="sm:flex-row xxxs:flex-col flex sm:my-16">
         <div class="flex flex-col lg:-mt-[120px] md:mt-[90px]">
   
-          <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
+          <!-- <div class="mb-4 -mt-[40px] lg:mt-6 md:mt-0 sm:mt-5 md:mb-6 animate__animated animate__backInDown">
             <div class="xxxs:flex xxxs:flex-col xxxs:items-center xxxs:mt-[80px] sm:mt-[0px]">
   
   
@@ -141,29 +141,29 @@
   
   
             </div>
-          </div>
+          </div> -->
   
   
           <div class="animate__animated animate__backInLeft md:mb-[70px] md:-mt-[70px] lg:mb-0 lg:-mt-[70px] sm:mb-[30px] sm:-mt-[70px]">
   
             <div class="xxxs:flex xxxs:flex-col xxxs:items-center sm:items-baseline xxxs:mt-5 sm:mt-0 xxxs:mb-5 sm:mb-0">
               <div>
-                <h2 class="font-unbounded text-white font-bold sm:ml-[100px] xxs:ml-[0px]
-                lg:text-[75px] 
-                md:text-[50px]
-                sm:text-[35px] 
-                xs:text-[45px]
-                xxs:text-[30px]
-                xxxs:text-[23px]">MAXIME</h2>
+                <h2 class="font-unbounded text-white font-bold sm:ml-[100px] xxs:ml-[0px] mt-20
+                lg:text-[120px] 
+                md:text-[90px]
+                sm:text-[70px] 
+                xs:text-[60px]
+                xxs:text-[50px]
+                xxxs:text-[40px]">MAXIME</h2>
               </div>
               <div>
                 <img class=
-                "lg:ml-[103px] lg:-mt-[14px] lg:w-[274px]
-                 md:w-[200px]
-                 sm:w-[126px] sm:ml-[103px] sm:mt-[2px] sm:mb-[70px]
-                 xs:w-[160px] xs:ml-[0px] xs:mt-[2px] xs:mb-[70px]
-                 xxs:w-[110px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]
-                 xxxs:w-[90px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
+                "lg:ml-[103px] lg:-mt-[14px] lg:w-[400px]
+                 md:w-[300px] md:-mt-2
+                 sm:w-[250px] sm:ml-[103px] sm:-mt-[20px] sm:mb-[70px]
+                 xs:w-[220px] xs:ml-[0px] xs:mt-[2px] xs:mb-[70px]
+                 xxs:w-[190px] xxs:ml-[0px] xxs:mt-[2px] xxs:mb-[70px]
+                 xxxs:w-[150px] xxxs:ml-[0px] xxxs:mt-[2px] xxxs:mb-[70px]" src="../../public/images/paris-stroke.webp" alt="paris sans fond">
               </div>
             </div>
           </div>
@@ -177,9 +177,9 @@
           xxxs:h-[300px] xxxs:-mt-[110px]
           xxs:h-[370px] xxs:-mt-[110px]
           xs:h-[550px] xs:-mt-[110px]
-          md:h-[570px] md:mt-[90px] 
+          md:h-[550px] md:mt-[90px] 
           sm:h-[445px] sm:mt-[80px]
-          lg:h-full lg:mt-[0px]" 
+          lg:h-[600px] lg:-mb-[50px] lg:-mt-[50px]" 
           src="../../public/images/photo-perso.webp" alt="photo personnelle">
         </div>
   
