@@ -13,48 +13,60 @@
           </div>
   
   
-          <div class=" flex flex-row justify-around mt-[50px] pb-[47px]">
-  
-  
-                  <button         
-                   class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                  lg:text-[25px] 
-                  md:text-[22px]
-                  sm:text-[20px] 
-                  xs:text-[18px]
-                  xxs:text-[15px]
-                  xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
-  
-  
-                    <button          
-                    class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                    lg:text-[25px] 
-                    md:text-[22px]
-                    sm:text-[20px] 
-                    xs:text-[18px]
-                    xxs:text-[15px]
-                    xxxs:text-[12px]" @click="filtrerCartes('éducatif')" v-bind:class="{ 'btn-selected': filtreActif === 'éducatif' }">Éducatif</button>
-  
-  
-  
-                  <button 
-                  
-                  class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte
-                  lg:text-[25px] 
-                  md:text-[22px]
-                  sm:text-[20px] 
-                  xs:text-[18px]
-                  xxs:text-[15px]
-                  xxxs:text-[12px]" @click="filtrerCartes('personnel')" v-bind:class="{ 'btn-selected': filtreActif === 'personnel' }">Personnel</button>
-  
-  
+          <div class="xxxs:mb-12 xxxs:grid xxxs:grid-cols-2 xxxs:justify-items-center gap-8  xxxs:items-center xxxs:mt-[50px] md:flex md:flex-row md:mt-[120px] md:mb-12 md:gap-[200px] md:justify-center mx-10">
+                    
+          <button         
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[70px] xxs:w-[120px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        lg:text-[25px] 
+                        md:text-[22px]
+                        sm:text-[20px] 
+                        xs:text-[18px]
+                        xxs:text-[15px]
+                        xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
+                    
+          <button          
+                          class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] xxs:w-[200px] xs:mr-[100px] sm:mr-[275px] md:mr-0 justify-center flex
+                          lg:text-[25px] 
+                          md:text-[22px]
+                          sm:text-[20px] 
+                          xs:text-[18px]
+                          xxs:text-[15px]
+                          xxxs:text-[12px]" @click="filtrerCartes('professionnel')" v-bind:class="{ 'btn-selected': filtreActif === 'professionnel' }">Professionnel</button>
+                    
+                    
+                    
+                    
+          <button          
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[75px] xxs:w-[150px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        lg:text-[25px] 
+                        md:text-[22px]
+                        sm:text-[20px] 
+                        xs:text-[18px]
+                        xxs:text-[15px]
+                        xxxs:text-[12px]" @click="filtrerCartes('éducatif')" v-bind:class="{ 'btn-selected': filtreActif === 'éducatif' }">Éducatif</button>
+                    
+                    
+                    
+          <button 
+
+                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] justify-center flex xxs:w-[170px] xs:mr-[100px] sm:mr-[275px] md:mr-0
+                      lg:text-[25px] 
+                      md:text-[22px]
+                      sm:text-[20px] 
+                      xs:text-[18px]
+                      xxs:text-[15px]
+                      xxxs:text-[12px]" @click="filtrerCartes('personnel')" v-bind:class="{ 'btn-selected': filtreActif === 'personnel' }">Personnel</button>
+                    
+                    
           </div>
+
+          <div class="border-t-4 border-white"></div>
         </section>
 
         </div>
 
         <section>
-          <div class="border-t-4 border-white"></div>
+          
   
           <div class="flex flex-col items-center">
               <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
