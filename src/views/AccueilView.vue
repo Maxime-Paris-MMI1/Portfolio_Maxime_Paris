@@ -22,7 +22,7 @@
   
             <div class="flex justify-end">
               <a href="#contact">
-                <li class="mb-[50px] mr-[11px] animation_texte" >Contacte</li> 
+                <li class="mb-[50px] mr-[11px] animation_texte" >Contact</li> 
               </a>
   
               <Barre_menu class="mt-[15px]"/>
