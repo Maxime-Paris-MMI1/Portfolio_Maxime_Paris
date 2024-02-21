@@ -195,8 +195,8 @@
       xxs:text-[25px] xxs:py-5
       xxxs:text-[20px] xxxs:py-3 xxxs:-mt-[20px]">
   
-        <span class="txt t1">Animation 3D - Motion Design - Chartes graphiques - Webdesign - Création de logo - Supports de communication -&nbsp;</span>
-        <span class="txt t2">Animation 3D - Motion Design - Chartes graphiques - Webdesign - Création de logo - Supports de communication -&nbsp;</span>
+        <span class="txt t1">Animation 3D - Motion Design - Branding - Direction artistique - Création de vidéos - Supports de communication -&nbsp;</span>
+        <span class="txt t2">Animation 3D - Motion Design - Branding - Direction artistique - Création de vidéos - Supports de communication -&nbsp;</span>
   
       </div>
   
