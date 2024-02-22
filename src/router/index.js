@@ -12,6 +12,10 @@ import MeatmygrillView from '../views/page_projet/MeatmygrillView.vue'
 import SpreadNightView from '../views/page_projet/SpreadNightView.vue'
 import UsineBlenderView from '../views/page_projet/UsineBlenderView.vue'
 import QuixhubView from '../views/page_projet/QuixhubView.vue'
+import RDView from '../views/page_projet/RDView.vue'
+import MotionGradientView from '../views/page_projet/MotionGradientView.vue'
+import CleachocView from '../views/page_projet/CleachocView.vue'
+import UniversiteView from '../views/page_projet/UniversiteView.vue'
 import View404   from      '../views/View404.vue'
 
 
@@ -32,6 +36,10 @@ const router = createRouter({
     { path: '/meat_my_grill', name: 'MeatmygrillView', component: MeatmygrillView, },
     { path: '/spread_night', name: 'SpreadNightView', component: SpreadNightView, },
     { path: '/usine_blender', name: 'UsineBlenderView', component: UsineBlenderView, },
+    { path: '/rd', name: 'RDView', component: RDView, },
+    { path: '/motion_gradient', name: 'MotionGradientView', component: MotionGradientView, },
+    { path: '/cle_a_choc', name: 'CleachocView', component: CleachocView, },
+    { path: '/universite', name: 'UniversiteView', component: UniversiteView, },
     { path: '/:pathMatch(.*)*', name: 'View404', component: View404 },
     // ici les autre routes
   ]

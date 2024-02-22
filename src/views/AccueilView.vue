@@ -637,12 +637,12 @@ mounted() {
   data() {
     return {
       cartes: [
-        { id: 3, titre: 'Popwave', categorie: 'personnel', img_presentation: 'images/popwave.webp', lien: '/popwave' },
+        { id: 1, titre: 'Popwave', categorie: 'personnel', img_presentation: 'images/popwave.webp', lien: '/popwave' },
         { id: 2, titre: 'Quixhub', categorie: 'éducatif', img_presentation: 'images/quixhub.webp', lien: '/quixhub' },
-        { id: 1, titre: 'R&D', categorie: 'professionnel', img_presentation: 'images/rd.webp', lien: '/emorphoz' },
-        { id: 4, titre: 'Motion gradient', categorie: 'personnel', img_presentation: 'images/motion_gradient.webp', lien: '/max_blender' },
-        { id: 5, titre: 'Short clé à choc', categorie: 'professionnel', img_presentation: 'images/cle_a_choc.webp', lien: '/cookies_site' },
-        { id: 6, titre: 'Logo université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/spread_night' },
+        { id: 3, titre: 'R&D', categorie: 'professionnel', img_presentation: 'images/rd.webp', lien: '/rd' },
+        { id: 4, titre: 'Motion gradient', categorie: 'personnel', img_presentation: 'images/motion_gradient.webp', lien: '/motion_gradient' },
+        { id: 5, titre: 'Short clé à choc', categorie: 'professionnel', img_presentation: 'images/cle_a_choc.webp', lien: '/cle_a_choc' },
+        { id: 6, titre: 'Logo université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/universite' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',
