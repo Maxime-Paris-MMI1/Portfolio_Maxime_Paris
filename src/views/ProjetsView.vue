@@ -16,7 +16,7 @@
           <div class="xxxs:mb-12 xxxs:grid xxxs:grid-cols-2 xxxs:justify-items-center gap-8  xxxs:items-center xxxs:mt-[50px] md:flex md:flex-row md:mt-[120px] md:mb-12 md:gap-[200px] md:justify-center mx-10">
                     
           <button         
-                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[70px] xxs:w-[120px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte focus:bg-white focus:text-black xxxs:w-[70px] xxs:w-[120px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
                         lg:text-[25px] 
                         md:text-[22px]
                         sm:text-[20px] 
@@ -25,7 +25,7 @@
                         xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
                     
           <button          
-                          class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] xxs:w-[200px] xs:mr-[100px] sm:mr-[275px] md:mr-0 justify-center flex
+                          class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] xxs:w-[200px] xs:mr-[100px] sm:mr-[275px] md:mr-0 justify-center flex focus:bg-white focus:text-black
                           lg:text-[25px] 
                           md:text-[22px]
                           sm:text-[20px] 
@@ -37,7 +37,7 @@
                     
                     
           <button          
-                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[75px] xxs:w-[150px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[75px] xxs:w-[150px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex focus:bg-white focus:text-black
                         lg:text-[25px] 
                         md:text-[22px]
                         sm:text-[20px] 
@@ -49,7 +49,7 @@
                     
           <button 
 
-                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] justify-center flex xxs:w-[170px] xs:mr-[100px] sm:mr-[275px] md:mr-0
+                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] justify-center flex xxs:w-[170px] xs:mr-[100px] sm:mr-[275px] md:mr-0 focus:bg-white focus:text-black
                       lg:text-[25px] 
                       md:text-[22px]
                       sm:text-[20px] 

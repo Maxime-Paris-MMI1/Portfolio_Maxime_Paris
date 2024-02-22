@@ -6,12 +6,12 @@ import ProjetsView from '../views/ProjetsView.vue'
 import MentionslegalesView from '../views/MentionslegalesView.vue'
 import Togethearth from '../views/page_projet/Togethearth.vue'
 import CookiesView from '../views/page_projet/CookiesView.vue'
-import LogoMaxmotiondesignView from '../views/page_projet/LogoMaxmotiondesignView.vue'
+import PopWaveView from '../views/page_projet/PopWaveView.vue'
 import MaxblenderView from '../views/page_projet/MaxblenderView.vue'
 import MeatmygrillView from '../views/page_projet/MeatmygrillView.vue'
 import SpreadNightView from '../views/page_projet/SpreadNightView.vue'
 import UsineBlenderView from '../views/page_projet/UsineBlenderView.vue'
-import Alpha1View from '../views/page_projet/Alpha1View.vue'
+import QuixhubView from '../views/page_projet/QuixhubView.vue'
 import View404   from      '../views/View404.vue'
 
 
@@ -25,9 +25,9 @@ const router = createRouter({
     { path: '/projets', name: 'ProjetsView', component: ProjetsView, },
     { path: '/mentions_legales', name: 'MentionslegalesView', component: MentionslegalesView, },
     { path: '/togethearth', name: 'Togethearth', component: Togethearth, },
-    { path: '/alpha1', name: 'Alpha1View', component: Alpha1View, },
+    { path: '/quixhub', name: 'QuixhubView', component: QuixhubView, },
     { path: '/cookies_site', name: 'CookiesView', component: CookiesView, },
-    { path: '/motion_design_logo_max', name: 'LogoMaxmotiondesignView', component: LogoMaxmotiondesignView, },
+    { path: '/popwave', name: 'PopwaveView', component: PopWaveView, },
     { path: '/max_blender', name: 'MaxblenderView', component: MaxblenderView, },
     { path: '/meat_my_grill', name: 'MeatmygrillView', component: MeatmygrillView, },
     { path: '/spread_night', name: 'SpreadNightView', component: SpreadNightView, },

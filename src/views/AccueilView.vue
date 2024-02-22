@@ -247,7 +247,7 @@
     <div class="xxxs:grid xxxs:grid-cols-2 xxxs:justify-items-center gap-8  xxxs:items-center xxxs:mt-[50px] md:flex md:flex-row md:mt-[150px] md:gap-[200px] md:justify-center mx-10">
 
           <button         
-                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[70px] xxs:w-[120px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[70px] xxs:w-[120px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex focus:bg-white focus:text-black
                         lg:text-[25px] 
                         md:text-[22px]
                         sm:text-[20px] 
@@ -256,7 +256,7 @@
                         xxxs:text-[12px]" @click="filtrerCartes('tout')" v-bind:class="{ 'btn-selected': filtreActif === 'tout' }">Tout</button>
 
         <button          
-                          class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] xxs:w-[200px] xs:mr-[100px] sm:mr-[275px] md:mr-0 justify-center flex
+                          class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] xxs:w-[200px] xs:mr-[100px] sm:mr-[275px] md:mr-0 justify-center flex focus:bg-white focus:text-black
                           lg:text-[25px] 
                           md:text-[22px]
                           sm:text-[20px] 
@@ -268,7 +268,7 @@
 
 
         <button          
-                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[75px] xxs:w-[150px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex
+                        class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[75px] xxs:w-[150px] xs:ml-[100px] sm:ml-[275px] md:ml-0 justify-center flex focus:bg-white focus:text-black
                         lg:text-[25px] 
                         md:text-[22px]
                         sm:text-[20px] 
@@ -280,7 +280,7 @@
 
       <button 
                       
-                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] justify-center flex xxs:w-[170px] xs:mr-[100px] sm:mr-[275px] md:mr-0
+                      class="text-white font Unbounded text-xl font-bold border px-5 py-2 animation_texte xxxs:w-[100px] justify-center flex xxs:w-[170px] xs:mr-[100px] sm:mr-[275px] md:mr-0 focus:bg-white focus:text-black
                       lg:text-[25px] 
                       md:text-[22px]
                       sm:text-[20px] 
@@ -637,12 +637,12 @@ mounted() {
   data() {
     return {
       cartes: [
-        { id: 1, titre: 'E-morphoz', categorie: 'éducatif', img_presentation: 'images/e-morphoz_presentation.webp', lien: '/emorphoz' },
-        { id: 2, titre: 'Togethearth', categorie: 'éducatif', img_presentation: 'images/Togethearth_presentation.jpg', lien: '/togethearth' },
-        { id: 3, titre: 'Usine Blender', categorie: 'personnel', img_presentation: 'images/Usine_blender.webp', lien: '/usine_blender' },
-        { id: 4, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/max_blender' },
-        { id: 5, titre: 'Site cookies', categorie: 'personnel', img_presentation: 'images/Animation_cookie.webp', lien: '/cookies_site' },
-        { id: 6, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/spread_night' },
+        { id: 3, titre: 'Popwave', categorie: 'personnel', img_presentation: 'images/popwave.webp', lien: '/popwave' },
+        { id: 2, titre: 'Quixhub', categorie: 'éducatif', img_presentation: 'images/quixhub.webp', lien: '/quixhub' },
+        { id: 1, titre: 'R&D', categorie: 'professionnel', img_presentation: 'images/rd.webp', lien: '/emorphoz' },
+        { id: 4, titre: 'Motion gradient', categorie: 'personnel', img_presentation: 'images/motion_gradient.webp', lien: '/max_blender' },
+        { id: 5, titre: 'Short clé à choc', categorie: 'professionnel', img_presentation: 'images/cle_a_choc.webp', lien: '/cookies_site' },
+        { id: 6, titre: 'Logo université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/spread_night' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',
