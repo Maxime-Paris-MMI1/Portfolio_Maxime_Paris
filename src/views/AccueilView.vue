@@ -468,9 +468,9 @@
 }
 .derriere5::before {
   content: "";
-  background-image: url(../../public/images/gif_page_daccuei_compressé.gif);
+  background-image: url(../../public/images/intro_2.gif);
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.6;
   position: absolute;
   background-position: center;
   top: 0;
