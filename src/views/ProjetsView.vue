@@ -88,7 +88,7 @@
 
 
 
-              <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
+              <!-- <div class="mx-auto my-8 grid xxxs:grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-7">
 
                 <Card_projet_futur
                 titre="Affiche alpha 1"
@@ -100,7 +100,7 @@
                 titre="Animation MAX"
                 img_presentation="/images/Logo_MAX.webp"/>
                 
-              </div>
+              </div> -->
 
               
           </div>

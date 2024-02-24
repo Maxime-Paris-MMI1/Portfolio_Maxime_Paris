@@ -189,28 +189,28 @@ xxxs:w-[100px] xsme:
 
     <div class="overflow-x-hidden parallax-offset hidden xs:grid">
       <div class="flex justify-center gap-5 xxxs:-ml-[4800px] md:-ml-[4000px]">
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Casque_large.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/citron.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/casque.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/usine_200.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/fond_emorphoz.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/Affiche_large.webp" class="parallax-base h-[300px] object-contain" />
+        <img :style="{ transform: 'translateX(' + positionX + 'px)', }" src="../../public/images/casque.webp" class="parallax-base h-[300px] object-contain" />
       </div>
 
       <div class="flex justify-center gap-5 xxxs:-mr-[2350px] md:-mr-[1900px]">
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Togethearth_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Spread_night_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Montage_fantome_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/geometry_node.png" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/asteroide.webp" class="parallax-base h-[300px] mb-5 object-contain" />
       </div>
 
       <div class="flex justify-center gap-5 xxxs:-ml-[3200px] md:-ml-[2800px]">
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " />
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/casque-flou.webp" class="parallax-base h-[300px] object-contain " />
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/canette.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] object-contain " /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/geometry_node.png" class="parallax-base h-[300px] object-contain " /> 
       </div>
     </div>
 
