@@ -19,7 +19,7 @@
       </div>
 
 
-      <div class="flex justify-center mb-[50px] mt-[120px]">
+      <!-- <div class="flex justify-center mb-[50px] mt-[120px]">
         <a href="../../public/images/cv_Maxime_Paris.jpg" target="blank_" download>
           <button class="text-white font Unbounded 
                         lg:text-[25px] 
@@ -39,7 +39,7 @@
 
 
         </a>
-      </div>
+      </div> -->
 
       <div class="flex justify-center mt-[90px]">
         <p class="font-unbounded font-[700] text-white mx-10
