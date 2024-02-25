@@ -26,7 +26,7 @@
                     </a>
 
                     <a href="https://www.behance.net/gallery/189418645/PopWave-Personnal-branding-project?tracking_source=search_projects|popwave&l=0" target="__blank" class="hover:scale-110 ease-in-out duration-300">
-                        <img src="../../../public/images/behance_logo.webp" class="sm:w-[50px] xs:w-[50px] xxs:w-[40px] xxxs:w-[35px]" alt="Logo Tiktok">
+                        <img src="../../../public/images/behance_logo.webp" class="sm:w-[50px] xs:w-[50px] xxs:w-[40px] xxxs:w-[35px]" alt="Logo behance">
                     </a>
 
                 </div>
