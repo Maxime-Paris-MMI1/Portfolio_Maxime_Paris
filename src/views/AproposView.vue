@@ -52,18 +52,18 @@
       </div>
 
 
-      <div class="xxxs:mx-auto xxxs:ml-10 xxxs:mr-10 xxxs:mt-10 sm:mx-60">
-        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400]">
-            Je m'appelle Maxime et je suis actuellement âgé de 19 ans. Je suis étudiant en bachelor universitaire de technologie métiers du multimédia et de l'internet à Montbéliard, où j'ai choisi de me spécialiser en design. Ce portfolio est crée dans le cadre d’un exercice pédagogique au sein de ma formation.
+      <div class="flex flex-col items-center my-10">
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400] xxxs:w-[315px] sm:w-[450px]">
+            Je m'appelle Maxime et je suis actuellement âgé de 20 ans. Je suis étudiant en bachelor universitaire de technologie métiers du multimédia et de l'internet à Montbéliard, où j'ai choisi de me spécialiser en design. Ce portfolio est crée dans le cadre d’un exercice pédagogique au sein de ma formation.
         </p>
-        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400]">
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400] xxxs:w-[315px] sm:w-[450px]">
           Grâce au MMI, j'ai pu acquérir des compétences techniques solides dans les domaines du design graphique, de la création de sites web et de l'expérience utilisateur. J'ai également appris à travailler en équipe et à communiquer efficacement avec mes collègues de travail.
 
         </p>
-        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400]">
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left mb-6 font-[400] xxxs:w-[315px] sm:w-[450px]">
           Je suis passionné par le design depuis plusieurs années et j'ai eu l'opportunité de travailler sur divers projets. J'aime concevoir des visuels et toute sorte de design graphique à destinations de clients.
         </p>
-        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left font-[400]"> 
+        <p class="font-ubuntu xxxs:text-[14px] sm:text-[16px] text-white text-left font-[400] xxxs:w-[315px] sm:w-[450px]"> 
           Sur ce site, vous trouverez une sélection de mes travaux récents, ainsi que des informations sur mes compétences. N'hésitez pas à me contacter si vous avez des questions !
         </p>
       </div>
