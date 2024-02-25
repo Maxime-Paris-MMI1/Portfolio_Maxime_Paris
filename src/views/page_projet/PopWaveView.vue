@@ -16,7 +16,7 @@
         
             <div class="flex sm:flex-row xxxs:flex-col items-center justify-center mb-12 xs:mx-10 xxs:mx-5 xxxs:mx-3">
                 <div class="flex flex-col">
-                    <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] sm:rounded-3xl xxxs:rounded-xl xfoo:h-[315px] sm:w-[800px] sm:h-[450px] z-10" src="http://www.youtube.com/embed/q9nL1KEl-Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" class="xxxs:w-[300px] xxxs:h-[168px] xxs:w-[400px] xxs:h-[225px] xfoo:w-[560px] sm:rounded-3xl xxxs:rounded-xl xfoo:h-[315px] sm:w-[800px] sm:h-[450px] z-10" src="https://www.youtube.com/embed/q9nL1KEl-Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p class="text-white font-ubuntu xxxs:text-[14px] sm:text-[16px]">Music by <span class="underline"><a href="https://pixabay.com/fr/music/optimiste-screening-127882/" target="_blank">pixabay</a></span></p>
                 </div>
                 <div class="flex sm:flex-col xxxs:flex-row items-center justify-center gap-16 bg-black sm:rounded-r-2xl xxxs:rounded-b-2xl sm:rounded-l-none sm:px-5 sm:py-5 xxxs:px-8 xxxs:py-3 z-0 vers_droite vers_bas">
