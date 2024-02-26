@@ -182,7 +182,7 @@ mounted() {
         { id: 5, titre: 'MAX Blender', categorie: 'personnel', img_presentation: 'images/Blender_MAX.webp', lien: '/max_blender' },
         { id: 11, titre: 'Short clé à choc', categorie: 'professionnel', img_presentation: 'images/cle_a_choc.webp', lien: '/cle_a_choc' },
         { id: 6, titre: 'Spread-night', categorie: 'éducatif', img_presentation: 'images/Spread_night.webp', lien: '/spread_night' },
-        { id: 12, titre: 'Logo université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/universite' },
+        { id: 12, titre: 'Branding université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/universite' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',

@@ -642,7 +642,7 @@ mounted() {
         { id: 3, titre: 'R&D', categorie: 'professionnel', img_presentation: 'images/rd.webp', lien: '/rd' },
         { id: 4, titre: 'Motion gradient', categorie: 'personnel', img_presentation: 'images/motion_gradient.webp', lien: '/motion_gradient' },
         { id: 5, titre: 'Short clé à choc', categorie: 'professionnel', img_presentation: 'images/cle_a_choc.webp', lien: '/cle_a_choc' },
-        { id: 6, titre: 'Logo université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/universite' },
+        { id: 6, titre: 'Branding université', categorie: 'éducatif', img_presentation: 'images/universite.webp', lien: '/universite' },
       ],
       filtreActif: null,
       filtreCategorie: 'tout',
