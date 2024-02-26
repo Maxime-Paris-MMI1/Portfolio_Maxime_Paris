@@ -53,6 +53,8 @@
       <p>Il ne dispose d'aucun système de paiement ni de formulaire de quelque nature que ce soit.</p>
       <p>Le site et l'ensemble de son contenu (textes, images, vidéos, etc.) sont la propriété exclusive de Maxime Paris.</p>
       <p>Le contenu du site est protégé par les lois françaises et internationales relatives à la propriété intellectuelle.</p>
+
+      <p>Les mockups présents sur le site sont réalisés grâce à <span><a href="https://www.freepik.com/" class="underline">Freepik</a></span></p>
     </div>
 
     <div class="mb-10 text-white mt-10">
