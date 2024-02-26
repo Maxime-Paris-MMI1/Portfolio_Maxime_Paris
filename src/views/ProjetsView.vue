@@ -1,5 +1,5 @@
 <template>
-  <div class="derriere">
+  <div class="derriere10">
         <header>
             <Header_total/>
         </header>
@@ -115,10 +115,10 @@
 </template>
 
 <style> 
-.derriere {
+.derriere10 {
   position: relative;
 }
-.derriere::before {
+.derriere10::before {
   content: "";
   background-image: url(../../public/images/Usine_large.webp);
   background-position: center;
