@@ -213,7 +213,8 @@
                     xs:px-[50px]
                     xxs:px-[50px]
                     xxxs:px-[50px] 
-                     py-3 animation_texte">Télécharger la charte graphique
+                    py-3 animation_texte
+                    xxxs:mb-10 sm:mb-0">Télécharger la charte graphique
                     </button>
                 </a>
             </div>
