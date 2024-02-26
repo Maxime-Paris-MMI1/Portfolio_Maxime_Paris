@@ -1,5 +1,5 @@
 <template>
-    <div class="derriere9">
+    <div class="derriere14">
     
         <header>
           <Header_total/>
@@ -379,7 +379,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3">communication</h4>
+                  mb-3">Communication</h4>
         
                         <div class="mb-10 sm:mb-10 sm:mx-10 xxxs:mx-5 xxs:mx-7 xs:mx-9 text-white font-ubuntu xxxs:text-[14px] sm:text-[16px] hidden sm:flex sm:flex-col">
                             <p class="mt-10">
@@ -464,7 +464,7 @@
         <div class="border-t-4 border-white"></div>
     
         <div>
-            <div class="parallax-effect11"></div>
+            <div class="parallax-effect14"></div>
             <div class="flex justify-center items-center sm:-mt-[200px] sm:-mb-[180px] xxxs:mt-10 xxxs:mb-10">
                 <h3 class="font-unbounded font-[700] text-white sm:mx-10 xxxs:mx-3 text-center
                   lg:text-[35px]
@@ -496,7 +496,7 @@
                       xxxs:text-[12px]
                        font-bold border px-5 py-2 animation_texte"><a target="_blank" href="https://togethearth.max-prs.fr/">Site final</a></button>
             </div>
-            <div class="parallax-effect11"></div>
+            <div class="parallax-effect14"></div>
         </div>
     
         <footer>
@@ -507,10 +507,10 @@
     
     <style>
 
-.derriere9 {
+.derriere14 {
   position: relative;
 }
-.derriere9::before {
+.derriere14::before {
   content: "";
   background-image: url(../../../public/images/Togethearth_large.webp);
   background-size: cover;
@@ -544,7 +544,7 @@
     
     
     @media (min-width: 1000px) {
-        .parallax-effect11 {
+        .parallax-effect14 {
             background-image: url("../../../public/images/Togethearth_large.webp");
             min-height: 500px;
             background-attachment: fixed;
@@ -553,7 +553,7 @@
             background-size: cover;
           }
     
-          .parallax-effect11 + div {
+          .parallax-effect14 + div {
             height: 600px;
             background-image: #000;
             font-size: 36px;
