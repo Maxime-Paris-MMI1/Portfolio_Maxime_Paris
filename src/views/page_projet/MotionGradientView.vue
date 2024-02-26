@@ -1,5 +1,5 @@
 <template>
-    <div class="derriere12">
+    <div class="derriere13">
     
         <header>
           <Header_total/>
@@ -166,7 +166,7 @@
         <div class="border-t-4 border-white mt-10 sm:flex hidden"></div>
     
         <div>
-            <div class="parallax-effect10 flex justify-center items-center">
+            <div class="parallax-effect13 flex justify-center items-center">
                 <h5 class="text-center xxxs:w-2/4 sm:w-1/4 xxxs:my-10 sm:my-0 xxxs:bg-white xxxs:text-black sm:text-white sm:bg-black font-unbounded font-[500]
                   lg:text-[35px]
                   md:text-[35px]
@@ -246,7 +246,7 @@
 
 
 
-.parallax-effect10 {
+.parallax-effect13 {
         background-image: url("../../../public/images/motion_violet.webp");
         min-height: 500px;
         background-attachment: fixed;
@@ -255,7 +255,7 @@
         background-size: cover;
       }
 
-      .parallax-effect10 + div {
+      .parallax-effect13 + div {
         height: 600px;
         background-image: #000;
         font-size: 36px;
@@ -269,10 +269,10 @@
 
 
 
-.derriere12 {
+.derriere13 {
   position: relative;
 }
-.derriere12::before {
+.derriere13::before {
   content: "";
   background-image: url(../../../public/images/motion_orange.webp);
   background-size: cover;
