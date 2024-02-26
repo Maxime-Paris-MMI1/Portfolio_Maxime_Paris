@@ -200,7 +200,7 @@ xxxs:w-[100px] xsme:
       <div class="flex justify-center gap-5 xxxs:-mr-[2350px] md:-mr-[1900px]">
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Usine_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
-        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/geometry_node.png" class="parallax-base h-[300px] mb-5 object-contain" />
+        <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/geometry_node.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/Emorphoz_large.webp" class="parallax-base h-[300px] mb-5 object-contain" />
         <img :style="{ transform: 'translateX(' + positionXX + 'px)', }" src="../../public/images/asteroide.webp" class="parallax-base h-[300px] mb-5 object-contain" />
       </div>
@@ -210,7 +210,7 @@ xxxs:w-[100px] xsme:
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Max_Blender_large.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/canette.webp" class="parallax-base h-[300px] object-contain " /> 
         <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/Blender_site_large.webp" class="parallax-base h-[300px] object-contain " /> 
-        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/geometry_node.png" class="parallax-base h-[300px] object-contain " /> 
+        <img :style="{ transform: 'translateX(' + positionXXX + 'px)', }" src="../../public/images/geometry_node.webp" class="parallax-base h-[300px] object-contain " /> 
       </div>
     </div>
 

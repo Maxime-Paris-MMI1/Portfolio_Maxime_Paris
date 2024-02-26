@@ -190,9 +190,9 @@
 
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
                 <img class="w-full h-full object-contain" src="../../../public/images/orange_popwave.webp" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/popwave_eclaboussure.png" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/fruity_popwave.png" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/orange_citreon_popwave.png" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/popwave_eclaboussure.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/fruity_popwave.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/orange_citreon_popwave.webp" alt="image galerie présentant mon projet sur une animation">
 
         </div>
     

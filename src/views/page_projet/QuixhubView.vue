@@ -88,7 +88,7 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/presentation_casque.png" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/presentation_casque.webp" alt="vidéo de présentation de mon projet">
                                 </div>
                             </div>
     
@@ -126,7 +126,7 @@
                                 Pour découvrir encore plus d'informations sur mon projet, veuillez vous rendre sur mon projet <span class="underline"><a href="https://www.behance.net/gallery/191458867/Quixhub-Headphones-branding-project?tracking_source=search_projects|quixhub&l=0">behance</a></span>.
                             </p>
 
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src="../../../public/images/storyboard_quixhub.jpg" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src="../../../public/images/storyboard_quixhub.webp" alt="">
                             
                         </div>
                                 
@@ -146,11 +146,11 @@
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col items-center gap-10 mt-10 md:mt-0">
                                 <div class="flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-[60%] h-full object-contain max-w-[690px] mb-10" src="../../../public/images/support_quixhub_dessin.jpg" alt="vidéo de présentation de mon projet">
+                                    <img class="xxxs:w-10/12 sm:w-[60%] h-full object-contain max-w-[690px] mb-10" src="../../../public/images/support_quixhub_dessin.webp" alt="vidéo de présentation de mon projet">
                                 </div>
 
                                 <div class="sm:hidden flex justify-center">
-                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/storyboard_quixhub.jpg" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/storyboard_quixhub.webp" alt="">
 
                                 </div>
                             </div>
@@ -182,9 +182,9 @@
         <div class="border-t-4 border-white sm:flex hidden"></div>
 
         <div class="grid xxxs:grid-cols-1 sm:grid-cols-2 gap-0 gap-y-0">
-                <img class="w-full h-full object-contain" src="../../../public/images/gp_1_quixhub.png" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/gp_2_quixhub.png" alt="image galerie présentant mon projet sur une animation">
-                <img class="w-full h-full object-contain" src="../../../public/images/gp_3_quixhub.png" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/gp_1_quixhub.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/gp_2_quixhub.webp" alt="image galerie présentant mon projet sur une animation">
+                <img class="w-full h-full object-contain" src="../../../public/images/gp_3_quixhub.webp" alt="image galerie présentant mon projet sur une animation">
                 <img class="w-full h-full object-contain" src="../../../public/images/casque-flou.webp" alt="image galerie présentant mon projet sur une animation">
 
         </div>
@@ -256,7 +256,7 @@
 
 
 .parallax-effect10 {
-        background-image: url("../../../public/images/casque_support_quixhub.png");
+        background-image: url("../../../public/images/casque_support_quixhub.webp");
         min-height: 500px;
         background-attachment: fixed;
         background-position: center;

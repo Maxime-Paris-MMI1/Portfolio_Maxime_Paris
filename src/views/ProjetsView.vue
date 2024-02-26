@@ -175,7 +175,7 @@ mounted() {
         { id: 7, titre: 'Popwave', categorie: 'personnel', img_presentation: 'images/popwave.webp', lien: '/popwave' },
         { id: 2, titre: 'Usine Blender', categorie: 'personnel', img_presentation: 'images/Usine_blender.webp', lien: '/usine_blender' },
         { id: 8, titre: 'Quixhub', categorie: 'éducatif', img_presentation: 'images/quixhub.webp', lien: '/quixhub' },
-        { id: 3, titre: 'Togethearth', categorie: 'éducatif', img_presentation: 'images/Togethearth_presentation.jpg', lien: '/togethearth' },
+        { id: 3, titre: 'Togethearth', categorie: 'éducatif', img_presentation: 'images/Togethearth_presentation.webp', lien: '/togethearth' },
         { id: 9, titre: 'R&D', categorie: 'professionnel', img_presentation: 'images/rd.webp', lien: '/rd' },
         { id: 4, titre: 'Site cookies', categorie: 'personnel', img_presentation: 'images/Animation_cookie.webp', lien: '/cookies_site' },
         { id: 10, titre: 'Motion gradient', categorie: 'personnel', img_presentation: 'images/motion_gradient.webp', lien: '/motion_gradient' },
