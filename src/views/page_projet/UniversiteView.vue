@@ -127,8 +127,8 @@
                                 Pour obtenir plus d'informations, je vous invite à consulter mon projet sur <span class="underline"><a href="https://www.behance.net/gallery/186485515/University-rebranding?tracking_source=search_projects|rebranding+university&l=30">behance</a></span>.
                             </p>
 
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src="../../../public/images/before_after_universite.webp" alt="">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/Icones_universite.webp" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10 mb-10" src="../../../public/images/before_after_universite.webp" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px]" src="../../../public/images/Icones_universite.webp" alt="">
                             
                         </div>
                                 
@@ -180,7 +180,7 @@
                   xs:text-[25px]
                   xxs:text-[20px]
                   xxxs:text-[16px]
-                  mb-3">Prototypage</h4>
+                  mb-10">Prototypage</h4>
         </div>
         <iframe width="100%" height="700" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Ffile%2FUriwWCD2LOC5a4VvI1nN2l%2FMaxime-Paris---Design-System%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3Do28yhdmXtpkB7o7H-1" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
 
