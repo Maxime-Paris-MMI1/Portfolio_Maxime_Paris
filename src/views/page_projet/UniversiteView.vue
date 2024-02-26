@@ -128,7 +128,7 @@
                             </p>
 
                             <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src="../../../public/images/before_after_universite.webp" alt="">
-                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src="../../../public/images/icones_universite.webp" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src=".\public\images\icones_universite.webp" alt="">
                             
                         </div>
                                 
