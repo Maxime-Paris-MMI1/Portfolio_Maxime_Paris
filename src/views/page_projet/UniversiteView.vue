@@ -128,6 +128,7 @@
                             </p>
 
                             <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mt-10" src="../../../public/images/before_after_universite.webp" alt="">
+                            <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/Icones_universite.webp" alt="">
                             
                         </div>
                                 
@@ -157,6 +158,7 @@
 
                                 <div class="sm:hidden flex flex-col items-center mb-10">
                                     <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/before_after_universite.webp" alt="">
+                                    <img class="xxxs:w-10/12 sm:w-full h-full object-contain max-w-[690px] mb-10" src="../../../public/images/Icones_universite.webp" alt="">
 
                                 </div>
                             </div>
